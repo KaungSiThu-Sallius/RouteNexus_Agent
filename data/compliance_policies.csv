@@ -1,0 +1,30 @@
+policy_id,region,cargo_keyword,category,severity,policy_text
+POL-MAL-001,Strait of Malacca,electronics,Routing,HIGH,High-value electronics transiting the Strait of Malacca require reroute review during piracy or congestion alerts.
+POL-MAL-002,Strait of Malacca,oil,Security,HIGH,Crude oil and refined fuel cargo through the Strait of Malacca must maintain elevated escort and insurance review when disruption risk rises.
+POL-SGP-001,Strait of Malacca,container,Port Operations,MEDIUM,Singapore-bound container vessels through Malacca must prioritize berth compliance windows and customs manifest accuracy.
+POL-RS-001,Red Sea,oil,Routing,HIGH,Crude oil vessels crossing the Red Sea must follow enhanced security routing and evaluate alternative corridors when geopolitical risk escalates.
+POL-RS-002,Red Sea,container,Security,HIGH,"Container vessels in the Red Sea require active security review, transit window checks, and armed escort assessment where applicable."
+POL-RS-003,Red Sea,lng,Energy,HIGH,LNG and LPG shipments crossing the Red Sea must complete weekly route risk review and insurer notification before departure.
+POL-SUEZ-001,Suez Canal,medical,Compliance,MEDIUM,Medical shipments through the Suez Canal must preserve temperature-control chain-of-custody records during rerouting.
+POL-SUEZ-002,Suez Canal,automotive,Routing,MEDIUM,Automotive components in the Suez corridor require congestion-triggered port backup planning.
+POL-PAN-001,Panama Canal,grain,Capacity,MEDIUM,Bulk agricultural cargo using the Panama Canal must validate draft restrictions and slot availability before transit.
+POL-PAN-002,Panama Canal,electronics,Routing,MEDIUM,High-value electronics via Panama must use secure handling checkpoints at both canal endpoints.
+POL-TW-001,Taiwan Strait,semiconductor,Routing,HIGH,Semiconductor cargo in the Taiwan Strait is classified as high-risk due to geopolitical instability; rerouting must be evaluated whenever it reduces exposure without unacceptable delay.
+POL-TW-002,Taiwan Strait,chip,Routing,HIGH,Chip and wafer shipments transiting the Taiwan Strait require executive review when military or sanctions risk intensifies.
+POL-TW-003,Taiwan Strait,electronics,Security,HIGH,Advanced electronics moving through the Taiwan Strait need additional insurance validation and contingency reroute plans.
+POL-SCS-001,South China Sea,container,Routing,MEDIUM,South China Sea transits require weather and geopolitical checkpoint review for all high-value container routes.
+POL-ECS-001,East China Sea,automotive,Routing,MEDIUM,Automotive cargo in the East China Sea requires alternate port nomination for weather or port disruption events.
+POL-JPN-001,Sea of Japan,machinery,Weather,MEDIUM,Heavy machinery cargo in the Sea of Japan must monitor weekly wind escalation before rerouting decisions.
+POL-AND-001,Andaman Sea,container,Cargo Risk,HIGH,"Vessels entering Myanmar through Thailand are subject to enhanced cargo screening, sanctions review, and dual-use goods checks."
+POL-AND-002,Andaman Sea,electronics,Sanctions,HIGH,Electronics cargo routed into Myanmar via the Andaman Sea requires pre-clearance against sanctions and restricted-party lists.
+POL-GOT-001,Gulf of Thailand,energy,Routing,MEDIUM,Energy cargo in the Gulf of Thailand must review monsoon routing windows before alternative-port selection.
+POL-ENG-001,English Channel,automotive,Port Operations,MEDIUM,English Channel automotive shipments require berth backup planning during weather or labor disruption.
+POL-ENG-002,English Channel,medical,Compliance,MEDIUM,Medical cargo crossing the English Channel must preserve customs and cold-chain documentation during reroutes.
+POL-NAT-001,North Atlantic,electronics,Weather,MEDIUM,North Atlantic electronics shipments require weekly storm review and route optimization before departure.
+POL-NAT-002,North Atlantic,container,Weather,MEDIUM,Container vessels crossing the North Atlantic must review peak wind outlook and wave advisories before committing to reroute.
+POL-GEN-001,Global,semiconductor,Insurance,HIGH,Semiconductor cargo above $50M in declared value requires documented reroute evaluation when entering high-risk corridors.
+POL-GEN-002,Global,oil,Insurance,HIGH,Crude oil cargo above $100M requires insurer notification before entering any elevated-risk maritime corridor.
+POL-GEN-003,Global,medical,Priority,MEDIUM,Priority medical goods may not be delayed more than 48 hours without executive operations approval.
+POL-GEN-004,Global,electronics,Security,MEDIUM,High-value electronics must use tamper-evident seal verification at each port handoff.
+POL-GEN-005,Global,container,Routing,LOW,Standard container cargo should prefer shortest compliant route unless security or weather conditions deteriorate.
+POL-GEN-006,Global,battery,Hazmat,HIGH,Battery and hazardous energy cargo require hazardous-material reroute review and port acceptance confirmation before diversion.

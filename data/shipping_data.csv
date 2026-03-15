@@ -1,0 +1,1441 @@
+vessel_id,vessel_name,current_region,route_corridor,cargo_type,value_usd,priority,status,origin_port,destination_port
+V00001,Strait-001,Strait of Malacca,Singapore-Westbound,Semiconductor Wafers,8517500.00,Critical,At Sea,Los Angeles,Singapore
+V00002,Strait-002,Strait of Malacca,Singapore-Westbound,Crude Oil,24035000.00,Critical,In Transit,Houston,London
+V00003,Strait-003,Strait of Malacca,Singapore-Westbound,Consumer Electronics,6452500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00004,Strait-004,Strait of Malacca,Singapore-Westbound,Medical Supplies,3270000.00,High,Customs Hold,Busan,Shanghai
+V00005,Strait-005,Strait of Malacca,Singapore-Westbound,Automotive Components,4187500.00,High,Scheduled,Yokohama,Jebel Ali
+V00006,Strait-006,Strait of Malacca,Singapore-Westbound,Industrial Machinery,5905000.00,Medium,At Sea,Kaohsiung,Panama City
+V00007,Strait-007,Strait of Malacca,Singapore-Westbound,Battery Cells,7322500.00,High,In Transit,Dubai,Suez
+V00008,Strait-008,Strait of Malacca,Singapore-Westbound,Containerized Retail Goods,2740000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00009,Strait-009,Strait of Malacca,Singapore-Westbound,LNG Equipment,9757500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00010,Strait-010,Strait of Malacca,Singapore-Westbound,Telecom Hardware,5475000.00,High,Scheduled,Hamburg,Manila
+V00011,Strait-011,Strait of Malacca,Singapore-Westbound,Semiconductor Wafers,8692500.00,Critical,At Sea,Los Angeles,Singapore
+V00012,Strait-012,Strait of Malacca,Singapore-Westbound,Crude Oil,24210000.00,Critical,In Transit,Houston,London
+V00013,Strait-013,Strait of Malacca,Singapore-Westbound,Consumer Electronics,6627500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00014,Strait-014,Strait of Malacca,Singapore-Westbound,Medical Supplies,3445000.00,High,Customs Hold,Busan,Shanghai
+V00015,Strait-015,Strait of Malacca,Singapore-Westbound,Automotive Components,4362500.00,High,Scheduled,Yokohama,Jebel Ali
+V00016,Strait-016,Strait of Malacca,Singapore-Westbound,Industrial Machinery,6080000.00,Medium,At Sea,Kaohsiung,Panama City
+V00017,Strait-017,Strait of Malacca,Singapore-Westbound,Battery Cells,7497500.00,High,In Transit,Dubai,Suez
+V00018,Strait-018,Strait of Malacca,Singapore-Westbound,Containerized Retail Goods,2915000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00019,Strait-019,Strait of Malacca,Singapore-Westbound,LNG Equipment,9932500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00020,Strait-020,Strait of Malacca,Singapore-Westbound,Telecom Hardware,5650000.00,High,Scheduled,Hamburg,Manila
+V00021,Strait-021,Strait of Malacca,Singapore-Westbound,Semiconductor Wafers,8867500.00,Critical,At Sea,Los Angeles,Singapore
+V00022,Strait-022,Strait of Malacca,Singapore-Westbound,Crude Oil,24385000.00,Critical,In Transit,Houston,London
+V00023,Strait-023,Strait of Malacca,Singapore-Westbound,Consumer Electronics,6802500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00024,Strait-024,Strait of Malacca,Singapore-Westbound,Medical Supplies,3620000.00,High,Customs Hold,Busan,Shanghai
+V00025,Strait-025,Strait of Malacca,Singapore-Westbound,Automotive Components,4537500.00,High,Scheduled,Yokohama,Jebel Ali
+V00026,Strait-026,Strait of Malacca,Singapore-Westbound,Industrial Machinery,6255000.00,Medium,At Sea,Kaohsiung,Panama City
+V00027,Strait-027,Strait of Malacca,Singapore-Westbound,Battery Cells,7672500.00,High,In Transit,Dubai,Suez
+V00028,Strait-028,Strait of Malacca,Singapore-Westbound,Containerized Retail Goods,3090000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00029,Strait-029,Strait of Malacca,Singapore-Westbound,LNG Equipment,10107500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00030,Strait-030,Strait of Malacca,Singapore-Westbound,Telecom Hardware,5825000.00,High,Scheduled,Hamburg,Manila
+V00031,Strait-031,Strait of Malacca,Singapore-Westbound,Semiconductor Wafers,9042500.00,Critical,At Sea,Los Angeles,Singapore
+V00032,Strait-032,Strait of Malacca,Singapore-Westbound,Crude Oil,24560000.00,Critical,In Transit,Houston,London
+V00033,Strait-033,Strait of Malacca,Singapore-Westbound,Consumer Electronics,6977500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00034,Strait-034,Strait of Malacca,Singapore-Westbound,Medical Supplies,3795000.00,High,Customs Hold,Busan,Shanghai
+V00035,Strait-035,Strait of Malacca,Singapore-Westbound,Automotive Components,4712500.00,High,Scheduled,Yokohama,Jebel Ali
+V00036,Strait-036,Strait of Malacca,Singapore-Westbound,Industrial Machinery,6430000.00,Medium,At Sea,Kaohsiung,Panama City
+V00037,Strait-037,Strait of Malacca,Singapore-Westbound,Battery Cells,7847500.00,High,In Transit,Dubai,Suez
+V00038,Strait-038,Strait of Malacca,Singapore-Westbound,Containerized Retail Goods,3265000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00039,Strait-039,Strait of Malacca,Singapore-Westbound,LNG Equipment,10282500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00040,Strait-040,Strait of Malacca,Singapore-Westbound,Telecom Hardware,6000000.00,High,Scheduled,Hamburg,Manila
+V00041,Strait-041,Strait of Malacca,Singapore-Westbound,Semiconductor Wafers,9217500.00,Critical,At Sea,Los Angeles,Singapore
+V00042,Strait-042,Strait of Malacca,Singapore-Westbound,Crude Oil,24735000.00,Critical,In Transit,Houston,London
+V00043,Strait-043,Strait of Malacca,Singapore-Westbound,Consumer Electronics,7152500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00044,Strait-044,Strait of Malacca,Singapore-Westbound,Medical Supplies,3970000.00,High,Customs Hold,Busan,Shanghai
+V00045,Strait-045,Strait of Malacca,Singapore-Westbound,Automotive Components,4887500.00,High,Scheduled,Yokohama,Jebel Ali
+V00046,Strait-046,Strait of Malacca,Singapore-Westbound,Industrial Machinery,6605000.00,Medium,At Sea,Kaohsiung,Panama City
+V00047,Strait-047,Strait of Malacca,Singapore-Westbound,Battery Cells,8022500.00,High,In Transit,Dubai,Suez
+V00048,Strait-048,Strait of Malacca,Singapore-Westbound,Containerized Retail Goods,3440000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00049,Strait-049,Strait of Malacca,Singapore-Westbound,LNG Equipment,10457500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00050,Strait-050,Strait of Malacca,Singapore-Westbound,Telecom Hardware,6175000.00,High,Scheduled,Hamburg,Manila
+V00051,Strait-051,Strait of Malacca,Singapore-Westbound,Semiconductor Wafers,9392500.00,Critical,At Sea,Los Angeles,Singapore
+V00052,Strait-052,Strait of Malacca,Singapore-Westbound,Crude Oil,24910000.00,Critical,In Transit,Houston,London
+V00053,Strait-053,Strait of Malacca,Singapore-Westbound,Consumer Electronics,7327500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00054,Strait-054,Strait of Malacca,Singapore-Westbound,Medical Supplies,4145000.00,High,Customs Hold,Busan,Shanghai
+V00055,Strait-055,Strait of Malacca,Singapore-Westbound,Automotive Components,5062500.00,High,Scheduled,Yokohama,Jebel Ali
+V00056,Strait-056,Strait of Malacca,Singapore-Westbound,Industrial Machinery,6780000.00,Medium,At Sea,Kaohsiung,Panama City
+V00057,Strait-057,Strait of Malacca,Singapore-Westbound,Battery Cells,8197500.00,High,In Transit,Dubai,Suez
+V00058,Strait-058,Strait of Malacca,Singapore-Westbound,Containerized Retail Goods,3615000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00059,Strait-059,Strait of Malacca,Singapore-Westbound,LNG Equipment,10632500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00060,Strait-060,Strait of Malacca,Singapore-Westbound,Telecom Hardware,6350000.00,High,Scheduled,Hamburg,Manila
+V00061,Strait-061,Strait of Malacca,Singapore-Westbound,Semiconductor Wafers,9567500.00,Critical,At Sea,Los Angeles,Singapore
+V00062,Strait-062,Strait of Malacca,Singapore-Westbound,Crude Oil,25085000.00,Critical,In Transit,Houston,London
+V00063,Strait-063,Strait of Malacca,Singapore-Westbound,Consumer Electronics,7502500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00064,Strait-064,Strait of Malacca,Singapore-Westbound,Medical Supplies,4320000.00,High,Customs Hold,Busan,Shanghai
+V00065,Strait-065,Strait of Malacca,Singapore-Westbound,Automotive Components,5237500.00,High,Scheduled,Yokohama,Jebel Ali
+V00066,Strait-066,Strait of Malacca,Singapore-Westbound,Industrial Machinery,6955000.00,Medium,At Sea,Kaohsiung,Panama City
+V00067,Strait-067,Strait of Malacca,Singapore-Westbound,Battery Cells,8372500.00,High,In Transit,Dubai,Suez
+V00068,Strait-068,Strait of Malacca,Singapore-Westbound,Containerized Retail Goods,3790000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00069,Strait-069,Strait of Malacca,Singapore-Westbound,LNG Equipment,10807500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00070,Strait-070,Strait of Malacca,Singapore-Westbound,Telecom Hardware,6525000.00,High,Scheduled,Hamburg,Manila
+V00071,Strait-071,Strait of Malacca,Singapore-Westbound,Semiconductor Wafers,9742500.00,Critical,At Sea,Los Angeles,Singapore
+V00072,Strait-072,Strait of Malacca,Singapore-Westbound,Crude Oil,25260000.00,Critical,In Transit,Houston,London
+V00073,Strait-073,Strait of Malacca,Singapore-Westbound,Consumer Electronics,7677500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00074,Strait-074,Strait of Malacca,Singapore-Westbound,Medical Supplies,4495000.00,High,Customs Hold,Busan,Shanghai
+V00075,Strait-075,Strait of Malacca,Singapore-Westbound,Automotive Components,5412500.00,High,Scheduled,Yokohama,Jebel Ali
+V00076,Strait-076,Strait of Malacca,Singapore-Westbound,Industrial Machinery,7130000.00,Medium,At Sea,Kaohsiung,Panama City
+V00077,Strait-077,Strait of Malacca,Singapore-Westbound,Battery Cells,8547500.00,High,In Transit,Dubai,Suez
+V00078,Strait-078,Strait of Malacca,Singapore-Westbound,Containerized Retail Goods,3965000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00079,Strait-079,Strait of Malacca,Singapore-Westbound,LNG Equipment,10982500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00080,Strait-080,Strait of Malacca,Singapore-Westbound,Telecom Hardware,6700000.00,High,Scheduled,Hamburg,Manila
+V00081,Strait-081,Strait of Malacca,Singapore-Westbound,Semiconductor Wafers,9917500.00,Critical,At Sea,Los Angeles,Singapore
+V00082,Strait-082,Strait of Malacca,Singapore-Westbound,Crude Oil,25435000.00,Critical,In Transit,Houston,London
+V00083,Strait-083,Strait of Malacca,Singapore-Westbound,Consumer Electronics,7852500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00084,Strait-084,Strait of Malacca,Singapore-Westbound,Medical Supplies,4670000.00,High,Customs Hold,Busan,Shanghai
+V00085,Strait-085,Strait of Malacca,Singapore-Westbound,Automotive Components,5587500.00,High,Scheduled,Yokohama,Jebel Ali
+V00086,Strait-086,Strait of Malacca,Singapore-Westbound,Industrial Machinery,7305000.00,Medium,At Sea,Kaohsiung,Panama City
+V00087,Strait-087,Strait of Malacca,Singapore-Westbound,Battery Cells,8722500.00,High,In Transit,Dubai,Suez
+V00088,Strait-088,Strait of Malacca,Singapore-Westbound,Containerized Retail Goods,4140000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00089,Strait-089,Strait of Malacca,Singapore-Westbound,LNG Equipment,11157500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00090,Strait-090,Strait of Malacca,Singapore-Westbound,Telecom Hardware,6875000.00,High,Scheduled,Hamburg,Manila
+V00091,Strait-091,Strait of Malacca,Singapore-Westbound,Semiconductor Wafers,10092500.00,Critical,At Sea,Los Angeles,Singapore
+V00092,Strait-092,Strait of Malacca,Singapore-Westbound,Crude Oil,25610000.00,Critical,In Transit,Houston,London
+V00093,Strait-093,Strait of Malacca,Singapore-Westbound,Consumer Electronics,8027500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00094,Strait-094,Strait of Malacca,Singapore-Westbound,Medical Supplies,4845000.00,High,Customs Hold,Busan,Shanghai
+V00095,Strait-095,Strait of Malacca,Singapore-Westbound,Automotive Components,5762500.00,High,Scheduled,Yokohama,Jebel Ali
+V00096,Strait-096,Strait of Malacca,Singapore-Westbound,Industrial Machinery,7480000.00,Medium,At Sea,Kaohsiung,Panama City
+V00097,Strait-097,Strait of Malacca,Singapore-Westbound,Battery Cells,8897500.00,High,In Transit,Dubai,Suez
+V00098,Strait-098,Strait of Malacca,Singapore-Westbound,Containerized Retail Goods,4315000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00099,Strait-099,Strait of Malacca,Singapore-Westbound,LNG Equipment,11332500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00100,Strait-100,Strait of Malacca,Singapore-Westbound,Telecom Hardware,7050000.00,High,Scheduled,Hamburg,Manila
+V00101,Strait-101,Strait of Malacca,Singapore-Westbound,Semiconductor Wafers,10267500.00,Critical,At Sea,Los Angeles,Singapore
+V00102,Strait-102,Strait of Malacca,Singapore-Westbound,Crude Oil,25785000.00,Critical,In Transit,Houston,London
+V00103,Strait-103,Strait of Malacca,Singapore-Westbound,Consumer Electronics,8202500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00104,Strait-104,Strait of Malacca,Singapore-Westbound,Medical Supplies,5020000.00,High,Customs Hold,Busan,Shanghai
+V00105,Strait-105,Strait of Malacca,Singapore-Westbound,Automotive Components,5937500.00,High,Scheduled,Yokohama,Jebel Ali
+V00106,Strait-106,Strait of Malacca,Singapore-Westbound,Industrial Machinery,7655000.00,Medium,At Sea,Kaohsiung,Panama City
+V00107,Strait-107,Strait of Malacca,Singapore-Westbound,Battery Cells,9072500.00,High,In Transit,Dubai,Suez
+V00108,Strait-108,Strait of Malacca,Singapore-Westbound,Containerized Retail Goods,4490000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00109,Strait-109,Strait of Malacca,Singapore-Westbound,LNG Equipment,11507500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00110,Strait-110,Strait of Malacca,Singapore-Westbound,Telecom Hardware,7225000.00,High,Scheduled,Hamburg,Manila
+V00111,Strait-111,Strait of Malacca,Singapore-Westbound,Semiconductor Wafers,10442500.00,Critical,At Sea,Los Angeles,Singapore
+V00112,Strait-112,Strait of Malacca,Singapore-Westbound,Crude Oil,25960000.00,Critical,In Transit,Houston,London
+V00113,Strait-113,Strait of Malacca,Singapore-Westbound,Consumer Electronics,8377500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00114,Strait-114,Strait of Malacca,Singapore-Westbound,Medical Supplies,5195000.00,High,Customs Hold,Busan,Shanghai
+V00115,Strait-115,Strait of Malacca,Singapore-Westbound,Automotive Components,6112500.00,High,Scheduled,Yokohama,Jebel Ali
+V00116,Strait-116,Strait of Malacca,Singapore-Westbound,Industrial Machinery,7830000.00,Medium,At Sea,Kaohsiung,Panama City
+V00117,Strait-117,Strait of Malacca,Singapore-Westbound,Battery Cells,9247500.00,High,In Transit,Dubai,Suez
+V00118,Strait-118,Strait of Malacca,Singapore-Westbound,Containerized Retail Goods,4665000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00119,Strait-119,Strait of Malacca,Singapore-Westbound,LNG Equipment,11682500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00120,Strait-120,Strait of Malacca,Singapore-Westbound,Telecom Hardware,7400000.00,High,Scheduled,Hamburg,Manila
+V00121,Red-001,Red Sea,Red-Sea-Corridor,Semiconductor Wafers,8517500.00,Critical,At Sea,Los Angeles,Singapore
+V00122,Red-002,Red Sea,Red-Sea-Corridor,Crude Oil,24035000.00,Critical,In Transit,Houston,London
+V00123,Red-003,Red Sea,Red-Sea-Corridor,Consumer Electronics,6452500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00124,Red-004,Red Sea,Red-Sea-Corridor,Medical Supplies,3270000.00,High,Customs Hold,Busan,Shanghai
+V00125,Red-005,Red Sea,Red-Sea-Corridor,Automotive Components,4187500.00,High,Scheduled,Yokohama,Jebel Ali
+V00126,Red-006,Red Sea,Red-Sea-Corridor,Industrial Machinery,5905000.00,Medium,At Sea,Kaohsiung,Panama City
+V00127,Red-007,Red Sea,Red-Sea-Corridor,Battery Cells,7322500.00,High,In Transit,Dubai,Suez
+V00128,Red-008,Red Sea,Red-Sea-Corridor,Containerized Retail Goods,2740000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00129,Red-009,Red Sea,Red-Sea-Corridor,LNG Equipment,9757500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00130,Red-010,Red Sea,Red-Sea-Corridor,Telecom Hardware,5475000.00,High,Scheduled,Hamburg,Manila
+V00131,Red-011,Red Sea,Red-Sea-Corridor,Semiconductor Wafers,8692500.00,Critical,At Sea,Los Angeles,Singapore
+V00132,Red-012,Red Sea,Red-Sea-Corridor,Crude Oil,24210000.00,Critical,In Transit,Houston,London
+V00133,Red-013,Red Sea,Red-Sea-Corridor,Consumer Electronics,6627500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00134,Red-014,Red Sea,Red-Sea-Corridor,Medical Supplies,3445000.00,High,Customs Hold,Busan,Shanghai
+V00135,Red-015,Red Sea,Red-Sea-Corridor,Automotive Components,4362500.00,High,Scheduled,Yokohama,Jebel Ali
+V00136,Red-016,Red Sea,Red-Sea-Corridor,Industrial Machinery,6080000.00,Medium,At Sea,Kaohsiung,Panama City
+V00137,Red-017,Red Sea,Red-Sea-Corridor,Battery Cells,7497500.00,High,In Transit,Dubai,Suez
+V00138,Red-018,Red Sea,Red-Sea-Corridor,Containerized Retail Goods,2915000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00139,Red-019,Red Sea,Red-Sea-Corridor,LNG Equipment,9932500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00140,Red-020,Red Sea,Red-Sea-Corridor,Telecom Hardware,5650000.00,High,Scheduled,Hamburg,Manila
+V00141,Red-021,Red Sea,Red-Sea-Corridor,Semiconductor Wafers,8867500.00,Critical,At Sea,Los Angeles,Singapore
+V00142,Red-022,Red Sea,Red-Sea-Corridor,Crude Oil,24385000.00,Critical,In Transit,Houston,London
+V00143,Red-023,Red Sea,Red-Sea-Corridor,Consumer Electronics,6802500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00144,Red-024,Red Sea,Red-Sea-Corridor,Medical Supplies,3620000.00,High,Customs Hold,Busan,Shanghai
+V00145,Red-025,Red Sea,Red-Sea-Corridor,Automotive Components,4537500.00,High,Scheduled,Yokohama,Jebel Ali
+V00146,Red-026,Red Sea,Red-Sea-Corridor,Industrial Machinery,6255000.00,Medium,At Sea,Kaohsiung,Panama City
+V00147,Red-027,Red Sea,Red-Sea-Corridor,Battery Cells,7672500.00,High,In Transit,Dubai,Suez
+V00148,Red-028,Red Sea,Red-Sea-Corridor,Containerized Retail Goods,3090000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00149,Red-029,Red Sea,Red-Sea-Corridor,LNG Equipment,10107500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00150,Red-030,Red Sea,Red-Sea-Corridor,Telecom Hardware,5825000.00,High,Scheduled,Hamburg,Manila
+V00151,Red-031,Red Sea,Red-Sea-Corridor,Semiconductor Wafers,9042500.00,Critical,At Sea,Los Angeles,Singapore
+V00152,Red-032,Red Sea,Red-Sea-Corridor,Crude Oil,24560000.00,Critical,In Transit,Houston,London
+V00153,Red-033,Red Sea,Red-Sea-Corridor,Consumer Electronics,6977500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00154,Red-034,Red Sea,Red-Sea-Corridor,Medical Supplies,3795000.00,High,Customs Hold,Busan,Shanghai
+V00155,Red-035,Red Sea,Red-Sea-Corridor,Automotive Components,4712500.00,High,Scheduled,Yokohama,Jebel Ali
+V00156,Red-036,Red Sea,Red-Sea-Corridor,Industrial Machinery,6430000.00,Medium,At Sea,Kaohsiung,Panama City
+V00157,Red-037,Red Sea,Red-Sea-Corridor,Battery Cells,7847500.00,High,In Transit,Dubai,Suez
+V00158,Red-038,Red Sea,Red-Sea-Corridor,Containerized Retail Goods,3265000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00159,Red-039,Red Sea,Red-Sea-Corridor,LNG Equipment,10282500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00160,Red-040,Red Sea,Red-Sea-Corridor,Telecom Hardware,6000000.00,High,Scheduled,Hamburg,Manila
+V00161,Red-041,Red Sea,Red-Sea-Corridor,Semiconductor Wafers,9217500.00,Critical,At Sea,Los Angeles,Singapore
+V00162,Red-042,Red Sea,Red-Sea-Corridor,Crude Oil,24735000.00,Critical,In Transit,Houston,London
+V00163,Red-043,Red Sea,Red-Sea-Corridor,Consumer Electronics,7152500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00164,Red-044,Red Sea,Red-Sea-Corridor,Medical Supplies,3970000.00,High,Customs Hold,Busan,Shanghai
+V00165,Red-045,Red Sea,Red-Sea-Corridor,Automotive Components,4887500.00,High,Scheduled,Yokohama,Jebel Ali
+V00166,Red-046,Red Sea,Red-Sea-Corridor,Industrial Machinery,6605000.00,Medium,At Sea,Kaohsiung,Panama City
+V00167,Red-047,Red Sea,Red-Sea-Corridor,Battery Cells,8022500.00,High,In Transit,Dubai,Suez
+V00168,Red-048,Red Sea,Red-Sea-Corridor,Containerized Retail Goods,3440000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00169,Red-049,Red Sea,Red-Sea-Corridor,LNG Equipment,10457500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00170,Red-050,Red Sea,Red-Sea-Corridor,Telecom Hardware,6175000.00,High,Scheduled,Hamburg,Manila
+V00171,Red-051,Red Sea,Red-Sea-Corridor,Semiconductor Wafers,9392500.00,Critical,At Sea,Los Angeles,Singapore
+V00172,Red-052,Red Sea,Red-Sea-Corridor,Crude Oil,24910000.00,Critical,In Transit,Houston,London
+V00173,Red-053,Red Sea,Red-Sea-Corridor,Consumer Electronics,7327500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00174,Red-054,Red Sea,Red-Sea-Corridor,Medical Supplies,4145000.00,High,Customs Hold,Busan,Shanghai
+V00175,Red-055,Red Sea,Red-Sea-Corridor,Automotive Components,5062500.00,High,Scheduled,Yokohama,Jebel Ali
+V00176,Red-056,Red Sea,Red-Sea-Corridor,Industrial Machinery,6780000.00,Medium,At Sea,Kaohsiung,Panama City
+V00177,Red-057,Red Sea,Red-Sea-Corridor,Battery Cells,8197500.00,High,In Transit,Dubai,Suez
+V00178,Red-058,Red Sea,Red-Sea-Corridor,Containerized Retail Goods,3615000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00179,Red-059,Red Sea,Red-Sea-Corridor,LNG Equipment,10632500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00180,Red-060,Red Sea,Red-Sea-Corridor,Telecom Hardware,6350000.00,High,Scheduled,Hamburg,Manila
+V00181,Red-061,Red Sea,Red-Sea-Corridor,Semiconductor Wafers,9567500.00,Critical,At Sea,Los Angeles,Singapore
+V00182,Red-062,Red Sea,Red-Sea-Corridor,Crude Oil,25085000.00,Critical,In Transit,Houston,London
+V00183,Red-063,Red Sea,Red-Sea-Corridor,Consumer Electronics,7502500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00184,Red-064,Red Sea,Red-Sea-Corridor,Medical Supplies,4320000.00,High,Customs Hold,Busan,Shanghai
+V00185,Red-065,Red Sea,Red-Sea-Corridor,Automotive Components,5237500.00,High,Scheduled,Yokohama,Jebel Ali
+V00186,Red-066,Red Sea,Red-Sea-Corridor,Industrial Machinery,6955000.00,Medium,At Sea,Kaohsiung,Panama City
+V00187,Red-067,Red Sea,Red-Sea-Corridor,Battery Cells,8372500.00,High,In Transit,Dubai,Suez
+V00188,Red-068,Red Sea,Red-Sea-Corridor,Containerized Retail Goods,3790000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00189,Red-069,Red Sea,Red-Sea-Corridor,LNG Equipment,10807500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00190,Red-070,Red Sea,Red-Sea-Corridor,Telecom Hardware,6525000.00,High,Scheduled,Hamburg,Manila
+V00191,Red-071,Red Sea,Red-Sea-Corridor,Semiconductor Wafers,9742500.00,Critical,At Sea,Los Angeles,Singapore
+V00192,Red-072,Red Sea,Red-Sea-Corridor,Crude Oil,25260000.00,Critical,In Transit,Houston,London
+V00193,Red-073,Red Sea,Red-Sea-Corridor,Consumer Electronics,7677500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00194,Red-074,Red Sea,Red-Sea-Corridor,Medical Supplies,4495000.00,High,Customs Hold,Busan,Shanghai
+V00195,Red-075,Red Sea,Red-Sea-Corridor,Automotive Components,5412500.00,High,Scheduled,Yokohama,Jebel Ali
+V00196,Red-076,Red Sea,Red-Sea-Corridor,Industrial Machinery,7130000.00,Medium,At Sea,Kaohsiung,Panama City
+V00197,Red-077,Red Sea,Red-Sea-Corridor,Battery Cells,8547500.00,High,In Transit,Dubai,Suez
+V00198,Red-078,Red Sea,Red-Sea-Corridor,Containerized Retail Goods,3965000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00199,Red-079,Red Sea,Red-Sea-Corridor,LNG Equipment,10982500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00200,Red-080,Red Sea,Red-Sea-Corridor,Telecom Hardware,6700000.00,High,Scheduled,Hamburg,Manila
+V00201,Red-081,Red Sea,Red-Sea-Corridor,Semiconductor Wafers,9917500.00,Critical,At Sea,Los Angeles,Singapore
+V00202,Red-082,Red Sea,Red-Sea-Corridor,Crude Oil,25435000.00,Critical,In Transit,Houston,London
+V00203,Red-083,Red Sea,Red-Sea-Corridor,Consumer Electronics,7852500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00204,Red-084,Red Sea,Red-Sea-Corridor,Medical Supplies,4670000.00,High,Customs Hold,Busan,Shanghai
+V00205,Red-085,Red Sea,Red-Sea-Corridor,Automotive Components,5587500.00,High,Scheduled,Yokohama,Jebel Ali
+V00206,Red-086,Red Sea,Red-Sea-Corridor,Industrial Machinery,7305000.00,Medium,At Sea,Kaohsiung,Panama City
+V00207,Red-087,Red Sea,Red-Sea-Corridor,Battery Cells,8722500.00,High,In Transit,Dubai,Suez
+V00208,Red-088,Red Sea,Red-Sea-Corridor,Containerized Retail Goods,4140000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00209,Red-089,Red Sea,Red-Sea-Corridor,LNG Equipment,11157500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00210,Red-090,Red Sea,Red-Sea-Corridor,Telecom Hardware,6875000.00,High,Scheduled,Hamburg,Manila
+V00211,Red-091,Red Sea,Red-Sea-Corridor,Semiconductor Wafers,10092500.00,Critical,At Sea,Los Angeles,Singapore
+V00212,Red-092,Red Sea,Red-Sea-Corridor,Crude Oil,25610000.00,Critical,In Transit,Houston,London
+V00213,Red-093,Red Sea,Red-Sea-Corridor,Consumer Electronics,8027500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00214,Red-094,Red Sea,Red-Sea-Corridor,Medical Supplies,4845000.00,High,Customs Hold,Busan,Shanghai
+V00215,Red-095,Red Sea,Red-Sea-Corridor,Automotive Components,5762500.00,High,Scheduled,Yokohama,Jebel Ali
+V00216,Red-096,Red Sea,Red-Sea-Corridor,Industrial Machinery,7480000.00,Medium,At Sea,Kaohsiung,Panama City
+V00217,Red-097,Red Sea,Red-Sea-Corridor,Battery Cells,8897500.00,High,In Transit,Dubai,Suez
+V00218,Red-098,Red Sea,Red-Sea-Corridor,Containerized Retail Goods,4315000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00219,Red-099,Red Sea,Red-Sea-Corridor,LNG Equipment,11332500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00220,Red-100,Red Sea,Red-Sea-Corridor,Telecom Hardware,7050000.00,High,Scheduled,Hamburg,Manila
+V00221,Red-101,Red Sea,Red-Sea-Corridor,Semiconductor Wafers,10267500.00,Critical,At Sea,Los Angeles,Singapore
+V00222,Red-102,Red Sea,Red-Sea-Corridor,Crude Oil,25785000.00,Critical,In Transit,Houston,London
+V00223,Red-103,Red Sea,Red-Sea-Corridor,Consumer Electronics,8202500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00224,Red-104,Red Sea,Red-Sea-Corridor,Medical Supplies,5020000.00,High,Customs Hold,Busan,Shanghai
+V00225,Red-105,Red Sea,Red-Sea-Corridor,Automotive Components,5937500.00,High,Scheduled,Yokohama,Jebel Ali
+V00226,Red-106,Red Sea,Red-Sea-Corridor,Industrial Machinery,7655000.00,Medium,At Sea,Kaohsiung,Panama City
+V00227,Red-107,Red Sea,Red-Sea-Corridor,Battery Cells,9072500.00,High,In Transit,Dubai,Suez
+V00228,Red-108,Red Sea,Red-Sea-Corridor,Containerized Retail Goods,4490000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00229,Red-109,Red Sea,Red-Sea-Corridor,LNG Equipment,11507500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00230,Red-110,Red Sea,Red-Sea-Corridor,Telecom Hardware,7225000.00,High,Scheduled,Hamburg,Manila
+V00231,Red-111,Red Sea,Red-Sea-Corridor,Semiconductor Wafers,10442500.00,Critical,At Sea,Los Angeles,Singapore
+V00232,Red-112,Red Sea,Red-Sea-Corridor,Crude Oil,25960000.00,Critical,In Transit,Houston,London
+V00233,Red-113,Red Sea,Red-Sea-Corridor,Consumer Electronics,8377500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00234,Red-114,Red Sea,Red-Sea-Corridor,Medical Supplies,5195000.00,High,Customs Hold,Busan,Shanghai
+V00235,Red-115,Red Sea,Red-Sea-Corridor,Automotive Components,6112500.00,High,Scheduled,Yokohama,Jebel Ali
+V00236,Red-116,Red Sea,Red-Sea-Corridor,Industrial Machinery,7830000.00,Medium,At Sea,Kaohsiung,Panama City
+V00237,Red-117,Red Sea,Red-Sea-Corridor,Battery Cells,9247500.00,High,In Transit,Dubai,Suez
+V00238,Red-118,Red Sea,Red-Sea-Corridor,Containerized Retail Goods,4665000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00239,Red-119,Red Sea,Red-Sea-Corridor,LNG Equipment,11682500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00240,Red-120,Red Sea,Red-Sea-Corridor,Telecom Hardware,7400000.00,High,Scheduled,Hamburg,Manila
+V00241,Suez-001,Suez Canal,Suez-Med-Corridor,Semiconductor Wafers,8517500.00,Critical,At Sea,Los Angeles,Singapore
+V00242,Suez-002,Suez Canal,Suez-Med-Corridor,Crude Oil,24035000.00,Critical,In Transit,Houston,London
+V00243,Suez-003,Suez Canal,Suez-Med-Corridor,Consumer Electronics,6452500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00244,Suez-004,Suez Canal,Suez-Med-Corridor,Medical Supplies,3270000.00,High,Customs Hold,Busan,Shanghai
+V00245,Suez-005,Suez Canal,Suez-Med-Corridor,Automotive Components,4187500.00,High,Scheduled,Yokohama,Jebel Ali
+V00246,Suez-006,Suez Canal,Suez-Med-Corridor,Industrial Machinery,5905000.00,Medium,At Sea,Kaohsiung,Panama City
+V00247,Suez-007,Suez Canal,Suez-Med-Corridor,Battery Cells,7322500.00,High,In Transit,Dubai,Suez
+V00248,Suez-008,Suez Canal,Suez-Med-Corridor,Containerized Retail Goods,2740000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00249,Suez-009,Suez Canal,Suez-Med-Corridor,LNG Equipment,9757500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00250,Suez-010,Suez Canal,Suez-Med-Corridor,Telecom Hardware,5475000.00,High,Scheduled,Hamburg,Manila
+V00251,Suez-011,Suez Canal,Suez-Med-Corridor,Semiconductor Wafers,8692500.00,Critical,At Sea,Los Angeles,Singapore
+V00252,Suez-012,Suez Canal,Suez-Med-Corridor,Crude Oil,24210000.00,Critical,In Transit,Houston,London
+V00253,Suez-013,Suez Canal,Suez-Med-Corridor,Consumer Electronics,6627500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00254,Suez-014,Suez Canal,Suez-Med-Corridor,Medical Supplies,3445000.00,High,Customs Hold,Busan,Shanghai
+V00255,Suez-015,Suez Canal,Suez-Med-Corridor,Automotive Components,4362500.00,High,Scheduled,Yokohama,Jebel Ali
+V00256,Suez-016,Suez Canal,Suez-Med-Corridor,Industrial Machinery,6080000.00,Medium,At Sea,Kaohsiung,Panama City
+V00257,Suez-017,Suez Canal,Suez-Med-Corridor,Battery Cells,7497500.00,High,In Transit,Dubai,Suez
+V00258,Suez-018,Suez Canal,Suez-Med-Corridor,Containerized Retail Goods,2915000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00259,Suez-019,Suez Canal,Suez-Med-Corridor,LNG Equipment,9932500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00260,Suez-020,Suez Canal,Suez-Med-Corridor,Telecom Hardware,5650000.00,High,Scheduled,Hamburg,Manila
+V00261,Suez-021,Suez Canal,Suez-Med-Corridor,Semiconductor Wafers,8867500.00,Critical,At Sea,Los Angeles,Singapore
+V00262,Suez-022,Suez Canal,Suez-Med-Corridor,Crude Oil,24385000.00,Critical,In Transit,Houston,London
+V00263,Suez-023,Suez Canal,Suez-Med-Corridor,Consumer Electronics,6802500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00264,Suez-024,Suez Canal,Suez-Med-Corridor,Medical Supplies,3620000.00,High,Customs Hold,Busan,Shanghai
+V00265,Suez-025,Suez Canal,Suez-Med-Corridor,Automotive Components,4537500.00,High,Scheduled,Yokohama,Jebel Ali
+V00266,Suez-026,Suez Canal,Suez-Med-Corridor,Industrial Machinery,6255000.00,Medium,At Sea,Kaohsiung,Panama City
+V00267,Suez-027,Suez Canal,Suez-Med-Corridor,Battery Cells,7672500.00,High,In Transit,Dubai,Suez
+V00268,Suez-028,Suez Canal,Suez-Med-Corridor,Containerized Retail Goods,3090000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00269,Suez-029,Suez Canal,Suez-Med-Corridor,LNG Equipment,10107500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00270,Suez-030,Suez Canal,Suez-Med-Corridor,Telecom Hardware,5825000.00,High,Scheduled,Hamburg,Manila
+V00271,Suez-031,Suez Canal,Suez-Med-Corridor,Semiconductor Wafers,9042500.00,Critical,At Sea,Los Angeles,Singapore
+V00272,Suez-032,Suez Canal,Suez-Med-Corridor,Crude Oil,24560000.00,Critical,In Transit,Houston,London
+V00273,Suez-033,Suez Canal,Suez-Med-Corridor,Consumer Electronics,6977500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00274,Suez-034,Suez Canal,Suez-Med-Corridor,Medical Supplies,3795000.00,High,Customs Hold,Busan,Shanghai
+V00275,Suez-035,Suez Canal,Suez-Med-Corridor,Automotive Components,4712500.00,High,Scheduled,Yokohama,Jebel Ali
+V00276,Suez-036,Suez Canal,Suez-Med-Corridor,Industrial Machinery,6430000.00,Medium,At Sea,Kaohsiung,Panama City
+V00277,Suez-037,Suez Canal,Suez-Med-Corridor,Battery Cells,7847500.00,High,In Transit,Dubai,Suez
+V00278,Suez-038,Suez Canal,Suez-Med-Corridor,Containerized Retail Goods,3265000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00279,Suez-039,Suez Canal,Suez-Med-Corridor,LNG Equipment,10282500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00280,Suez-040,Suez Canal,Suez-Med-Corridor,Telecom Hardware,6000000.00,High,Scheduled,Hamburg,Manila
+V00281,Suez-041,Suez Canal,Suez-Med-Corridor,Semiconductor Wafers,9217500.00,Critical,At Sea,Los Angeles,Singapore
+V00282,Suez-042,Suez Canal,Suez-Med-Corridor,Crude Oil,24735000.00,Critical,In Transit,Houston,London
+V00283,Suez-043,Suez Canal,Suez-Med-Corridor,Consumer Electronics,7152500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00284,Suez-044,Suez Canal,Suez-Med-Corridor,Medical Supplies,3970000.00,High,Customs Hold,Busan,Shanghai
+V00285,Suez-045,Suez Canal,Suez-Med-Corridor,Automotive Components,4887500.00,High,Scheduled,Yokohama,Jebel Ali
+V00286,Suez-046,Suez Canal,Suez-Med-Corridor,Industrial Machinery,6605000.00,Medium,At Sea,Kaohsiung,Panama City
+V00287,Suez-047,Suez Canal,Suez-Med-Corridor,Battery Cells,8022500.00,High,In Transit,Dubai,Suez
+V00288,Suez-048,Suez Canal,Suez-Med-Corridor,Containerized Retail Goods,3440000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00289,Suez-049,Suez Canal,Suez-Med-Corridor,LNG Equipment,10457500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00290,Suez-050,Suez Canal,Suez-Med-Corridor,Telecom Hardware,6175000.00,High,Scheduled,Hamburg,Manila
+V00291,Suez-051,Suez Canal,Suez-Med-Corridor,Semiconductor Wafers,9392500.00,Critical,At Sea,Los Angeles,Singapore
+V00292,Suez-052,Suez Canal,Suez-Med-Corridor,Crude Oil,24910000.00,Critical,In Transit,Houston,London
+V00293,Suez-053,Suez Canal,Suez-Med-Corridor,Consumer Electronics,7327500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00294,Suez-054,Suez Canal,Suez-Med-Corridor,Medical Supplies,4145000.00,High,Customs Hold,Busan,Shanghai
+V00295,Suez-055,Suez Canal,Suez-Med-Corridor,Automotive Components,5062500.00,High,Scheduled,Yokohama,Jebel Ali
+V00296,Suez-056,Suez Canal,Suez-Med-Corridor,Industrial Machinery,6780000.00,Medium,At Sea,Kaohsiung,Panama City
+V00297,Suez-057,Suez Canal,Suez-Med-Corridor,Battery Cells,8197500.00,High,In Transit,Dubai,Suez
+V00298,Suez-058,Suez Canal,Suez-Med-Corridor,Containerized Retail Goods,3615000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00299,Suez-059,Suez Canal,Suez-Med-Corridor,LNG Equipment,10632500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00300,Suez-060,Suez Canal,Suez-Med-Corridor,Telecom Hardware,6350000.00,High,Scheduled,Hamburg,Manila
+V00301,Suez-061,Suez Canal,Suez-Med-Corridor,Semiconductor Wafers,9567500.00,Critical,At Sea,Los Angeles,Singapore
+V00302,Suez-062,Suez Canal,Suez-Med-Corridor,Crude Oil,25085000.00,Critical,In Transit,Houston,London
+V00303,Suez-063,Suez Canal,Suez-Med-Corridor,Consumer Electronics,7502500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00304,Suez-064,Suez Canal,Suez-Med-Corridor,Medical Supplies,4320000.00,High,Customs Hold,Busan,Shanghai
+V00305,Suez-065,Suez Canal,Suez-Med-Corridor,Automotive Components,5237500.00,High,Scheduled,Yokohama,Jebel Ali
+V00306,Suez-066,Suez Canal,Suez-Med-Corridor,Industrial Machinery,6955000.00,Medium,At Sea,Kaohsiung,Panama City
+V00307,Suez-067,Suez Canal,Suez-Med-Corridor,Battery Cells,8372500.00,High,In Transit,Dubai,Suez
+V00308,Suez-068,Suez Canal,Suez-Med-Corridor,Containerized Retail Goods,3790000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00309,Suez-069,Suez Canal,Suez-Med-Corridor,LNG Equipment,10807500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00310,Suez-070,Suez Canal,Suez-Med-Corridor,Telecom Hardware,6525000.00,High,Scheduled,Hamburg,Manila
+V00311,Suez-071,Suez Canal,Suez-Med-Corridor,Semiconductor Wafers,9742500.00,Critical,At Sea,Los Angeles,Singapore
+V00312,Suez-072,Suez Canal,Suez-Med-Corridor,Crude Oil,25260000.00,Critical,In Transit,Houston,London
+V00313,Suez-073,Suez Canal,Suez-Med-Corridor,Consumer Electronics,7677500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00314,Suez-074,Suez Canal,Suez-Med-Corridor,Medical Supplies,4495000.00,High,Customs Hold,Busan,Shanghai
+V00315,Suez-075,Suez Canal,Suez-Med-Corridor,Automotive Components,5412500.00,High,Scheduled,Yokohama,Jebel Ali
+V00316,Suez-076,Suez Canal,Suez-Med-Corridor,Industrial Machinery,7130000.00,Medium,At Sea,Kaohsiung,Panama City
+V00317,Suez-077,Suez Canal,Suez-Med-Corridor,Battery Cells,8547500.00,High,In Transit,Dubai,Suez
+V00318,Suez-078,Suez Canal,Suez-Med-Corridor,Containerized Retail Goods,3965000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00319,Suez-079,Suez Canal,Suez-Med-Corridor,LNG Equipment,10982500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00320,Suez-080,Suez Canal,Suez-Med-Corridor,Telecom Hardware,6700000.00,High,Scheduled,Hamburg,Manila
+V00321,Suez-081,Suez Canal,Suez-Med-Corridor,Semiconductor Wafers,9917500.00,Critical,At Sea,Los Angeles,Singapore
+V00322,Suez-082,Suez Canal,Suez-Med-Corridor,Crude Oil,25435000.00,Critical,In Transit,Houston,London
+V00323,Suez-083,Suez Canal,Suez-Med-Corridor,Consumer Electronics,7852500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00324,Suez-084,Suez Canal,Suez-Med-Corridor,Medical Supplies,4670000.00,High,Customs Hold,Busan,Shanghai
+V00325,Suez-085,Suez Canal,Suez-Med-Corridor,Automotive Components,5587500.00,High,Scheduled,Yokohama,Jebel Ali
+V00326,Suez-086,Suez Canal,Suez-Med-Corridor,Industrial Machinery,7305000.00,Medium,At Sea,Kaohsiung,Panama City
+V00327,Suez-087,Suez Canal,Suez-Med-Corridor,Battery Cells,8722500.00,High,In Transit,Dubai,Suez
+V00328,Suez-088,Suez Canal,Suez-Med-Corridor,Containerized Retail Goods,4140000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00329,Suez-089,Suez Canal,Suez-Med-Corridor,LNG Equipment,11157500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00330,Suez-090,Suez Canal,Suez-Med-Corridor,Telecom Hardware,6875000.00,High,Scheduled,Hamburg,Manila
+V00331,Suez-091,Suez Canal,Suez-Med-Corridor,Semiconductor Wafers,10092500.00,Critical,At Sea,Los Angeles,Singapore
+V00332,Suez-092,Suez Canal,Suez-Med-Corridor,Crude Oil,25610000.00,Critical,In Transit,Houston,London
+V00333,Suez-093,Suez Canal,Suez-Med-Corridor,Consumer Electronics,8027500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00334,Suez-094,Suez Canal,Suez-Med-Corridor,Medical Supplies,4845000.00,High,Customs Hold,Busan,Shanghai
+V00335,Suez-095,Suez Canal,Suez-Med-Corridor,Automotive Components,5762500.00,High,Scheduled,Yokohama,Jebel Ali
+V00336,Suez-096,Suez Canal,Suez-Med-Corridor,Industrial Machinery,7480000.00,Medium,At Sea,Kaohsiung,Panama City
+V00337,Suez-097,Suez Canal,Suez-Med-Corridor,Battery Cells,8897500.00,High,In Transit,Dubai,Suez
+V00338,Suez-098,Suez Canal,Suez-Med-Corridor,Containerized Retail Goods,4315000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00339,Suez-099,Suez Canal,Suez-Med-Corridor,LNG Equipment,11332500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00340,Suez-100,Suez Canal,Suez-Med-Corridor,Telecom Hardware,7050000.00,High,Scheduled,Hamburg,Manila
+V00341,Suez-101,Suez Canal,Suez-Med-Corridor,Semiconductor Wafers,10267500.00,Critical,At Sea,Los Angeles,Singapore
+V00342,Suez-102,Suez Canal,Suez-Med-Corridor,Crude Oil,25785000.00,Critical,In Transit,Houston,London
+V00343,Suez-103,Suez Canal,Suez-Med-Corridor,Consumer Electronics,8202500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00344,Suez-104,Suez Canal,Suez-Med-Corridor,Medical Supplies,5020000.00,High,Customs Hold,Busan,Shanghai
+V00345,Suez-105,Suez Canal,Suez-Med-Corridor,Automotive Components,5937500.00,High,Scheduled,Yokohama,Jebel Ali
+V00346,Suez-106,Suez Canal,Suez-Med-Corridor,Industrial Machinery,7655000.00,Medium,At Sea,Kaohsiung,Panama City
+V00347,Suez-107,Suez Canal,Suez-Med-Corridor,Battery Cells,9072500.00,High,In Transit,Dubai,Suez
+V00348,Suez-108,Suez Canal,Suez-Med-Corridor,Containerized Retail Goods,4490000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00349,Suez-109,Suez Canal,Suez-Med-Corridor,LNG Equipment,11507500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00350,Suez-110,Suez Canal,Suez-Med-Corridor,Telecom Hardware,7225000.00,High,Scheduled,Hamburg,Manila
+V00351,Suez-111,Suez Canal,Suez-Med-Corridor,Semiconductor Wafers,10442500.00,Critical,At Sea,Los Angeles,Singapore
+V00352,Suez-112,Suez Canal,Suez-Med-Corridor,Crude Oil,25960000.00,Critical,In Transit,Houston,London
+V00353,Suez-113,Suez Canal,Suez-Med-Corridor,Consumer Electronics,8377500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00354,Suez-114,Suez Canal,Suez-Med-Corridor,Medical Supplies,5195000.00,High,Customs Hold,Busan,Shanghai
+V00355,Suez-115,Suez Canal,Suez-Med-Corridor,Automotive Components,6112500.00,High,Scheduled,Yokohama,Jebel Ali
+V00356,Suez-116,Suez Canal,Suez-Med-Corridor,Industrial Machinery,7830000.00,Medium,At Sea,Kaohsiung,Panama City
+V00357,Suez-117,Suez Canal,Suez-Med-Corridor,Battery Cells,9247500.00,High,In Transit,Dubai,Suez
+V00358,Suez-118,Suez Canal,Suez-Med-Corridor,Containerized Retail Goods,4665000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00359,Suez-119,Suez Canal,Suez-Med-Corridor,LNG Equipment,11682500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00360,Suez-120,Suez Canal,Suez-Med-Corridor,Telecom Hardware,7400000.00,High,Scheduled,Hamburg,Manila
+V00361,Panama-001,Panama Canal,Panama-Pacific-Corridor,Semiconductor Wafers,8517500.00,Critical,At Sea,Los Angeles,Singapore
+V00362,Panama-002,Panama Canal,Panama-Pacific-Corridor,Crude Oil,24035000.00,Critical,In Transit,Houston,London
+V00363,Panama-003,Panama Canal,Panama-Pacific-Corridor,Consumer Electronics,6452500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00364,Panama-004,Panama Canal,Panama-Pacific-Corridor,Medical Supplies,3270000.00,High,Customs Hold,Busan,Shanghai
+V00365,Panama-005,Panama Canal,Panama-Pacific-Corridor,Automotive Components,4187500.00,High,Scheduled,Yokohama,Jebel Ali
+V00366,Panama-006,Panama Canal,Panama-Pacific-Corridor,Industrial Machinery,5905000.00,Medium,At Sea,Kaohsiung,Panama City
+V00367,Panama-007,Panama Canal,Panama-Pacific-Corridor,Battery Cells,7322500.00,High,In Transit,Dubai,Suez
+V00368,Panama-008,Panama Canal,Panama-Pacific-Corridor,Containerized Retail Goods,2740000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00369,Panama-009,Panama Canal,Panama-Pacific-Corridor,LNG Equipment,9757500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00370,Panama-010,Panama Canal,Panama-Pacific-Corridor,Telecom Hardware,5475000.00,High,Scheduled,Hamburg,Manila
+V00371,Panama-011,Panama Canal,Panama-Pacific-Corridor,Semiconductor Wafers,8692500.00,Critical,At Sea,Los Angeles,Singapore
+V00372,Panama-012,Panama Canal,Panama-Pacific-Corridor,Crude Oil,24210000.00,Critical,In Transit,Houston,London
+V00373,Panama-013,Panama Canal,Panama-Pacific-Corridor,Consumer Electronics,6627500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00374,Panama-014,Panama Canal,Panama-Pacific-Corridor,Medical Supplies,3445000.00,High,Customs Hold,Busan,Shanghai
+V00375,Panama-015,Panama Canal,Panama-Pacific-Corridor,Automotive Components,4362500.00,High,Scheduled,Yokohama,Jebel Ali
+V00376,Panama-016,Panama Canal,Panama-Pacific-Corridor,Industrial Machinery,6080000.00,Medium,At Sea,Kaohsiung,Panama City
+V00377,Panama-017,Panama Canal,Panama-Pacific-Corridor,Battery Cells,7497500.00,High,In Transit,Dubai,Suez
+V00378,Panama-018,Panama Canal,Panama-Pacific-Corridor,Containerized Retail Goods,2915000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00379,Panama-019,Panama Canal,Panama-Pacific-Corridor,LNG Equipment,9932500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00380,Panama-020,Panama Canal,Panama-Pacific-Corridor,Telecom Hardware,5650000.00,High,Scheduled,Hamburg,Manila
+V00381,Panama-021,Panama Canal,Panama-Pacific-Corridor,Semiconductor Wafers,8867500.00,Critical,At Sea,Los Angeles,Singapore
+V00382,Panama-022,Panama Canal,Panama-Pacific-Corridor,Crude Oil,24385000.00,Critical,In Transit,Houston,London
+V00383,Panama-023,Panama Canal,Panama-Pacific-Corridor,Consumer Electronics,6802500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00384,Panama-024,Panama Canal,Panama-Pacific-Corridor,Medical Supplies,3620000.00,High,Customs Hold,Busan,Shanghai
+V00385,Panama-025,Panama Canal,Panama-Pacific-Corridor,Automotive Components,4537500.00,High,Scheduled,Yokohama,Jebel Ali
+V00386,Panama-026,Panama Canal,Panama-Pacific-Corridor,Industrial Machinery,6255000.00,Medium,At Sea,Kaohsiung,Panama City
+V00387,Panama-027,Panama Canal,Panama-Pacific-Corridor,Battery Cells,7672500.00,High,In Transit,Dubai,Suez
+V00388,Panama-028,Panama Canal,Panama-Pacific-Corridor,Containerized Retail Goods,3090000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00389,Panama-029,Panama Canal,Panama-Pacific-Corridor,LNG Equipment,10107500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00390,Panama-030,Panama Canal,Panama-Pacific-Corridor,Telecom Hardware,5825000.00,High,Scheduled,Hamburg,Manila
+V00391,Panama-031,Panama Canal,Panama-Pacific-Corridor,Semiconductor Wafers,9042500.00,Critical,At Sea,Los Angeles,Singapore
+V00392,Panama-032,Panama Canal,Panama-Pacific-Corridor,Crude Oil,24560000.00,Critical,In Transit,Houston,London
+V00393,Panama-033,Panama Canal,Panama-Pacific-Corridor,Consumer Electronics,6977500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00394,Panama-034,Panama Canal,Panama-Pacific-Corridor,Medical Supplies,3795000.00,High,Customs Hold,Busan,Shanghai
+V00395,Panama-035,Panama Canal,Panama-Pacific-Corridor,Automotive Components,4712500.00,High,Scheduled,Yokohama,Jebel Ali
+V00396,Panama-036,Panama Canal,Panama-Pacific-Corridor,Industrial Machinery,6430000.00,Medium,At Sea,Kaohsiung,Panama City
+V00397,Panama-037,Panama Canal,Panama-Pacific-Corridor,Battery Cells,7847500.00,High,In Transit,Dubai,Suez
+V00398,Panama-038,Panama Canal,Panama-Pacific-Corridor,Containerized Retail Goods,3265000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00399,Panama-039,Panama Canal,Panama-Pacific-Corridor,LNG Equipment,10282500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00400,Panama-040,Panama Canal,Panama-Pacific-Corridor,Telecom Hardware,6000000.00,High,Scheduled,Hamburg,Manila
+V00401,Panama-041,Panama Canal,Panama-Pacific-Corridor,Semiconductor Wafers,9217500.00,Critical,At Sea,Los Angeles,Singapore
+V00402,Panama-042,Panama Canal,Panama-Pacific-Corridor,Crude Oil,24735000.00,Critical,In Transit,Houston,London
+V00403,Panama-043,Panama Canal,Panama-Pacific-Corridor,Consumer Electronics,7152500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00404,Panama-044,Panama Canal,Panama-Pacific-Corridor,Medical Supplies,3970000.00,High,Customs Hold,Busan,Shanghai
+V00405,Panama-045,Panama Canal,Panama-Pacific-Corridor,Automotive Components,4887500.00,High,Scheduled,Yokohama,Jebel Ali
+V00406,Panama-046,Panama Canal,Panama-Pacific-Corridor,Industrial Machinery,6605000.00,Medium,At Sea,Kaohsiung,Panama City
+V00407,Panama-047,Panama Canal,Panama-Pacific-Corridor,Battery Cells,8022500.00,High,In Transit,Dubai,Suez
+V00408,Panama-048,Panama Canal,Panama-Pacific-Corridor,Containerized Retail Goods,3440000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00409,Panama-049,Panama Canal,Panama-Pacific-Corridor,LNG Equipment,10457500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00410,Panama-050,Panama Canal,Panama-Pacific-Corridor,Telecom Hardware,6175000.00,High,Scheduled,Hamburg,Manila
+V00411,Panama-051,Panama Canal,Panama-Pacific-Corridor,Semiconductor Wafers,9392500.00,Critical,At Sea,Los Angeles,Singapore
+V00412,Panama-052,Panama Canal,Panama-Pacific-Corridor,Crude Oil,24910000.00,Critical,In Transit,Houston,London
+V00413,Panama-053,Panama Canal,Panama-Pacific-Corridor,Consumer Electronics,7327500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00414,Panama-054,Panama Canal,Panama-Pacific-Corridor,Medical Supplies,4145000.00,High,Customs Hold,Busan,Shanghai
+V00415,Panama-055,Panama Canal,Panama-Pacific-Corridor,Automotive Components,5062500.00,High,Scheduled,Yokohama,Jebel Ali
+V00416,Panama-056,Panama Canal,Panama-Pacific-Corridor,Industrial Machinery,6780000.00,Medium,At Sea,Kaohsiung,Panama City
+V00417,Panama-057,Panama Canal,Panama-Pacific-Corridor,Battery Cells,8197500.00,High,In Transit,Dubai,Suez
+V00418,Panama-058,Panama Canal,Panama-Pacific-Corridor,Containerized Retail Goods,3615000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00419,Panama-059,Panama Canal,Panama-Pacific-Corridor,LNG Equipment,10632500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00420,Panama-060,Panama Canal,Panama-Pacific-Corridor,Telecom Hardware,6350000.00,High,Scheduled,Hamburg,Manila
+V00421,Panama-061,Panama Canal,Panama-Pacific-Corridor,Semiconductor Wafers,9567500.00,Critical,At Sea,Los Angeles,Singapore
+V00422,Panama-062,Panama Canal,Panama-Pacific-Corridor,Crude Oil,25085000.00,Critical,In Transit,Houston,London
+V00423,Panama-063,Panama Canal,Panama-Pacific-Corridor,Consumer Electronics,7502500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00424,Panama-064,Panama Canal,Panama-Pacific-Corridor,Medical Supplies,4320000.00,High,Customs Hold,Busan,Shanghai
+V00425,Panama-065,Panama Canal,Panama-Pacific-Corridor,Automotive Components,5237500.00,High,Scheduled,Yokohama,Jebel Ali
+V00426,Panama-066,Panama Canal,Panama-Pacific-Corridor,Industrial Machinery,6955000.00,Medium,At Sea,Kaohsiung,Panama City
+V00427,Panama-067,Panama Canal,Panama-Pacific-Corridor,Battery Cells,8372500.00,High,In Transit,Dubai,Suez
+V00428,Panama-068,Panama Canal,Panama-Pacific-Corridor,Containerized Retail Goods,3790000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00429,Panama-069,Panama Canal,Panama-Pacific-Corridor,LNG Equipment,10807500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00430,Panama-070,Panama Canal,Panama-Pacific-Corridor,Telecom Hardware,6525000.00,High,Scheduled,Hamburg,Manila
+V00431,Panama-071,Panama Canal,Panama-Pacific-Corridor,Semiconductor Wafers,9742500.00,Critical,At Sea,Los Angeles,Singapore
+V00432,Panama-072,Panama Canal,Panama-Pacific-Corridor,Crude Oil,25260000.00,Critical,In Transit,Houston,London
+V00433,Panama-073,Panama Canal,Panama-Pacific-Corridor,Consumer Electronics,7677500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00434,Panama-074,Panama Canal,Panama-Pacific-Corridor,Medical Supplies,4495000.00,High,Customs Hold,Busan,Shanghai
+V00435,Panama-075,Panama Canal,Panama-Pacific-Corridor,Automotive Components,5412500.00,High,Scheduled,Yokohama,Jebel Ali
+V00436,Panama-076,Panama Canal,Panama-Pacific-Corridor,Industrial Machinery,7130000.00,Medium,At Sea,Kaohsiung,Panama City
+V00437,Panama-077,Panama Canal,Panama-Pacific-Corridor,Battery Cells,8547500.00,High,In Transit,Dubai,Suez
+V00438,Panama-078,Panama Canal,Panama-Pacific-Corridor,Containerized Retail Goods,3965000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00439,Panama-079,Panama Canal,Panama-Pacific-Corridor,LNG Equipment,10982500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00440,Panama-080,Panama Canal,Panama-Pacific-Corridor,Telecom Hardware,6700000.00,High,Scheduled,Hamburg,Manila
+V00441,Panama-081,Panama Canal,Panama-Pacific-Corridor,Semiconductor Wafers,9917500.00,Critical,At Sea,Los Angeles,Singapore
+V00442,Panama-082,Panama Canal,Panama-Pacific-Corridor,Crude Oil,25435000.00,Critical,In Transit,Houston,London
+V00443,Panama-083,Panama Canal,Panama-Pacific-Corridor,Consumer Electronics,7852500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00444,Panama-084,Panama Canal,Panama-Pacific-Corridor,Medical Supplies,4670000.00,High,Customs Hold,Busan,Shanghai
+V00445,Panama-085,Panama Canal,Panama-Pacific-Corridor,Automotive Components,5587500.00,High,Scheduled,Yokohama,Jebel Ali
+V00446,Panama-086,Panama Canal,Panama-Pacific-Corridor,Industrial Machinery,7305000.00,Medium,At Sea,Kaohsiung,Panama City
+V00447,Panama-087,Panama Canal,Panama-Pacific-Corridor,Battery Cells,8722500.00,High,In Transit,Dubai,Suez
+V00448,Panama-088,Panama Canal,Panama-Pacific-Corridor,Containerized Retail Goods,4140000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00449,Panama-089,Panama Canal,Panama-Pacific-Corridor,LNG Equipment,11157500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00450,Panama-090,Panama Canal,Panama-Pacific-Corridor,Telecom Hardware,6875000.00,High,Scheduled,Hamburg,Manila
+V00451,Panama-091,Panama Canal,Panama-Pacific-Corridor,Semiconductor Wafers,10092500.00,Critical,At Sea,Los Angeles,Singapore
+V00452,Panama-092,Panama Canal,Panama-Pacific-Corridor,Crude Oil,25610000.00,Critical,In Transit,Houston,London
+V00453,Panama-093,Panama Canal,Panama-Pacific-Corridor,Consumer Electronics,8027500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00454,Panama-094,Panama Canal,Panama-Pacific-Corridor,Medical Supplies,4845000.00,High,Customs Hold,Busan,Shanghai
+V00455,Panama-095,Panama Canal,Panama-Pacific-Corridor,Automotive Components,5762500.00,High,Scheduled,Yokohama,Jebel Ali
+V00456,Panama-096,Panama Canal,Panama-Pacific-Corridor,Industrial Machinery,7480000.00,Medium,At Sea,Kaohsiung,Panama City
+V00457,Panama-097,Panama Canal,Panama-Pacific-Corridor,Battery Cells,8897500.00,High,In Transit,Dubai,Suez
+V00458,Panama-098,Panama Canal,Panama-Pacific-Corridor,Containerized Retail Goods,4315000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00459,Panama-099,Panama Canal,Panama-Pacific-Corridor,LNG Equipment,11332500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00460,Panama-100,Panama Canal,Panama-Pacific-Corridor,Telecom Hardware,7050000.00,High,Scheduled,Hamburg,Manila
+V00461,Panama-101,Panama Canal,Panama-Pacific-Corridor,Semiconductor Wafers,10267500.00,Critical,At Sea,Los Angeles,Singapore
+V00462,Panama-102,Panama Canal,Panama-Pacific-Corridor,Crude Oil,25785000.00,Critical,In Transit,Houston,London
+V00463,Panama-103,Panama Canal,Panama-Pacific-Corridor,Consumer Electronics,8202500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00464,Panama-104,Panama Canal,Panama-Pacific-Corridor,Medical Supplies,5020000.00,High,Customs Hold,Busan,Shanghai
+V00465,Panama-105,Panama Canal,Panama-Pacific-Corridor,Automotive Components,5937500.00,High,Scheduled,Yokohama,Jebel Ali
+V00466,Panama-106,Panama Canal,Panama-Pacific-Corridor,Industrial Machinery,7655000.00,Medium,At Sea,Kaohsiung,Panama City
+V00467,Panama-107,Panama Canal,Panama-Pacific-Corridor,Battery Cells,9072500.00,High,In Transit,Dubai,Suez
+V00468,Panama-108,Panama Canal,Panama-Pacific-Corridor,Containerized Retail Goods,4490000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00469,Panama-109,Panama Canal,Panama-Pacific-Corridor,LNG Equipment,11507500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00470,Panama-110,Panama Canal,Panama-Pacific-Corridor,Telecom Hardware,7225000.00,High,Scheduled,Hamburg,Manila
+V00471,Panama-111,Panama Canal,Panama-Pacific-Corridor,Semiconductor Wafers,10442500.00,Critical,At Sea,Los Angeles,Singapore
+V00472,Panama-112,Panama Canal,Panama-Pacific-Corridor,Crude Oil,25960000.00,Critical,In Transit,Houston,London
+V00473,Panama-113,Panama Canal,Panama-Pacific-Corridor,Consumer Electronics,8377500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00474,Panama-114,Panama Canal,Panama-Pacific-Corridor,Medical Supplies,5195000.00,High,Customs Hold,Busan,Shanghai
+V00475,Panama-115,Panama Canal,Panama-Pacific-Corridor,Automotive Components,6112500.00,High,Scheduled,Yokohama,Jebel Ali
+V00476,Panama-116,Panama Canal,Panama-Pacific-Corridor,Industrial Machinery,7830000.00,Medium,At Sea,Kaohsiung,Panama City
+V00477,Panama-117,Panama Canal,Panama-Pacific-Corridor,Battery Cells,9247500.00,High,In Transit,Dubai,Suez
+V00478,Panama-118,Panama Canal,Panama-Pacific-Corridor,Containerized Retail Goods,4665000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00479,Panama-119,Panama Canal,Panama-Pacific-Corridor,LNG Equipment,11682500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00480,Panama-120,Panama Canal,Panama-Pacific-Corridor,Telecom Hardware,7400000.00,High,Scheduled,Hamburg,Manila
+V00481,Taiwan-001,Taiwan Strait,Taiwan-Asia-Tech-Lane,Semiconductor Wafers,8517500.00,Critical,At Sea,Los Angeles,Singapore
+V00482,Taiwan-002,Taiwan Strait,Taiwan-Asia-Tech-Lane,Crude Oil,24035000.00,Critical,In Transit,Houston,London
+V00483,Taiwan-003,Taiwan Strait,Taiwan-Asia-Tech-Lane,Consumer Electronics,6452500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00484,Taiwan-004,Taiwan Strait,Taiwan-Asia-Tech-Lane,Medical Supplies,3270000.00,High,Customs Hold,Busan,Shanghai
+V00485,Taiwan-005,Taiwan Strait,Taiwan-Asia-Tech-Lane,Automotive Components,4187500.00,High,Scheduled,Yokohama,Jebel Ali
+V00486,Taiwan-006,Taiwan Strait,Taiwan-Asia-Tech-Lane,Industrial Machinery,5905000.00,Medium,At Sea,Kaohsiung,Panama City
+V00487,Taiwan-007,Taiwan Strait,Taiwan-Asia-Tech-Lane,Battery Cells,7322500.00,High,In Transit,Dubai,Suez
+V00488,Taiwan-008,Taiwan Strait,Taiwan-Asia-Tech-Lane,Containerized Retail Goods,2740000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00489,Taiwan-009,Taiwan Strait,Taiwan-Asia-Tech-Lane,LNG Equipment,9757500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00490,Taiwan-010,Taiwan Strait,Taiwan-Asia-Tech-Lane,Telecom Hardware,5475000.00,High,Scheduled,Hamburg,Manila
+V00491,Taiwan-011,Taiwan Strait,Taiwan-Asia-Tech-Lane,Semiconductor Wafers,8692500.00,Critical,At Sea,Los Angeles,Singapore
+V00492,Taiwan-012,Taiwan Strait,Taiwan-Asia-Tech-Lane,Crude Oil,24210000.00,Critical,In Transit,Houston,London
+V00493,Taiwan-013,Taiwan Strait,Taiwan-Asia-Tech-Lane,Consumer Electronics,6627500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00494,Taiwan-014,Taiwan Strait,Taiwan-Asia-Tech-Lane,Medical Supplies,3445000.00,High,Customs Hold,Busan,Shanghai
+V00495,Taiwan-015,Taiwan Strait,Taiwan-Asia-Tech-Lane,Automotive Components,4362500.00,High,Scheduled,Yokohama,Jebel Ali
+V00496,Taiwan-016,Taiwan Strait,Taiwan-Asia-Tech-Lane,Industrial Machinery,6080000.00,Medium,At Sea,Kaohsiung,Panama City
+V00497,Taiwan-017,Taiwan Strait,Taiwan-Asia-Tech-Lane,Battery Cells,7497500.00,High,In Transit,Dubai,Suez
+V00498,Taiwan-018,Taiwan Strait,Taiwan-Asia-Tech-Lane,Containerized Retail Goods,2915000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00499,Taiwan-019,Taiwan Strait,Taiwan-Asia-Tech-Lane,LNG Equipment,9932500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00500,Taiwan-020,Taiwan Strait,Taiwan-Asia-Tech-Lane,Telecom Hardware,5650000.00,High,Scheduled,Hamburg,Manila
+V00501,Taiwan-021,Taiwan Strait,Taiwan-Asia-Tech-Lane,Semiconductor Wafers,8867500.00,Critical,At Sea,Los Angeles,Singapore
+V00502,Taiwan-022,Taiwan Strait,Taiwan-Asia-Tech-Lane,Crude Oil,24385000.00,Critical,In Transit,Houston,London
+V00503,Taiwan-023,Taiwan Strait,Taiwan-Asia-Tech-Lane,Consumer Electronics,6802500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00504,Taiwan-024,Taiwan Strait,Taiwan-Asia-Tech-Lane,Medical Supplies,3620000.00,High,Customs Hold,Busan,Shanghai
+V00505,Taiwan-025,Taiwan Strait,Taiwan-Asia-Tech-Lane,Automotive Components,4537500.00,High,Scheduled,Yokohama,Jebel Ali
+V00506,Taiwan-026,Taiwan Strait,Taiwan-Asia-Tech-Lane,Industrial Machinery,6255000.00,Medium,At Sea,Kaohsiung,Panama City
+V00507,Taiwan-027,Taiwan Strait,Taiwan-Asia-Tech-Lane,Battery Cells,7672500.00,High,In Transit,Dubai,Suez
+V00508,Taiwan-028,Taiwan Strait,Taiwan-Asia-Tech-Lane,Containerized Retail Goods,3090000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00509,Taiwan-029,Taiwan Strait,Taiwan-Asia-Tech-Lane,LNG Equipment,10107500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00510,Taiwan-030,Taiwan Strait,Taiwan-Asia-Tech-Lane,Telecom Hardware,5825000.00,High,Scheduled,Hamburg,Manila
+V00511,Taiwan-031,Taiwan Strait,Taiwan-Asia-Tech-Lane,Semiconductor Wafers,9042500.00,Critical,At Sea,Los Angeles,Singapore
+V00512,Taiwan-032,Taiwan Strait,Taiwan-Asia-Tech-Lane,Crude Oil,24560000.00,Critical,In Transit,Houston,London
+V00513,Taiwan-033,Taiwan Strait,Taiwan-Asia-Tech-Lane,Consumer Electronics,6977500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00514,Taiwan-034,Taiwan Strait,Taiwan-Asia-Tech-Lane,Medical Supplies,3795000.00,High,Customs Hold,Busan,Shanghai
+V00515,Taiwan-035,Taiwan Strait,Taiwan-Asia-Tech-Lane,Automotive Components,4712500.00,High,Scheduled,Yokohama,Jebel Ali
+V00516,Taiwan-036,Taiwan Strait,Taiwan-Asia-Tech-Lane,Industrial Machinery,6430000.00,Medium,At Sea,Kaohsiung,Panama City
+V00517,Taiwan-037,Taiwan Strait,Taiwan-Asia-Tech-Lane,Battery Cells,7847500.00,High,In Transit,Dubai,Suez
+V00518,Taiwan-038,Taiwan Strait,Taiwan-Asia-Tech-Lane,Containerized Retail Goods,3265000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00519,Taiwan-039,Taiwan Strait,Taiwan-Asia-Tech-Lane,LNG Equipment,10282500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00520,Taiwan-040,Taiwan Strait,Taiwan-Asia-Tech-Lane,Telecom Hardware,6000000.00,High,Scheduled,Hamburg,Manila
+V00521,Taiwan-041,Taiwan Strait,Taiwan-Asia-Tech-Lane,Semiconductor Wafers,9217500.00,Critical,At Sea,Los Angeles,Singapore
+V00522,Taiwan-042,Taiwan Strait,Taiwan-Asia-Tech-Lane,Crude Oil,24735000.00,Critical,In Transit,Houston,London
+V00523,Taiwan-043,Taiwan Strait,Taiwan-Asia-Tech-Lane,Consumer Electronics,7152500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00524,Taiwan-044,Taiwan Strait,Taiwan-Asia-Tech-Lane,Medical Supplies,3970000.00,High,Customs Hold,Busan,Shanghai
+V00525,Taiwan-045,Taiwan Strait,Taiwan-Asia-Tech-Lane,Automotive Components,4887500.00,High,Scheduled,Yokohama,Jebel Ali
+V00526,Taiwan-046,Taiwan Strait,Taiwan-Asia-Tech-Lane,Industrial Machinery,6605000.00,Medium,At Sea,Kaohsiung,Panama City
+V00527,Taiwan-047,Taiwan Strait,Taiwan-Asia-Tech-Lane,Battery Cells,8022500.00,High,In Transit,Dubai,Suez
+V00528,Taiwan-048,Taiwan Strait,Taiwan-Asia-Tech-Lane,Containerized Retail Goods,3440000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00529,Taiwan-049,Taiwan Strait,Taiwan-Asia-Tech-Lane,LNG Equipment,10457500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00530,Taiwan-050,Taiwan Strait,Taiwan-Asia-Tech-Lane,Telecom Hardware,6175000.00,High,Scheduled,Hamburg,Manila
+V00531,Taiwan-051,Taiwan Strait,Taiwan-Asia-Tech-Lane,Semiconductor Wafers,9392500.00,Critical,At Sea,Los Angeles,Singapore
+V00532,Taiwan-052,Taiwan Strait,Taiwan-Asia-Tech-Lane,Crude Oil,24910000.00,Critical,In Transit,Houston,London
+V00533,Taiwan-053,Taiwan Strait,Taiwan-Asia-Tech-Lane,Consumer Electronics,7327500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00534,Taiwan-054,Taiwan Strait,Taiwan-Asia-Tech-Lane,Medical Supplies,4145000.00,High,Customs Hold,Busan,Shanghai
+V00535,Taiwan-055,Taiwan Strait,Taiwan-Asia-Tech-Lane,Automotive Components,5062500.00,High,Scheduled,Yokohama,Jebel Ali
+V00536,Taiwan-056,Taiwan Strait,Taiwan-Asia-Tech-Lane,Industrial Machinery,6780000.00,Medium,At Sea,Kaohsiung,Panama City
+V00537,Taiwan-057,Taiwan Strait,Taiwan-Asia-Tech-Lane,Battery Cells,8197500.00,High,In Transit,Dubai,Suez
+V00538,Taiwan-058,Taiwan Strait,Taiwan-Asia-Tech-Lane,Containerized Retail Goods,3615000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00539,Taiwan-059,Taiwan Strait,Taiwan-Asia-Tech-Lane,LNG Equipment,10632500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00540,Taiwan-060,Taiwan Strait,Taiwan-Asia-Tech-Lane,Telecom Hardware,6350000.00,High,Scheduled,Hamburg,Manila
+V00541,Taiwan-061,Taiwan Strait,Taiwan-Asia-Tech-Lane,Semiconductor Wafers,9567500.00,Critical,At Sea,Los Angeles,Singapore
+V00542,Taiwan-062,Taiwan Strait,Taiwan-Asia-Tech-Lane,Crude Oil,25085000.00,Critical,In Transit,Houston,London
+V00543,Taiwan-063,Taiwan Strait,Taiwan-Asia-Tech-Lane,Consumer Electronics,7502500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00544,Taiwan-064,Taiwan Strait,Taiwan-Asia-Tech-Lane,Medical Supplies,4320000.00,High,Customs Hold,Busan,Shanghai
+V00545,Taiwan-065,Taiwan Strait,Taiwan-Asia-Tech-Lane,Automotive Components,5237500.00,High,Scheduled,Yokohama,Jebel Ali
+V00546,Taiwan-066,Taiwan Strait,Taiwan-Asia-Tech-Lane,Industrial Machinery,6955000.00,Medium,At Sea,Kaohsiung,Panama City
+V00547,Taiwan-067,Taiwan Strait,Taiwan-Asia-Tech-Lane,Battery Cells,8372500.00,High,In Transit,Dubai,Suez
+V00548,Taiwan-068,Taiwan Strait,Taiwan-Asia-Tech-Lane,Containerized Retail Goods,3790000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00549,Taiwan-069,Taiwan Strait,Taiwan-Asia-Tech-Lane,LNG Equipment,10807500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00550,Taiwan-070,Taiwan Strait,Taiwan-Asia-Tech-Lane,Telecom Hardware,6525000.00,High,Scheduled,Hamburg,Manila
+V00551,Taiwan-071,Taiwan Strait,Taiwan-Asia-Tech-Lane,Semiconductor Wafers,9742500.00,Critical,At Sea,Los Angeles,Singapore
+V00552,Taiwan-072,Taiwan Strait,Taiwan-Asia-Tech-Lane,Crude Oil,25260000.00,Critical,In Transit,Houston,London
+V00553,Taiwan-073,Taiwan Strait,Taiwan-Asia-Tech-Lane,Consumer Electronics,7677500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00554,Taiwan-074,Taiwan Strait,Taiwan-Asia-Tech-Lane,Medical Supplies,4495000.00,High,Customs Hold,Busan,Shanghai
+V00555,Taiwan-075,Taiwan Strait,Taiwan-Asia-Tech-Lane,Automotive Components,5412500.00,High,Scheduled,Yokohama,Jebel Ali
+V00556,Taiwan-076,Taiwan Strait,Taiwan-Asia-Tech-Lane,Industrial Machinery,7130000.00,Medium,At Sea,Kaohsiung,Panama City
+V00557,Taiwan-077,Taiwan Strait,Taiwan-Asia-Tech-Lane,Battery Cells,8547500.00,High,In Transit,Dubai,Suez
+V00558,Taiwan-078,Taiwan Strait,Taiwan-Asia-Tech-Lane,Containerized Retail Goods,3965000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00559,Taiwan-079,Taiwan Strait,Taiwan-Asia-Tech-Lane,LNG Equipment,10982500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00560,Taiwan-080,Taiwan Strait,Taiwan-Asia-Tech-Lane,Telecom Hardware,6700000.00,High,Scheduled,Hamburg,Manila
+V00561,Taiwan-081,Taiwan Strait,Taiwan-Asia-Tech-Lane,Semiconductor Wafers,9917500.00,Critical,At Sea,Los Angeles,Singapore
+V00562,Taiwan-082,Taiwan Strait,Taiwan-Asia-Tech-Lane,Crude Oil,25435000.00,Critical,In Transit,Houston,London
+V00563,Taiwan-083,Taiwan Strait,Taiwan-Asia-Tech-Lane,Consumer Electronics,7852500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00564,Taiwan-084,Taiwan Strait,Taiwan-Asia-Tech-Lane,Medical Supplies,4670000.00,High,Customs Hold,Busan,Shanghai
+V00565,Taiwan-085,Taiwan Strait,Taiwan-Asia-Tech-Lane,Automotive Components,5587500.00,High,Scheduled,Yokohama,Jebel Ali
+V00566,Taiwan-086,Taiwan Strait,Taiwan-Asia-Tech-Lane,Industrial Machinery,7305000.00,Medium,At Sea,Kaohsiung,Panama City
+V00567,Taiwan-087,Taiwan Strait,Taiwan-Asia-Tech-Lane,Battery Cells,8722500.00,High,In Transit,Dubai,Suez
+V00568,Taiwan-088,Taiwan Strait,Taiwan-Asia-Tech-Lane,Containerized Retail Goods,4140000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00569,Taiwan-089,Taiwan Strait,Taiwan-Asia-Tech-Lane,LNG Equipment,11157500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00570,Taiwan-090,Taiwan Strait,Taiwan-Asia-Tech-Lane,Telecom Hardware,6875000.00,High,Scheduled,Hamburg,Manila
+V00571,Taiwan-091,Taiwan Strait,Taiwan-Asia-Tech-Lane,Semiconductor Wafers,10092500.00,Critical,At Sea,Los Angeles,Singapore
+V00572,Taiwan-092,Taiwan Strait,Taiwan-Asia-Tech-Lane,Crude Oil,25610000.00,Critical,In Transit,Houston,London
+V00573,Taiwan-093,Taiwan Strait,Taiwan-Asia-Tech-Lane,Consumer Electronics,8027500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00574,Taiwan-094,Taiwan Strait,Taiwan-Asia-Tech-Lane,Medical Supplies,4845000.00,High,Customs Hold,Busan,Shanghai
+V00575,Taiwan-095,Taiwan Strait,Taiwan-Asia-Tech-Lane,Automotive Components,5762500.00,High,Scheduled,Yokohama,Jebel Ali
+V00576,Taiwan-096,Taiwan Strait,Taiwan-Asia-Tech-Lane,Industrial Machinery,7480000.00,Medium,At Sea,Kaohsiung,Panama City
+V00577,Taiwan-097,Taiwan Strait,Taiwan-Asia-Tech-Lane,Battery Cells,8897500.00,High,In Transit,Dubai,Suez
+V00578,Taiwan-098,Taiwan Strait,Taiwan-Asia-Tech-Lane,Containerized Retail Goods,4315000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00579,Taiwan-099,Taiwan Strait,Taiwan-Asia-Tech-Lane,LNG Equipment,11332500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00580,Taiwan-100,Taiwan Strait,Taiwan-Asia-Tech-Lane,Telecom Hardware,7050000.00,High,Scheduled,Hamburg,Manila
+V00581,Taiwan-101,Taiwan Strait,Taiwan-Asia-Tech-Lane,Semiconductor Wafers,10267500.00,Critical,At Sea,Los Angeles,Singapore
+V00582,Taiwan-102,Taiwan Strait,Taiwan-Asia-Tech-Lane,Crude Oil,25785000.00,Critical,In Transit,Houston,London
+V00583,Taiwan-103,Taiwan Strait,Taiwan-Asia-Tech-Lane,Consumer Electronics,8202500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00584,Taiwan-104,Taiwan Strait,Taiwan-Asia-Tech-Lane,Medical Supplies,5020000.00,High,Customs Hold,Busan,Shanghai
+V00585,Taiwan-105,Taiwan Strait,Taiwan-Asia-Tech-Lane,Automotive Components,5937500.00,High,Scheduled,Yokohama,Jebel Ali
+V00586,Taiwan-106,Taiwan Strait,Taiwan-Asia-Tech-Lane,Industrial Machinery,7655000.00,Medium,At Sea,Kaohsiung,Panama City
+V00587,Taiwan-107,Taiwan Strait,Taiwan-Asia-Tech-Lane,Battery Cells,9072500.00,High,In Transit,Dubai,Suez
+V00588,Taiwan-108,Taiwan Strait,Taiwan-Asia-Tech-Lane,Containerized Retail Goods,4490000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00589,Taiwan-109,Taiwan Strait,Taiwan-Asia-Tech-Lane,LNG Equipment,11507500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00590,Taiwan-110,Taiwan Strait,Taiwan-Asia-Tech-Lane,Telecom Hardware,7225000.00,High,Scheduled,Hamburg,Manila
+V00591,Taiwan-111,Taiwan Strait,Taiwan-Asia-Tech-Lane,Semiconductor Wafers,10442500.00,Critical,At Sea,Los Angeles,Singapore
+V00592,Taiwan-112,Taiwan Strait,Taiwan-Asia-Tech-Lane,Crude Oil,25960000.00,Critical,In Transit,Houston,London
+V00593,Taiwan-113,Taiwan Strait,Taiwan-Asia-Tech-Lane,Consumer Electronics,8377500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00594,Taiwan-114,Taiwan Strait,Taiwan-Asia-Tech-Lane,Medical Supplies,5195000.00,High,Customs Hold,Busan,Shanghai
+V00595,Taiwan-115,Taiwan Strait,Taiwan-Asia-Tech-Lane,Automotive Components,6112500.00,High,Scheduled,Yokohama,Jebel Ali
+V00596,Taiwan-116,Taiwan Strait,Taiwan-Asia-Tech-Lane,Industrial Machinery,7830000.00,Medium,At Sea,Kaohsiung,Panama City
+V00597,Taiwan-117,Taiwan Strait,Taiwan-Asia-Tech-Lane,Battery Cells,9247500.00,High,In Transit,Dubai,Suez
+V00598,Taiwan-118,Taiwan Strait,Taiwan-Asia-Tech-Lane,Containerized Retail Goods,4665000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00599,Taiwan-119,Taiwan Strait,Taiwan-Asia-Tech-Lane,LNG Equipment,11682500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00600,Taiwan-120,Taiwan Strait,Taiwan-Asia-Tech-Lane,Telecom Hardware,7400000.00,High,Scheduled,Hamburg,Manila
+V00601,South-001,South China Sea,South-China-Trade-Lane,Semiconductor Wafers,8517500.00,Critical,At Sea,Los Angeles,Singapore
+V00602,South-002,South China Sea,South-China-Trade-Lane,Crude Oil,24035000.00,Critical,In Transit,Houston,London
+V00603,South-003,South China Sea,South-China-Trade-Lane,Consumer Electronics,6452500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00604,South-004,South China Sea,South-China-Trade-Lane,Medical Supplies,3270000.00,High,Customs Hold,Busan,Shanghai
+V00605,South-005,South China Sea,South-China-Trade-Lane,Automotive Components,4187500.00,High,Scheduled,Yokohama,Jebel Ali
+V00606,South-006,South China Sea,South-China-Trade-Lane,Industrial Machinery,5905000.00,Medium,At Sea,Kaohsiung,Panama City
+V00607,South-007,South China Sea,South-China-Trade-Lane,Battery Cells,7322500.00,High,In Transit,Dubai,Suez
+V00608,South-008,South China Sea,South-China-Trade-Lane,Containerized Retail Goods,2740000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00609,South-009,South China Sea,South-China-Trade-Lane,LNG Equipment,9757500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00610,South-010,South China Sea,South-China-Trade-Lane,Telecom Hardware,5475000.00,High,Scheduled,Hamburg,Manila
+V00611,South-011,South China Sea,South-China-Trade-Lane,Semiconductor Wafers,8692500.00,Critical,At Sea,Los Angeles,Singapore
+V00612,South-012,South China Sea,South-China-Trade-Lane,Crude Oil,24210000.00,Critical,In Transit,Houston,London
+V00613,South-013,South China Sea,South-China-Trade-Lane,Consumer Electronics,6627500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00614,South-014,South China Sea,South-China-Trade-Lane,Medical Supplies,3445000.00,High,Customs Hold,Busan,Shanghai
+V00615,South-015,South China Sea,South-China-Trade-Lane,Automotive Components,4362500.00,High,Scheduled,Yokohama,Jebel Ali
+V00616,South-016,South China Sea,South-China-Trade-Lane,Industrial Machinery,6080000.00,Medium,At Sea,Kaohsiung,Panama City
+V00617,South-017,South China Sea,South-China-Trade-Lane,Battery Cells,7497500.00,High,In Transit,Dubai,Suez
+V00618,South-018,South China Sea,South-China-Trade-Lane,Containerized Retail Goods,2915000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00619,South-019,South China Sea,South-China-Trade-Lane,LNG Equipment,9932500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00620,South-020,South China Sea,South-China-Trade-Lane,Telecom Hardware,5650000.00,High,Scheduled,Hamburg,Manila
+V00621,South-021,South China Sea,South-China-Trade-Lane,Semiconductor Wafers,8867500.00,Critical,At Sea,Los Angeles,Singapore
+V00622,South-022,South China Sea,South-China-Trade-Lane,Crude Oil,24385000.00,Critical,In Transit,Houston,London
+V00623,South-023,South China Sea,South-China-Trade-Lane,Consumer Electronics,6802500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00624,South-024,South China Sea,South-China-Trade-Lane,Medical Supplies,3620000.00,High,Customs Hold,Busan,Shanghai
+V00625,South-025,South China Sea,South-China-Trade-Lane,Automotive Components,4537500.00,High,Scheduled,Yokohama,Jebel Ali
+V00626,South-026,South China Sea,South-China-Trade-Lane,Industrial Machinery,6255000.00,Medium,At Sea,Kaohsiung,Panama City
+V00627,South-027,South China Sea,South-China-Trade-Lane,Battery Cells,7672500.00,High,In Transit,Dubai,Suez
+V00628,South-028,South China Sea,South-China-Trade-Lane,Containerized Retail Goods,3090000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00629,South-029,South China Sea,South-China-Trade-Lane,LNG Equipment,10107500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00630,South-030,South China Sea,South-China-Trade-Lane,Telecom Hardware,5825000.00,High,Scheduled,Hamburg,Manila
+V00631,South-031,South China Sea,South-China-Trade-Lane,Semiconductor Wafers,9042500.00,Critical,At Sea,Los Angeles,Singapore
+V00632,South-032,South China Sea,South-China-Trade-Lane,Crude Oil,24560000.00,Critical,In Transit,Houston,London
+V00633,South-033,South China Sea,South-China-Trade-Lane,Consumer Electronics,6977500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00634,South-034,South China Sea,South-China-Trade-Lane,Medical Supplies,3795000.00,High,Customs Hold,Busan,Shanghai
+V00635,South-035,South China Sea,South-China-Trade-Lane,Automotive Components,4712500.00,High,Scheduled,Yokohama,Jebel Ali
+V00636,South-036,South China Sea,South-China-Trade-Lane,Industrial Machinery,6430000.00,Medium,At Sea,Kaohsiung,Panama City
+V00637,South-037,South China Sea,South-China-Trade-Lane,Battery Cells,7847500.00,High,In Transit,Dubai,Suez
+V00638,South-038,South China Sea,South-China-Trade-Lane,Containerized Retail Goods,3265000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00639,South-039,South China Sea,South-China-Trade-Lane,LNG Equipment,10282500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00640,South-040,South China Sea,South-China-Trade-Lane,Telecom Hardware,6000000.00,High,Scheduled,Hamburg,Manila
+V00641,South-041,South China Sea,South-China-Trade-Lane,Semiconductor Wafers,9217500.00,Critical,At Sea,Los Angeles,Singapore
+V00642,South-042,South China Sea,South-China-Trade-Lane,Crude Oil,24735000.00,Critical,In Transit,Houston,London
+V00643,South-043,South China Sea,South-China-Trade-Lane,Consumer Electronics,7152500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00644,South-044,South China Sea,South-China-Trade-Lane,Medical Supplies,3970000.00,High,Customs Hold,Busan,Shanghai
+V00645,South-045,South China Sea,South-China-Trade-Lane,Automotive Components,4887500.00,High,Scheduled,Yokohama,Jebel Ali
+V00646,South-046,South China Sea,South-China-Trade-Lane,Industrial Machinery,6605000.00,Medium,At Sea,Kaohsiung,Panama City
+V00647,South-047,South China Sea,South-China-Trade-Lane,Battery Cells,8022500.00,High,In Transit,Dubai,Suez
+V00648,South-048,South China Sea,South-China-Trade-Lane,Containerized Retail Goods,3440000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00649,South-049,South China Sea,South-China-Trade-Lane,LNG Equipment,10457500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00650,South-050,South China Sea,South-China-Trade-Lane,Telecom Hardware,6175000.00,High,Scheduled,Hamburg,Manila
+V00651,South-051,South China Sea,South-China-Trade-Lane,Semiconductor Wafers,9392500.00,Critical,At Sea,Los Angeles,Singapore
+V00652,South-052,South China Sea,South-China-Trade-Lane,Crude Oil,24910000.00,Critical,In Transit,Houston,London
+V00653,South-053,South China Sea,South-China-Trade-Lane,Consumer Electronics,7327500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00654,South-054,South China Sea,South-China-Trade-Lane,Medical Supplies,4145000.00,High,Customs Hold,Busan,Shanghai
+V00655,South-055,South China Sea,South-China-Trade-Lane,Automotive Components,5062500.00,High,Scheduled,Yokohama,Jebel Ali
+V00656,South-056,South China Sea,South-China-Trade-Lane,Industrial Machinery,6780000.00,Medium,At Sea,Kaohsiung,Panama City
+V00657,South-057,South China Sea,South-China-Trade-Lane,Battery Cells,8197500.00,High,In Transit,Dubai,Suez
+V00658,South-058,South China Sea,South-China-Trade-Lane,Containerized Retail Goods,3615000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00659,South-059,South China Sea,South-China-Trade-Lane,LNG Equipment,10632500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00660,South-060,South China Sea,South-China-Trade-Lane,Telecom Hardware,6350000.00,High,Scheduled,Hamburg,Manila
+V00661,South-061,South China Sea,South-China-Trade-Lane,Semiconductor Wafers,9567500.00,Critical,At Sea,Los Angeles,Singapore
+V00662,South-062,South China Sea,South-China-Trade-Lane,Crude Oil,25085000.00,Critical,In Transit,Houston,London
+V00663,South-063,South China Sea,South-China-Trade-Lane,Consumer Electronics,7502500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00664,South-064,South China Sea,South-China-Trade-Lane,Medical Supplies,4320000.00,High,Customs Hold,Busan,Shanghai
+V00665,South-065,South China Sea,South-China-Trade-Lane,Automotive Components,5237500.00,High,Scheduled,Yokohama,Jebel Ali
+V00666,South-066,South China Sea,South-China-Trade-Lane,Industrial Machinery,6955000.00,Medium,At Sea,Kaohsiung,Panama City
+V00667,South-067,South China Sea,South-China-Trade-Lane,Battery Cells,8372500.00,High,In Transit,Dubai,Suez
+V00668,South-068,South China Sea,South-China-Trade-Lane,Containerized Retail Goods,3790000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00669,South-069,South China Sea,South-China-Trade-Lane,LNG Equipment,10807500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00670,South-070,South China Sea,South-China-Trade-Lane,Telecom Hardware,6525000.00,High,Scheduled,Hamburg,Manila
+V00671,South-071,South China Sea,South-China-Trade-Lane,Semiconductor Wafers,9742500.00,Critical,At Sea,Los Angeles,Singapore
+V00672,South-072,South China Sea,South-China-Trade-Lane,Crude Oil,25260000.00,Critical,In Transit,Houston,London
+V00673,South-073,South China Sea,South-China-Trade-Lane,Consumer Electronics,7677500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00674,South-074,South China Sea,South-China-Trade-Lane,Medical Supplies,4495000.00,High,Customs Hold,Busan,Shanghai
+V00675,South-075,South China Sea,South-China-Trade-Lane,Automotive Components,5412500.00,High,Scheduled,Yokohama,Jebel Ali
+V00676,South-076,South China Sea,South-China-Trade-Lane,Industrial Machinery,7130000.00,Medium,At Sea,Kaohsiung,Panama City
+V00677,South-077,South China Sea,South-China-Trade-Lane,Battery Cells,8547500.00,High,In Transit,Dubai,Suez
+V00678,South-078,South China Sea,South-China-Trade-Lane,Containerized Retail Goods,3965000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00679,South-079,South China Sea,South-China-Trade-Lane,LNG Equipment,10982500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00680,South-080,South China Sea,South-China-Trade-Lane,Telecom Hardware,6700000.00,High,Scheduled,Hamburg,Manila
+V00681,South-081,South China Sea,South-China-Trade-Lane,Semiconductor Wafers,9917500.00,Critical,At Sea,Los Angeles,Singapore
+V00682,South-082,South China Sea,South-China-Trade-Lane,Crude Oil,25435000.00,Critical,In Transit,Houston,London
+V00683,South-083,South China Sea,South-China-Trade-Lane,Consumer Electronics,7852500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00684,South-084,South China Sea,South-China-Trade-Lane,Medical Supplies,4670000.00,High,Customs Hold,Busan,Shanghai
+V00685,South-085,South China Sea,South-China-Trade-Lane,Automotive Components,5587500.00,High,Scheduled,Yokohama,Jebel Ali
+V00686,South-086,South China Sea,South-China-Trade-Lane,Industrial Machinery,7305000.00,Medium,At Sea,Kaohsiung,Panama City
+V00687,South-087,South China Sea,South-China-Trade-Lane,Battery Cells,8722500.00,High,In Transit,Dubai,Suez
+V00688,South-088,South China Sea,South-China-Trade-Lane,Containerized Retail Goods,4140000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00689,South-089,South China Sea,South-China-Trade-Lane,LNG Equipment,11157500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00690,South-090,South China Sea,South-China-Trade-Lane,Telecom Hardware,6875000.00,High,Scheduled,Hamburg,Manila
+V00691,South-091,South China Sea,South-China-Trade-Lane,Semiconductor Wafers,10092500.00,Critical,At Sea,Los Angeles,Singapore
+V00692,South-092,South China Sea,South-China-Trade-Lane,Crude Oil,25610000.00,Critical,In Transit,Houston,London
+V00693,South-093,South China Sea,South-China-Trade-Lane,Consumer Electronics,8027500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00694,South-094,South China Sea,South-China-Trade-Lane,Medical Supplies,4845000.00,High,Customs Hold,Busan,Shanghai
+V00695,South-095,South China Sea,South-China-Trade-Lane,Automotive Components,5762500.00,High,Scheduled,Yokohama,Jebel Ali
+V00696,South-096,South China Sea,South-China-Trade-Lane,Industrial Machinery,7480000.00,Medium,At Sea,Kaohsiung,Panama City
+V00697,South-097,South China Sea,South-China-Trade-Lane,Battery Cells,8897500.00,High,In Transit,Dubai,Suez
+V00698,South-098,South China Sea,South-China-Trade-Lane,Containerized Retail Goods,4315000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00699,South-099,South China Sea,South-China-Trade-Lane,LNG Equipment,11332500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00700,South-100,South China Sea,South-China-Trade-Lane,Telecom Hardware,7050000.00,High,Scheduled,Hamburg,Manila
+V00701,South-101,South China Sea,South-China-Trade-Lane,Semiconductor Wafers,10267500.00,Critical,At Sea,Los Angeles,Singapore
+V00702,South-102,South China Sea,South-China-Trade-Lane,Crude Oil,25785000.00,Critical,In Transit,Houston,London
+V00703,South-103,South China Sea,South-China-Trade-Lane,Consumer Electronics,8202500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00704,South-104,South China Sea,South-China-Trade-Lane,Medical Supplies,5020000.00,High,Customs Hold,Busan,Shanghai
+V00705,South-105,South China Sea,South-China-Trade-Lane,Automotive Components,5937500.00,High,Scheduled,Yokohama,Jebel Ali
+V00706,South-106,South China Sea,South-China-Trade-Lane,Industrial Machinery,7655000.00,Medium,At Sea,Kaohsiung,Panama City
+V00707,South-107,South China Sea,South-China-Trade-Lane,Battery Cells,9072500.00,High,In Transit,Dubai,Suez
+V00708,South-108,South China Sea,South-China-Trade-Lane,Containerized Retail Goods,4490000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00709,South-109,South China Sea,South-China-Trade-Lane,LNG Equipment,11507500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00710,South-110,South China Sea,South-China-Trade-Lane,Telecom Hardware,7225000.00,High,Scheduled,Hamburg,Manila
+V00711,South-111,South China Sea,South-China-Trade-Lane,Semiconductor Wafers,10442500.00,Critical,At Sea,Los Angeles,Singapore
+V00712,South-112,South China Sea,South-China-Trade-Lane,Crude Oil,25960000.00,Critical,In Transit,Houston,London
+V00713,South-113,South China Sea,South-China-Trade-Lane,Consumer Electronics,8377500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00714,South-114,South China Sea,South-China-Trade-Lane,Medical Supplies,5195000.00,High,Customs Hold,Busan,Shanghai
+V00715,South-115,South China Sea,South-China-Trade-Lane,Automotive Components,6112500.00,High,Scheduled,Yokohama,Jebel Ali
+V00716,South-116,South China Sea,South-China-Trade-Lane,Industrial Machinery,7830000.00,Medium,At Sea,Kaohsiung,Panama City
+V00717,South-117,South China Sea,South-China-Trade-Lane,Battery Cells,9247500.00,High,In Transit,Dubai,Suez
+V00718,South-118,South China Sea,South-China-Trade-Lane,Containerized Retail Goods,4665000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00719,South-119,South China Sea,South-China-Trade-Lane,LNG Equipment,11682500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00720,South-120,South China Sea,South-China-Trade-Lane,Telecom Hardware,7400000.00,High,Scheduled,Hamburg,Manila
+V00721,East-001,East China Sea,East-China-Coastal-Lane,Semiconductor Wafers,8517500.00,Critical,At Sea,Los Angeles,Singapore
+V00722,East-002,East China Sea,East-China-Coastal-Lane,Crude Oil,24035000.00,Critical,In Transit,Houston,London
+V00723,East-003,East China Sea,East-China-Coastal-Lane,Consumer Electronics,6452500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00724,East-004,East China Sea,East-China-Coastal-Lane,Medical Supplies,3270000.00,High,Customs Hold,Busan,Shanghai
+V00725,East-005,East China Sea,East-China-Coastal-Lane,Automotive Components,4187500.00,High,Scheduled,Yokohama,Jebel Ali
+V00726,East-006,East China Sea,East-China-Coastal-Lane,Industrial Machinery,5905000.00,Medium,At Sea,Kaohsiung,Panama City
+V00727,East-007,East China Sea,East-China-Coastal-Lane,Battery Cells,7322500.00,High,In Transit,Dubai,Suez
+V00728,East-008,East China Sea,East-China-Coastal-Lane,Containerized Retail Goods,2740000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00729,East-009,East China Sea,East-China-Coastal-Lane,LNG Equipment,9757500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00730,East-010,East China Sea,East-China-Coastal-Lane,Telecom Hardware,5475000.00,High,Scheduled,Hamburg,Manila
+V00731,East-011,East China Sea,East-China-Coastal-Lane,Semiconductor Wafers,8692500.00,Critical,At Sea,Los Angeles,Singapore
+V00732,East-012,East China Sea,East-China-Coastal-Lane,Crude Oil,24210000.00,Critical,In Transit,Houston,London
+V00733,East-013,East China Sea,East-China-Coastal-Lane,Consumer Electronics,6627500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00734,East-014,East China Sea,East-China-Coastal-Lane,Medical Supplies,3445000.00,High,Customs Hold,Busan,Shanghai
+V00735,East-015,East China Sea,East-China-Coastal-Lane,Automotive Components,4362500.00,High,Scheduled,Yokohama,Jebel Ali
+V00736,East-016,East China Sea,East-China-Coastal-Lane,Industrial Machinery,6080000.00,Medium,At Sea,Kaohsiung,Panama City
+V00737,East-017,East China Sea,East-China-Coastal-Lane,Battery Cells,7497500.00,High,In Transit,Dubai,Suez
+V00738,East-018,East China Sea,East-China-Coastal-Lane,Containerized Retail Goods,2915000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00739,East-019,East China Sea,East-China-Coastal-Lane,LNG Equipment,9932500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00740,East-020,East China Sea,East-China-Coastal-Lane,Telecom Hardware,5650000.00,High,Scheduled,Hamburg,Manila
+V00741,East-021,East China Sea,East-China-Coastal-Lane,Semiconductor Wafers,8867500.00,Critical,At Sea,Los Angeles,Singapore
+V00742,East-022,East China Sea,East-China-Coastal-Lane,Crude Oil,24385000.00,Critical,In Transit,Houston,London
+V00743,East-023,East China Sea,East-China-Coastal-Lane,Consumer Electronics,6802500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00744,East-024,East China Sea,East-China-Coastal-Lane,Medical Supplies,3620000.00,High,Customs Hold,Busan,Shanghai
+V00745,East-025,East China Sea,East-China-Coastal-Lane,Automotive Components,4537500.00,High,Scheduled,Yokohama,Jebel Ali
+V00746,East-026,East China Sea,East-China-Coastal-Lane,Industrial Machinery,6255000.00,Medium,At Sea,Kaohsiung,Panama City
+V00747,East-027,East China Sea,East-China-Coastal-Lane,Battery Cells,7672500.00,High,In Transit,Dubai,Suez
+V00748,East-028,East China Sea,East-China-Coastal-Lane,Containerized Retail Goods,3090000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00749,East-029,East China Sea,East-China-Coastal-Lane,LNG Equipment,10107500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00750,East-030,East China Sea,East-China-Coastal-Lane,Telecom Hardware,5825000.00,High,Scheduled,Hamburg,Manila
+V00751,East-031,East China Sea,East-China-Coastal-Lane,Semiconductor Wafers,9042500.00,Critical,At Sea,Los Angeles,Singapore
+V00752,East-032,East China Sea,East-China-Coastal-Lane,Crude Oil,24560000.00,Critical,In Transit,Houston,London
+V00753,East-033,East China Sea,East-China-Coastal-Lane,Consumer Electronics,6977500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00754,East-034,East China Sea,East-China-Coastal-Lane,Medical Supplies,3795000.00,High,Customs Hold,Busan,Shanghai
+V00755,East-035,East China Sea,East-China-Coastal-Lane,Automotive Components,4712500.00,High,Scheduled,Yokohama,Jebel Ali
+V00756,East-036,East China Sea,East-China-Coastal-Lane,Industrial Machinery,6430000.00,Medium,At Sea,Kaohsiung,Panama City
+V00757,East-037,East China Sea,East-China-Coastal-Lane,Battery Cells,7847500.00,High,In Transit,Dubai,Suez
+V00758,East-038,East China Sea,East-China-Coastal-Lane,Containerized Retail Goods,3265000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00759,East-039,East China Sea,East-China-Coastal-Lane,LNG Equipment,10282500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00760,East-040,East China Sea,East-China-Coastal-Lane,Telecom Hardware,6000000.00,High,Scheduled,Hamburg,Manila
+V00761,East-041,East China Sea,East-China-Coastal-Lane,Semiconductor Wafers,9217500.00,Critical,At Sea,Los Angeles,Singapore
+V00762,East-042,East China Sea,East-China-Coastal-Lane,Crude Oil,24735000.00,Critical,In Transit,Houston,London
+V00763,East-043,East China Sea,East-China-Coastal-Lane,Consumer Electronics,7152500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00764,East-044,East China Sea,East-China-Coastal-Lane,Medical Supplies,3970000.00,High,Customs Hold,Busan,Shanghai
+V00765,East-045,East China Sea,East-China-Coastal-Lane,Automotive Components,4887500.00,High,Scheduled,Yokohama,Jebel Ali
+V00766,East-046,East China Sea,East-China-Coastal-Lane,Industrial Machinery,6605000.00,Medium,At Sea,Kaohsiung,Panama City
+V00767,East-047,East China Sea,East-China-Coastal-Lane,Battery Cells,8022500.00,High,In Transit,Dubai,Suez
+V00768,East-048,East China Sea,East-China-Coastal-Lane,Containerized Retail Goods,3440000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00769,East-049,East China Sea,East-China-Coastal-Lane,LNG Equipment,10457500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00770,East-050,East China Sea,East-China-Coastal-Lane,Telecom Hardware,6175000.00,High,Scheduled,Hamburg,Manila
+V00771,East-051,East China Sea,East-China-Coastal-Lane,Semiconductor Wafers,9392500.00,Critical,At Sea,Los Angeles,Singapore
+V00772,East-052,East China Sea,East-China-Coastal-Lane,Crude Oil,24910000.00,Critical,In Transit,Houston,London
+V00773,East-053,East China Sea,East-China-Coastal-Lane,Consumer Electronics,7327500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00774,East-054,East China Sea,East-China-Coastal-Lane,Medical Supplies,4145000.00,High,Customs Hold,Busan,Shanghai
+V00775,East-055,East China Sea,East-China-Coastal-Lane,Automotive Components,5062500.00,High,Scheduled,Yokohama,Jebel Ali
+V00776,East-056,East China Sea,East-China-Coastal-Lane,Industrial Machinery,6780000.00,Medium,At Sea,Kaohsiung,Panama City
+V00777,East-057,East China Sea,East-China-Coastal-Lane,Battery Cells,8197500.00,High,In Transit,Dubai,Suez
+V00778,East-058,East China Sea,East-China-Coastal-Lane,Containerized Retail Goods,3615000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00779,East-059,East China Sea,East-China-Coastal-Lane,LNG Equipment,10632500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00780,East-060,East China Sea,East-China-Coastal-Lane,Telecom Hardware,6350000.00,High,Scheduled,Hamburg,Manila
+V00781,East-061,East China Sea,East-China-Coastal-Lane,Semiconductor Wafers,9567500.00,Critical,At Sea,Los Angeles,Singapore
+V00782,East-062,East China Sea,East-China-Coastal-Lane,Crude Oil,25085000.00,Critical,In Transit,Houston,London
+V00783,East-063,East China Sea,East-China-Coastal-Lane,Consumer Electronics,7502500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00784,East-064,East China Sea,East-China-Coastal-Lane,Medical Supplies,4320000.00,High,Customs Hold,Busan,Shanghai
+V00785,East-065,East China Sea,East-China-Coastal-Lane,Automotive Components,5237500.00,High,Scheduled,Yokohama,Jebel Ali
+V00786,East-066,East China Sea,East-China-Coastal-Lane,Industrial Machinery,6955000.00,Medium,At Sea,Kaohsiung,Panama City
+V00787,East-067,East China Sea,East-China-Coastal-Lane,Battery Cells,8372500.00,High,In Transit,Dubai,Suez
+V00788,East-068,East China Sea,East-China-Coastal-Lane,Containerized Retail Goods,3790000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00789,East-069,East China Sea,East-China-Coastal-Lane,LNG Equipment,10807500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00790,East-070,East China Sea,East-China-Coastal-Lane,Telecom Hardware,6525000.00,High,Scheduled,Hamburg,Manila
+V00791,East-071,East China Sea,East-China-Coastal-Lane,Semiconductor Wafers,9742500.00,Critical,At Sea,Los Angeles,Singapore
+V00792,East-072,East China Sea,East-China-Coastal-Lane,Crude Oil,25260000.00,Critical,In Transit,Houston,London
+V00793,East-073,East China Sea,East-China-Coastal-Lane,Consumer Electronics,7677500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00794,East-074,East China Sea,East-China-Coastal-Lane,Medical Supplies,4495000.00,High,Customs Hold,Busan,Shanghai
+V00795,East-075,East China Sea,East-China-Coastal-Lane,Automotive Components,5412500.00,High,Scheduled,Yokohama,Jebel Ali
+V00796,East-076,East China Sea,East-China-Coastal-Lane,Industrial Machinery,7130000.00,Medium,At Sea,Kaohsiung,Panama City
+V00797,East-077,East China Sea,East-China-Coastal-Lane,Battery Cells,8547500.00,High,In Transit,Dubai,Suez
+V00798,East-078,East China Sea,East-China-Coastal-Lane,Containerized Retail Goods,3965000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00799,East-079,East China Sea,East-China-Coastal-Lane,LNG Equipment,10982500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00800,East-080,East China Sea,East-China-Coastal-Lane,Telecom Hardware,6700000.00,High,Scheduled,Hamburg,Manila
+V00801,East-081,East China Sea,East-China-Coastal-Lane,Semiconductor Wafers,9917500.00,Critical,At Sea,Los Angeles,Singapore
+V00802,East-082,East China Sea,East-China-Coastal-Lane,Crude Oil,25435000.00,Critical,In Transit,Houston,London
+V00803,East-083,East China Sea,East-China-Coastal-Lane,Consumer Electronics,7852500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00804,East-084,East China Sea,East-China-Coastal-Lane,Medical Supplies,4670000.00,High,Customs Hold,Busan,Shanghai
+V00805,East-085,East China Sea,East-China-Coastal-Lane,Automotive Components,5587500.00,High,Scheduled,Yokohama,Jebel Ali
+V00806,East-086,East China Sea,East-China-Coastal-Lane,Industrial Machinery,7305000.00,Medium,At Sea,Kaohsiung,Panama City
+V00807,East-087,East China Sea,East-China-Coastal-Lane,Battery Cells,8722500.00,High,In Transit,Dubai,Suez
+V00808,East-088,East China Sea,East-China-Coastal-Lane,Containerized Retail Goods,4140000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00809,East-089,East China Sea,East-China-Coastal-Lane,LNG Equipment,11157500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00810,East-090,East China Sea,East-China-Coastal-Lane,Telecom Hardware,6875000.00,High,Scheduled,Hamburg,Manila
+V00811,East-091,East China Sea,East-China-Coastal-Lane,Semiconductor Wafers,10092500.00,Critical,At Sea,Los Angeles,Singapore
+V00812,East-092,East China Sea,East-China-Coastal-Lane,Crude Oil,25610000.00,Critical,In Transit,Houston,London
+V00813,East-093,East China Sea,East-China-Coastal-Lane,Consumer Electronics,8027500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00814,East-094,East China Sea,East-China-Coastal-Lane,Medical Supplies,4845000.00,High,Customs Hold,Busan,Shanghai
+V00815,East-095,East China Sea,East-China-Coastal-Lane,Automotive Components,5762500.00,High,Scheduled,Yokohama,Jebel Ali
+V00816,East-096,East China Sea,East-China-Coastal-Lane,Industrial Machinery,7480000.00,Medium,At Sea,Kaohsiung,Panama City
+V00817,East-097,East China Sea,East-China-Coastal-Lane,Battery Cells,8897500.00,High,In Transit,Dubai,Suez
+V00818,East-098,East China Sea,East-China-Coastal-Lane,Containerized Retail Goods,4315000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00819,East-099,East China Sea,East-China-Coastal-Lane,LNG Equipment,11332500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00820,East-100,East China Sea,East-China-Coastal-Lane,Telecom Hardware,7050000.00,High,Scheduled,Hamburg,Manila
+V00821,East-101,East China Sea,East-China-Coastal-Lane,Semiconductor Wafers,10267500.00,Critical,At Sea,Los Angeles,Singapore
+V00822,East-102,East China Sea,East-China-Coastal-Lane,Crude Oil,25785000.00,Critical,In Transit,Houston,London
+V00823,East-103,East China Sea,East-China-Coastal-Lane,Consumer Electronics,8202500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00824,East-104,East China Sea,East-China-Coastal-Lane,Medical Supplies,5020000.00,High,Customs Hold,Busan,Shanghai
+V00825,East-105,East China Sea,East-China-Coastal-Lane,Automotive Components,5937500.00,High,Scheduled,Yokohama,Jebel Ali
+V00826,East-106,East China Sea,East-China-Coastal-Lane,Industrial Machinery,7655000.00,Medium,At Sea,Kaohsiung,Panama City
+V00827,East-107,East China Sea,East-China-Coastal-Lane,Battery Cells,9072500.00,High,In Transit,Dubai,Suez
+V00828,East-108,East China Sea,East-China-Coastal-Lane,Containerized Retail Goods,4490000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00829,East-109,East China Sea,East-China-Coastal-Lane,LNG Equipment,11507500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00830,East-110,East China Sea,East-China-Coastal-Lane,Telecom Hardware,7225000.00,High,Scheduled,Hamburg,Manila
+V00831,East-111,East China Sea,East-China-Coastal-Lane,Semiconductor Wafers,10442500.00,Critical,At Sea,Los Angeles,Singapore
+V00832,East-112,East China Sea,East-China-Coastal-Lane,Crude Oil,25960000.00,Critical,In Transit,Houston,London
+V00833,East-113,East China Sea,East-China-Coastal-Lane,Consumer Electronics,8377500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00834,East-114,East China Sea,East-China-Coastal-Lane,Medical Supplies,5195000.00,High,Customs Hold,Busan,Shanghai
+V00835,East-115,East China Sea,East-China-Coastal-Lane,Automotive Components,6112500.00,High,Scheduled,Yokohama,Jebel Ali
+V00836,East-116,East China Sea,East-China-Coastal-Lane,Industrial Machinery,7830000.00,Medium,At Sea,Kaohsiung,Panama City
+V00837,East-117,East China Sea,East-China-Coastal-Lane,Battery Cells,9247500.00,High,In Transit,Dubai,Suez
+V00838,East-118,East China Sea,East-China-Coastal-Lane,Containerized Retail Goods,4665000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00839,East-119,East China Sea,East-China-Coastal-Lane,LNG Equipment,11682500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00840,East-120,East China Sea,East-China-Coastal-Lane,Telecom Hardware,7400000.00,High,Scheduled,Hamburg,Manila
+V00841,Sea-001,Sea of Japan,Japan-Korea-Lane,Semiconductor Wafers,8517500.00,Critical,At Sea,Los Angeles,Singapore
+V00842,Sea-002,Sea of Japan,Japan-Korea-Lane,Crude Oil,24035000.00,Critical,In Transit,Houston,London
+V00843,Sea-003,Sea of Japan,Japan-Korea-Lane,Consumer Electronics,6452500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00844,Sea-004,Sea of Japan,Japan-Korea-Lane,Medical Supplies,3270000.00,High,Customs Hold,Busan,Shanghai
+V00845,Sea-005,Sea of Japan,Japan-Korea-Lane,Automotive Components,4187500.00,High,Scheduled,Yokohama,Jebel Ali
+V00846,Sea-006,Sea of Japan,Japan-Korea-Lane,Industrial Machinery,5905000.00,Medium,At Sea,Kaohsiung,Panama City
+V00847,Sea-007,Sea of Japan,Japan-Korea-Lane,Battery Cells,7322500.00,High,In Transit,Dubai,Suez
+V00848,Sea-008,Sea of Japan,Japan-Korea-Lane,Containerized Retail Goods,2740000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00849,Sea-009,Sea of Japan,Japan-Korea-Lane,LNG Equipment,9757500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00850,Sea-010,Sea of Japan,Japan-Korea-Lane,Telecom Hardware,5475000.00,High,Scheduled,Hamburg,Manila
+V00851,Sea-011,Sea of Japan,Japan-Korea-Lane,Semiconductor Wafers,8692500.00,Critical,At Sea,Los Angeles,Singapore
+V00852,Sea-012,Sea of Japan,Japan-Korea-Lane,Crude Oil,24210000.00,Critical,In Transit,Houston,London
+V00853,Sea-013,Sea of Japan,Japan-Korea-Lane,Consumer Electronics,6627500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00854,Sea-014,Sea of Japan,Japan-Korea-Lane,Medical Supplies,3445000.00,High,Customs Hold,Busan,Shanghai
+V00855,Sea-015,Sea of Japan,Japan-Korea-Lane,Automotive Components,4362500.00,High,Scheduled,Yokohama,Jebel Ali
+V00856,Sea-016,Sea of Japan,Japan-Korea-Lane,Industrial Machinery,6080000.00,Medium,At Sea,Kaohsiung,Panama City
+V00857,Sea-017,Sea of Japan,Japan-Korea-Lane,Battery Cells,7497500.00,High,In Transit,Dubai,Suez
+V00858,Sea-018,Sea of Japan,Japan-Korea-Lane,Containerized Retail Goods,2915000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00859,Sea-019,Sea of Japan,Japan-Korea-Lane,LNG Equipment,9932500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00860,Sea-020,Sea of Japan,Japan-Korea-Lane,Telecom Hardware,5650000.00,High,Scheduled,Hamburg,Manila
+V00861,Sea-021,Sea of Japan,Japan-Korea-Lane,Semiconductor Wafers,8867500.00,Critical,At Sea,Los Angeles,Singapore
+V00862,Sea-022,Sea of Japan,Japan-Korea-Lane,Crude Oil,24385000.00,Critical,In Transit,Houston,London
+V00863,Sea-023,Sea of Japan,Japan-Korea-Lane,Consumer Electronics,6802500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00864,Sea-024,Sea of Japan,Japan-Korea-Lane,Medical Supplies,3620000.00,High,Customs Hold,Busan,Shanghai
+V00865,Sea-025,Sea of Japan,Japan-Korea-Lane,Automotive Components,4537500.00,High,Scheduled,Yokohama,Jebel Ali
+V00866,Sea-026,Sea of Japan,Japan-Korea-Lane,Industrial Machinery,6255000.00,Medium,At Sea,Kaohsiung,Panama City
+V00867,Sea-027,Sea of Japan,Japan-Korea-Lane,Battery Cells,7672500.00,High,In Transit,Dubai,Suez
+V00868,Sea-028,Sea of Japan,Japan-Korea-Lane,Containerized Retail Goods,3090000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00869,Sea-029,Sea of Japan,Japan-Korea-Lane,LNG Equipment,10107500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00870,Sea-030,Sea of Japan,Japan-Korea-Lane,Telecom Hardware,5825000.00,High,Scheduled,Hamburg,Manila
+V00871,Sea-031,Sea of Japan,Japan-Korea-Lane,Semiconductor Wafers,9042500.00,Critical,At Sea,Los Angeles,Singapore
+V00872,Sea-032,Sea of Japan,Japan-Korea-Lane,Crude Oil,24560000.00,Critical,In Transit,Houston,London
+V00873,Sea-033,Sea of Japan,Japan-Korea-Lane,Consumer Electronics,6977500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00874,Sea-034,Sea of Japan,Japan-Korea-Lane,Medical Supplies,3795000.00,High,Customs Hold,Busan,Shanghai
+V00875,Sea-035,Sea of Japan,Japan-Korea-Lane,Automotive Components,4712500.00,High,Scheduled,Yokohama,Jebel Ali
+V00876,Sea-036,Sea of Japan,Japan-Korea-Lane,Industrial Machinery,6430000.00,Medium,At Sea,Kaohsiung,Panama City
+V00877,Sea-037,Sea of Japan,Japan-Korea-Lane,Battery Cells,7847500.00,High,In Transit,Dubai,Suez
+V00878,Sea-038,Sea of Japan,Japan-Korea-Lane,Containerized Retail Goods,3265000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00879,Sea-039,Sea of Japan,Japan-Korea-Lane,LNG Equipment,10282500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00880,Sea-040,Sea of Japan,Japan-Korea-Lane,Telecom Hardware,6000000.00,High,Scheduled,Hamburg,Manila
+V00881,Sea-041,Sea of Japan,Japan-Korea-Lane,Semiconductor Wafers,9217500.00,Critical,At Sea,Los Angeles,Singapore
+V00882,Sea-042,Sea of Japan,Japan-Korea-Lane,Crude Oil,24735000.00,Critical,In Transit,Houston,London
+V00883,Sea-043,Sea of Japan,Japan-Korea-Lane,Consumer Electronics,7152500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00884,Sea-044,Sea of Japan,Japan-Korea-Lane,Medical Supplies,3970000.00,High,Customs Hold,Busan,Shanghai
+V00885,Sea-045,Sea of Japan,Japan-Korea-Lane,Automotive Components,4887500.00,High,Scheduled,Yokohama,Jebel Ali
+V00886,Sea-046,Sea of Japan,Japan-Korea-Lane,Industrial Machinery,6605000.00,Medium,At Sea,Kaohsiung,Panama City
+V00887,Sea-047,Sea of Japan,Japan-Korea-Lane,Battery Cells,8022500.00,High,In Transit,Dubai,Suez
+V00888,Sea-048,Sea of Japan,Japan-Korea-Lane,Containerized Retail Goods,3440000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00889,Sea-049,Sea of Japan,Japan-Korea-Lane,LNG Equipment,10457500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00890,Sea-050,Sea of Japan,Japan-Korea-Lane,Telecom Hardware,6175000.00,High,Scheduled,Hamburg,Manila
+V00891,Sea-051,Sea of Japan,Japan-Korea-Lane,Semiconductor Wafers,9392500.00,Critical,At Sea,Los Angeles,Singapore
+V00892,Sea-052,Sea of Japan,Japan-Korea-Lane,Crude Oil,24910000.00,Critical,In Transit,Houston,London
+V00893,Sea-053,Sea of Japan,Japan-Korea-Lane,Consumer Electronics,7327500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00894,Sea-054,Sea of Japan,Japan-Korea-Lane,Medical Supplies,4145000.00,High,Customs Hold,Busan,Shanghai
+V00895,Sea-055,Sea of Japan,Japan-Korea-Lane,Automotive Components,5062500.00,High,Scheduled,Yokohama,Jebel Ali
+V00896,Sea-056,Sea of Japan,Japan-Korea-Lane,Industrial Machinery,6780000.00,Medium,At Sea,Kaohsiung,Panama City
+V00897,Sea-057,Sea of Japan,Japan-Korea-Lane,Battery Cells,8197500.00,High,In Transit,Dubai,Suez
+V00898,Sea-058,Sea of Japan,Japan-Korea-Lane,Containerized Retail Goods,3615000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00899,Sea-059,Sea of Japan,Japan-Korea-Lane,LNG Equipment,10632500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00900,Sea-060,Sea of Japan,Japan-Korea-Lane,Telecom Hardware,6350000.00,High,Scheduled,Hamburg,Manila
+V00901,Sea-061,Sea of Japan,Japan-Korea-Lane,Semiconductor Wafers,9567500.00,Critical,At Sea,Los Angeles,Singapore
+V00902,Sea-062,Sea of Japan,Japan-Korea-Lane,Crude Oil,25085000.00,Critical,In Transit,Houston,London
+V00903,Sea-063,Sea of Japan,Japan-Korea-Lane,Consumer Electronics,7502500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00904,Sea-064,Sea of Japan,Japan-Korea-Lane,Medical Supplies,4320000.00,High,Customs Hold,Busan,Shanghai
+V00905,Sea-065,Sea of Japan,Japan-Korea-Lane,Automotive Components,5237500.00,High,Scheduled,Yokohama,Jebel Ali
+V00906,Sea-066,Sea of Japan,Japan-Korea-Lane,Industrial Machinery,6955000.00,Medium,At Sea,Kaohsiung,Panama City
+V00907,Sea-067,Sea of Japan,Japan-Korea-Lane,Battery Cells,8372500.00,High,In Transit,Dubai,Suez
+V00908,Sea-068,Sea of Japan,Japan-Korea-Lane,Containerized Retail Goods,3790000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00909,Sea-069,Sea of Japan,Japan-Korea-Lane,LNG Equipment,10807500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00910,Sea-070,Sea of Japan,Japan-Korea-Lane,Telecom Hardware,6525000.00,High,Scheduled,Hamburg,Manila
+V00911,Sea-071,Sea of Japan,Japan-Korea-Lane,Semiconductor Wafers,9742500.00,Critical,At Sea,Los Angeles,Singapore
+V00912,Sea-072,Sea of Japan,Japan-Korea-Lane,Crude Oil,25260000.00,Critical,In Transit,Houston,London
+V00913,Sea-073,Sea of Japan,Japan-Korea-Lane,Consumer Electronics,7677500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00914,Sea-074,Sea of Japan,Japan-Korea-Lane,Medical Supplies,4495000.00,High,Customs Hold,Busan,Shanghai
+V00915,Sea-075,Sea of Japan,Japan-Korea-Lane,Automotive Components,5412500.00,High,Scheduled,Yokohama,Jebel Ali
+V00916,Sea-076,Sea of Japan,Japan-Korea-Lane,Industrial Machinery,7130000.00,Medium,At Sea,Kaohsiung,Panama City
+V00917,Sea-077,Sea of Japan,Japan-Korea-Lane,Battery Cells,8547500.00,High,In Transit,Dubai,Suez
+V00918,Sea-078,Sea of Japan,Japan-Korea-Lane,Containerized Retail Goods,3965000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00919,Sea-079,Sea of Japan,Japan-Korea-Lane,LNG Equipment,10982500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00920,Sea-080,Sea of Japan,Japan-Korea-Lane,Telecom Hardware,6700000.00,High,Scheduled,Hamburg,Manila
+V00921,Sea-081,Sea of Japan,Japan-Korea-Lane,Semiconductor Wafers,9917500.00,Critical,At Sea,Los Angeles,Singapore
+V00922,Sea-082,Sea of Japan,Japan-Korea-Lane,Crude Oil,25435000.00,Critical,In Transit,Houston,London
+V00923,Sea-083,Sea of Japan,Japan-Korea-Lane,Consumer Electronics,7852500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00924,Sea-084,Sea of Japan,Japan-Korea-Lane,Medical Supplies,4670000.00,High,Customs Hold,Busan,Shanghai
+V00925,Sea-085,Sea of Japan,Japan-Korea-Lane,Automotive Components,5587500.00,High,Scheduled,Yokohama,Jebel Ali
+V00926,Sea-086,Sea of Japan,Japan-Korea-Lane,Industrial Machinery,7305000.00,Medium,At Sea,Kaohsiung,Panama City
+V00927,Sea-087,Sea of Japan,Japan-Korea-Lane,Battery Cells,8722500.00,High,In Transit,Dubai,Suez
+V00928,Sea-088,Sea of Japan,Japan-Korea-Lane,Containerized Retail Goods,4140000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00929,Sea-089,Sea of Japan,Japan-Korea-Lane,LNG Equipment,11157500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00930,Sea-090,Sea of Japan,Japan-Korea-Lane,Telecom Hardware,6875000.00,High,Scheduled,Hamburg,Manila
+V00931,Sea-091,Sea of Japan,Japan-Korea-Lane,Semiconductor Wafers,10092500.00,Critical,At Sea,Los Angeles,Singapore
+V00932,Sea-092,Sea of Japan,Japan-Korea-Lane,Crude Oil,25610000.00,Critical,In Transit,Houston,London
+V00933,Sea-093,Sea of Japan,Japan-Korea-Lane,Consumer Electronics,8027500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00934,Sea-094,Sea of Japan,Japan-Korea-Lane,Medical Supplies,4845000.00,High,Customs Hold,Busan,Shanghai
+V00935,Sea-095,Sea of Japan,Japan-Korea-Lane,Automotive Components,5762500.00,High,Scheduled,Yokohama,Jebel Ali
+V00936,Sea-096,Sea of Japan,Japan-Korea-Lane,Industrial Machinery,7480000.00,Medium,At Sea,Kaohsiung,Panama City
+V00937,Sea-097,Sea of Japan,Japan-Korea-Lane,Battery Cells,8897500.00,High,In Transit,Dubai,Suez
+V00938,Sea-098,Sea of Japan,Japan-Korea-Lane,Containerized Retail Goods,4315000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00939,Sea-099,Sea of Japan,Japan-Korea-Lane,LNG Equipment,11332500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00940,Sea-100,Sea of Japan,Japan-Korea-Lane,Telecom Hardware,7050000.00,High,Scheduled,Hamburg,Manila
+V00941,Sea-101,Sea of Japan,Japan-Korea-Lane,Semiconductor Wafers,10267500.00,Critical,At Sea,Los Angeles,Singapore
+V00942,Sea-102,Sea of Japan,Japan-Korea-Lane,Crude Oil,25785000.00,Critical,In Transit,Houston,London
+V00943,Sea-103,Sea of Japan,Japan-Korea-Lane,Consumer Electronics,8202500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00944,Sea-104,Sea of Japan,Japan-Korea-Lane,Medical Supplies,5020000.00,High,Customs Hold,Busan,Shanghai
+V00945,Sea-105,Sea of Japan,Japan-Korea-Lane,Automotive Components,5937500.00,High,Scheduled,Yokohama,Jebel Ali
+V00946,Sea-106,Sea of Japan,Japan-Korea-Lane,Industrial Machinery,7655000.00,Medium,At Sea,Kaohsiung,Panama City
+V00947,Sea-107,Sea of Japan,Japan-Korea-Lane,Battery Cells,9072500.00,High,In Transit,Dubai,Suez
+V00948,Sea-108,Sea of Japan,Japan-Korea-Lane,Containerized Retail Goods,4490000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00949,Sea-109,Sea of Japan,Japan-Korea-Lane,LNG Equipment,11507500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00950,Sea-110,Sea of Japan,Japan-Korea-Lane,Telecom Hardware,7225000.00,High,Scheduled,Hamburg,Manila
+V00951,Sea-111,Sea of Japan,Japan-Korea-Lane,Semiconductor Wafers,10442500.00,Critical,At Sea,Los Angeles,Singapore
+V00952,Sea-112,Sea of Japan,Japan-Korea-Lane,Crude Oil,25960000.00,Critical,In Transit,Houston,London
+V00953,Sea-113,Sea of Japan,Japan-Korea-Lane,Consumer Electronics,8377500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00954,Sea-114,Sea of Japan,Japan-Korea-Lane,Medical Supplies,5195000.00,High,Customs Hold,Busan,Shanghai
+V00955,Sea-115,Sea of Japan,Japan-Korea-Lane,Automotive Components,6112500.00,High,Scheduled,Yokohama,Jebel Ali
+V00956,Sea-116,Sea of Japan,Japan-Korea-Lane,Industrial Machinery,7830000.00,Medium,At Sea,Kaohsiung,Panama City
+V00957,Sea-117,Sea of Japan,Japan-Korea-Lane,Battery Cells,9247500.00,High,In Transit,Dubai,Suez
+V00958,Sea-118,Sea of Japan,Japan-Korea-Lane,Containerized Retail Goods,4665000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00959,Sea-119,Sea of Japan,Japan-Korea-Lane,LNG Equipment,11682500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00960,Sea-120,Sea of Japan,Japan-Korea-Lane,Telecom Hardware,7400000.00,High,Scheduled,Hamburg,Manila
+V00961,Andaman-001,Andaman Sea,Andaman-Myanmar-Lane,Semiconductor Wafers,8517500.00,Critical,At Sea,Los Angeles,Singapore
+V00962,Andaman-002,Andaman Sea,Andaman-Myanmar-Lane,Crude Oil,24035000.00,Critical,In Transit,Houston,London
+V00963,Andaman-003,Andaman Sea,Andaman-Myanmar-Lane,Consumer Electronics,6452500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00964,Andaman-004,Andaman Sea,Andaman-Myanmar-Lane,Medical Supplies,3270000.00,High,Customs Hold,Busan,Shanghai
+V00965,Andaman-005,Andaman Sea,Andaman-Myanmar-Lane,Automotive Components,4187500.00,High,Scheduled,Yokohama,Jebel Ali
+V00966,Andaman-006,Andaman Sea,Andaman-Myanmar-Lane,Industrial Machinery,5905000.00,Medium,At Sea,Kaohsiung,Panama City
+V00967,Andaman-007,Andaman Sea,Andaman-Myanmar-Lane,Battery Cells,7322500.00,High,In Transit,Dubai,Suez
+V00968,Andaman-008,Andaman Sea,Andaman-Myanmar-Lane,Containerized Retail Goods,2740000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00969,Andaman-009,Andaman Sea,Andaman-Myanmar-Lane,LNG Equipment,9757500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00970,Andaman-010,Andaman Sea,Andaman-Myanmar-Lane,Telecom Hardware,5475000.00,High,Scheduled,Hamburg,Manila
+V00971,Andaman-011,Andaman Sea,Andaman-Myanmar-Lane,Semiconductor Wafers,8692500.00,Critical,At Sea,Los Angeles,Singapore
+V00972,Andaman-012,Andaman Sea,Andaman-Myanmar-Lane,Crude Oil,24210000.00,Critical,In Transit,Houston,London
+V00973,Andaman-013,Andaman Sea,Andaman-Myanmar-Lane,Consumer Electronics,6627500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00974,Andaman-014,Andaman Sea,Andaman-Myanmar-Lane,Medical Supplies,3445000.00,High,Customs Hold,Busan,Shanghai
+V00975,Andaman-015,Andaman Sea,Andaman-Myanmar-Lane,Automotive Components,4362500.00,High,Scheduled,Yokohama,Jebel Ali
+V00976,Andaman-016,Andaman Sea,Andaman-Myanmar-Lane,Industrial Machinery,6080000.00,Medium,At Sea,Kaohsiung,Panama City
+V00977,Andaman-017,Andaman Sea,Andaman-Myanmar-Lane,Battery Cells,7497500.00,High,In Transit,Dubai,Suez
+V00978,Andaman-018,Andaman Sea,Andaman-Myanmar-Lane,Containerized Retail Goods,2915000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00979,Andaman-019,Andaman Sea,Andaman-Myanmar-Lane,LNG Equipment,9932500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00980,Andaman-020,Andaman Sea,Andaman-Myanmar-Lane,Telecom Hardware,5650000.00,High,Scheduled,Hamburg,Manila
+V00981,Andaman-021,Andaman Sea,Andaman-Myanmar-Lane,Semiconductor Wafers,8867500.00,Critical,At Sea,Los Angeles,Singapore
+V00982,Andaman-022,Andaman Sea,Andaman-Myanmar-Lane,Crude Oil,24385000.00,Critical,In Transit,Houston,London
+V00983,Andaman-023,Andaman Sea,Andaman-Myanmar-Lane,Consumer Electronics,6802500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00984,Andaman-024,Andaman Sea,Andaman-Myanmar-Lane,Medical Supplies,3620000.00,High,Customs Hold,Busan,Shanghai
+V00985,Andaman-025,Andaman Sea,Andaman-Myanmar-Lane,Automotive Components,4537500.00,High,Scheduled,Yokohama,Jebel Ali
+V00986,Andaman-026,Andaman Sea,Andaman-Myanmar-Lane,Industrial Machinery,6255000.00,Medium,At Sea,Kaohsiung,Panama City
+V00987,Andaman-027,Andaman Sea,Andaman-Myanmar-Lane,Battery Cells,7672500.00,High,In Transit,Dubai,Suez
+V00988,Andaman-028,Andaman Sea,Andaman-Myanmar-Lane,Containerized Retail Goods,3090000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00989,Andaman-029,Andaman Sea,Andaman-Myanmar-Lane,LNG Equipment,10107500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V00990,Andaman-030,Andaman Sea,Andaman-Myanmar-Lane,Telecom Hardware,5825000.00,High,Scheduled,Hamburg,Manila
+V00991,Andaman-031,Andaman Sea,Andaman-Myanmar-Lane,Semiconductor Wafers,9042500.00,Critical,At Sea,Los Angeles,Singapore
+V00992,Andaman-032,Andaman Sea,Andaman-Myanmar-Lane,Crude Oil,24560000.00,Critical,In Transit,Houston,London
+V00993,Andaman-033,Andaman Sea,Andaman-Myanmar-Lane,Consumer Electronics,6977500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V00994,Andaman-034,Andaman Sea,Andaman-Myanmar-Lane,Medical Supplies,3795000.00,High,Customs Hold,Busan,Shanghai
+V00995,Andaman-035,Andaman Sea,Andaman-Myanmar-Lane,Automotive Components,4712500.00,High,Scheduled,Yokohama,Jebel Ali
+V00996,Andaman-036,Andaman Sea,Andaman-Myanmar-Lane,Industrial Machinery,6430000.00,Medium,At Sea,Kaohsiung,Panama City
+V00997,Andaman-037,Andaman Sea,Andaman-Myanmar-Lane,Battery Cells,7847500.00,High,In Transit,Dubai,Suez
+V00998,Andaman-038,Andaman Sea,Andaman-Myanmar-Lane,Containerized Retail Goods,3265000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V00999,Andaman-039,Andaman Sea,Andaman-Myanmar-Lane,LNG Equipment,10282500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01000,Andaman-040,Andaman Sea,Andaman-Myanmar-Lane,Telecom Hardware,6000000.00,High,Scheduled,Hamburg,Manila
+V01001,Andaman-041,Andaman Sea,Andaman-Myanmar-Lane,Semiconductor Wafers,9217500.00,Critical,At Sea,Los Angeles,Singapore
+V01002,Andaman-042,Andaman Sea,Andaman-Myanmar-Lane,Crude Oil,24735000.00,Critical,In Transit,Houston,London
+V01003,Andaman-043,Andaman Sea,Andaman-Myanmar-Lane,Consumer Electronics,7152500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01004,Andaman-044,Andaman Sea,Andaman-Myanmar-Lane,Medical Supplies,3970000.00,High,Customs Hold,Busan,Shanghai
+V01005,Andaman-045,Andaman Sea,Andaman-Myanmar-Lane,Automotive Components,4887500.00,High,Scheduled,Yokohama,Jebel Ali
+V01006,Andaman-046,Andaman Sea,Andaman-Myanmar-Lane,Industrial Machinery,6605000.00,Medium,At Sea,Kaohsiung,Panama City
+V01007,Andaman-047,Andaman Sea,Andaman-Myanmar-Lane,Battery Cells,8022500.00,High,In Transit,Dubai,Suez
+V01008,Andaman-048,Andaman Sea,Andaman-Myanmar-Lane,Containerized Retail Goods,3440000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01009,Andaman-049,Andaman Sea,Andaman-Myanmar-Lane,LNG Equipment,10457500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01010,Andaman-050,Andaman Sea,Andaman-Myanmar-Lane,Telecom Hardware,6175000.00,High,Scheduled,Hamburg,Manila
+V01011,Andaman-051,Andaman Sea,Andaman-Myanmar-Lane,Semiconductor Wafers,9392500.00,Critical,At Sea,Los Angeles,Singapore
+V01012,Andaman-052,Andaman Sea,Andaman-Myanmar-Lane,Crude Oil,24910000.00,Critical,In Transit,Houston,London
+V01013,Andaman-053,Andaman Sea,Andaman-Myanmar-Lane,Consumer Electronics,7327500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01014,Andaman-054,Andaman Sea,Andaman-Myanmar-Lane,Medical Supplies,4145000.00,High,Customs Hold,Busan,Shanghai
+V01015,Andaman-055,Andaman Sea,Andaman-Myanmar-Lane,Automotive Components,5062500.00,High,Scheduled,Yokohama,Jebel Ali
+V01016,Andaman-056,Andaman Sea,Andaman-Myanmar-Lane,Industrial Machinery,6780000.00,Medium,At Sea,Kaohsiung,Panama City
+V01017,Andaman-057,Andaman Sea,Andaman-Myanmar-Lane,Battery Cells,8197500.00,High,In Transit,Dubai,Suez
+V01018,Andaman-058,Andaman Sea,Andaman-Myanmar-Lane,Containerized Retail Goods,3615000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01019,Andaman-059,Andaman Sea,Andaman-Myanmar-Lane,LNG Equipment,10632500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01020,Andaman-060,Andaman Sea,Andaman-Myanmar-Lane,Telecom Hardware,6350000.00,High,Scheduled,Hamburg,Manila
+V01021,Andaman-061,Andaman Sea,Andaman-Myanmar-Lane,Semiconductor Wafers,9567500.00,Critical,At Sea,Los Angeles,Singapore
+V01022,Andaman-062,Andaman Sea,Andaman-Myanmar-Lane,Crude Oil,25085000.00,Critical,In Transit,Houston,London
+V01023,Andaman-063,Andaman Sea,Andaman-Myanmar-Lane,Consumer Electronics,7502500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01024,Andaman-064,Andaman Sea,Andaman-Myanmar-Lane,Medical Supplies,4320000.00,High,Customs Hold,Busan,Shanghai
+V01025,Andaman-065,Andaman Sea,Andaman-Myanmar-Lane,Automotive Components,5237500.00,High,Scheduled,Yokohama,Jebel Ali
+V01026,Andaman-066,Andaman Sea,Andaman-Myanmar-Lane,Industrial Machinery,6955000.00,Medium,At Sea,Kaohsiung,Panama City
+V01027,Andaman-067,Andaman Sea,Andaman-Myanmar-Lane,Battery Cells,8372500.00,High,In Transit,Dubai,Suez
+V01028,Andaman-068,Andaman Sea,Andaman-Myanmar-Lane,Containerized Retail Goods,3790000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01029,Andaman-069,Andaman Sea,Andaman-Myanmar-Lane,LNG Equipment,10807500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01030,Andaman-070,Andaman Sea,Andaman-Myanmar-Lane,Telecom Hardware,6525000.00,High,Scheduled,Hamburg,Manila
+V01031,Andaman-071,Andaman Sea,Andaman-Myanmar-Lane,Semiconductor Wafers,9742500.00,Critical,At Sea,Los Angeles,Singapore
+V01032,Andaman-072,Andaman Sea,Andaman-Myanmar-Lane,Crude Oil,25260000.00,Critical,In Transit,Houston,London
+V01033,Andaman-073,Andaman Sea,Andaman-Myanmar-Lane,Consumer Electronics,7677500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01034,Andaman-074,Andaman Sea,Andaman-Myanmar-Lane,Medical Supplies,4495000.00,High,Customs Hold,Busan,Shanghai
+V01035,Andaman-075,Andaman Sea,Andaman-Myanmar-Lane,Automotive Components,5412500.00,High,Scheduled,Yokohama,Jebel Ali
+V01036,Andaman-076,Andaman Sea,Andaman-Myanmar-Lane,Industrial Machinery,7130000.00,Medium,At Sea,Kaohsiung,Panama City
+V01037,Andaman-077,Andaman Sea,Andaman-Myanmar-Lane,Battery Cells,8547500.00,High,In Transit,Dubai,Suez
+V01038,Andaman-078,Andaman Sea,Andaman-Myanmar-Lane,Containerized Retail Goods,3965000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01039,Andaman-079,Andaman Sea,Andaman-Myanmar-Lane,LNG Equipment,10982500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01040,Andaman-080,Andaman Sea,Andaman-Myanmar-Lane,Telecom Hardware,6700000.00,High,Scheduled,Hamburg,Manila
+V01041,Andaman-081,Andaman Sea,Andaman-Myanmar-Lane,Semiconductor Wafers,9917500.00,Critical,At Sea,Los Angeles,Singapore
+V01042,Andaman-082,Andaman Sea,Andaman-Myanmar-Lane,Crude Oil,25435000.00,Critical,In Transit,Houston,London
+V01043,Andaman-083,Andaman Sea,Andaman-Myanmar-Lane,Consumer Electronics,7852500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01044,Andaman-084,Andaman Sea,Andaman-Myanmar-Lane,Medical Supplies,4670000.00,High,Customs Hold,Busan,Shanghai
+V01045,Andaman-085,Andaman Sea,Andaman-Myanmar-Lane,Automotive Components,5587500.00,High,Scheduled,Yokohama,Jebel Ali
+V01046,Andaman-086,Andaman Sea,Andaman-Myanmar-Lane,Industrial Machinery,7305000.00,Medium,At Sea,Kaohsiung,Panama City
+V01047,Andaman-087,Andaman Sea,Andaman-Myanmar-Lane,Battery Cells,8722500.00,High,In Transit,Dubai,Suez
+V01048,Andaman-088,Andaman Sea,Andaman-Myanmar-Lane,Containerized Retail Goods,4140000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01049,Andaman-089,Andaman Sea,Andaman-Myanmar-Lane,LNG Equipment,11157500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01050,Andaman-090,Andaman Sea,Andaman-Myanmar-Lane,Telecom Hardware,6875000.00,High,Scheduled,Hamburg,Manila
+V01051,Andaman-091,Andaman Sea,Andaman-Myanmar-Lane,Semiconductor Wafers,10092500.00,Critical,At Sea,Los Angeles,Singapore
+V01052,Andaman-092,Andaman Sea,Andaman-Myanmar-Lane,Crude Oil,25610000.00,Critical,In Transit,Houston,London
+V01053,Andaman-093,Andaman Sea,Andaman-Myanmar-Lane,Consumer Electronics,8027500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01054,Andaman-094,Andaman Sea,Andaman-Myanmar-Lane,Medical Supplies,4845000.00,High,Customs Hold,Busan,Shanghai
+V01055,Andaman-095,Andaman Sea,Andaman-Myanmar-Lane,Automotive Components,5762500.00,High,Scheduled,Yokohama,Jebel Ali
+V01056,Andaman-096,Andaman Sea,Andaman-Myanmar-Lane,Industrial Machinery,7480000.00,Medium,At Sea,Kaohsiung,Panama City
+V01057,Andaman-097,Andaman Sea,Andaman-Myanmar-Lane,Battery Cells,8897500.00,High,In Transit,Dubai,Suez
+V01058,Andaman-098,Andaman Sea,Andaman-Myanmar-Lane,Containerized Retail Goods,4315000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01059,Andaman-099,Andaman Sea,Andaman-Myanmar-Lane,LNG Equipment,11332500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01060,Andaman-100,Andaman Sea,Andaman-Myanmar-Lane,Telecom Hardware,7050000.00,High,Scheduled,Hamburg,Manila
+V01061,Andaman-101,Andaman Sea,Andaman-Myanmar-Lane,Semiconductor Wafers,10267500.00,Critical,At Sea,Los Angeles,Singapore
+V01062,Andaman-102,Andaman Sea,Andaman-Myanmar-Lane,Crude Oil,25785000.00,Critical,In Transit,Houston,London
+V01063,Andaman-103,Andaman Sea,Andaman-Myanmar-Lane,Consumer Electronics,8202500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01064,Andaman-104,Andaman Sea,Andaman-Myanmar-Lane,Medical Supplies,5020000.00,High,Customs Hold,Busan,Shanghai
+V01065,Andaman-105,Andaman Sea,Andaman-Myanmar-Lane,Automotive Components,5937500.00,High,Scheduled,Yokohama,Jebel Ali
+V01066,Andaman-106,Andaman Sea,Andaman-Myanmar-Lane,Industrial Machinery,7655000.00,Medium,At Sea,Kaohsiung,Panama City
+V01067,Andaman-107,Andaman Sea,Andaman-Myanmar-Lane,Battery Cells,9072500.00,High,In Transit,Dubai,Suez
+V01068,Andaman-108,Andaman Sea,Andaman-Myanmar-Lane,Containerized Retail Goods,4490000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01069,Andaman-109,Andaman Sea,Andaman-Myanmar-Lane,LNG Equipment,11507500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01070,Andaman-110,Andaman Sea,Andaman-Myanmar-Lane,Telecom Hardware,7225000.00,High,Scheduled,Hamburg,Manila
+V01071,Andaman-111,Andaman Sea,Andaman-Myanmar-Lane,Semiconductor Wafers,10442500.00,Critical,At Sea,Los Angeles,Singapore
+V01072,Andaman-112,Andaman Sea,Andaman-Myanmar-Lane,Crude Oil,25960000.00,Critical,In Transit,Houston,London
+V01073,Andaman-113,Andaman Sea,Andaman-Myanmar-Lane,Consumer Electronics,8377500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01074,Andaman-114,Andaman Sea,Andaman-Myanmar-Lane,Medical Supplies,5195000.00,High,Customs Hold,Busan,Shanghai
+V01075,Andaman-115,Andaman Sea,Andaman-Myanmar-Lane,Automotive Components,6112500.00,High,Scheduled,Yokohama,Jebel Ali
+V01076,Andaman-116,Andaman Sea,Andaman-Myanmar-Lane,Industrial Machinery,7830000.00,Medium,At Sea,Kaohsiung,Panama City
+V01077,Andaman-117,Andaman Sea,Andaman-Myanmar-Lane,Battery Cells,9247500.00,High,In Transit,Dubai,Suez
+V01078,Andaman-118,Andaman Sea,Andaman-Myanmar-Lane,Containerized Retail Goods,4665000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01079,Andaman-119,Andaman Sea,Andaman-Myanmar-Lane,LNG Equipment,11682500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01080,Andaman-120,Andaman Sea,Andaman-Myanmar-Lane,Telecom Hardware,7400000.00,High,Scheduled,Hamburg,Manila
+V01081,Gulf-001,Gulf of Thailand,Thailand-Coastal-Lane,Semiconductor Wafers,8517500.00,Critical,At Sea,Los Angeles,Singapore
+V01082,Gulf-002,Gulf of Thailand,Thailand-Coastal-Lane,Crude Oil,24035000.00,Critical,In Transit,Houston,London
+V01083,Gulf-003,Gulf of Thailand,Thailand-Coastal-Lane,Consumer Electronics,6452500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01084,Gulf-004,Gulf of Thailand,Thailand-Coastal-Lane,Medical Supplies,3270000.00,High,Customs Hold,Busan,Shanghai
+V01085,Gulf-005,Gulf of Thailand,Thailand-Coastal-Lane,Automotive Components,4187500.00,High,Scheduled,Yokohama,Jebel Ali
+V01086,Gulf-006,Gulf of Thailand,Thailand-Coastal-Lane,Industrial Machinery,5905000.00,Medium,At Sea,Kaohsiung,Panama City
+V01087,Gulf-007,Gulf of Thailand,Thailand-Coastal-Lane,Battery Cells,7322500.00,High,In Transit,Dubai,Suez
+V01088,Gulf-008,Gulf of Thailand,Thailand-Coastal-Lane,Containerized Retail Goods,2740000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01089,Gulf-009,Gulf of Thailand,Thailand-Coastal-Lane,LNG Equipment,9757500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01090,Gulf-010,Gulf of Thailand,Thailand-Coastal-Lane,Telecom Hardware,5475000.00,High,Scheduled,Hamburg,Manila
+V01091,Gulf-011,Gulf of Thailand,Thailand-Coastal-Lane,Semiconductor Wafers,8692500.00,Critical,At Sea,Los Angeles,Singapore
+V01092,Gulf-012,Gulf of Thailand,Thailand-Coastal-Lane,Crude Oil,24210000.00,Critical,In Transit,Houston,London
+V01093,Gulf-013,Gulf of Thailand,Thailand-Coastal-Lane,Consumer Electronics,6627500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01094,Gulf-014,Gulf of Thailand,Thailand-Coastal-Lane,Medical Supplies,3445000.00,High,Customs Hold,Busan,Shanghai
+V01095,Gulf-015,Gulf of Thailand,Thailand-Coastal-Lane,Automotive Components,4362500.00,High,Scheduled,Yokohama,Jebel Ali
+V01096,Gulf-016,Gulf of Thailand,Thailand-Coastal-Lane,Industrial Machinery,6080000.00,Medium,At Sea,Kaohsiung,Panama City
+V01097,Gulf-017,Gulf of Thailand,Thailand-Coastal-Lane,Battery Cells,7497500.00,High,In Transit,Dubai,Suez
+V01098,Gulf-018,Gulf of Thailand,Thailand-Coastal-Lane,Containerized Retail Goods,2915000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01099,Gulf-019,Gulf of Thailand,Thailand-Coastal-Lane,LNG Equipment,9932500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01100,Gulf-020,Gulf of Thailand,Thailand-Coastal-Lane,Telecom Hardware,5650000.00,High,Scheduled,Hamburg,Manila
+V01101,Gulf-021,Gulf of Thailand,Thailand-Coastal-Lane,Semiconductor Wafers,8867500.00,Critical,At Sea,Los Angeles,Singapore
+V01102,Gulf-022,Gulf of Thailand,Thailand-Coastal-Lane,Crude Oil,24385000.00,Critical,In Transit,Houston,London
+V01103,Gulf-023,Gulf of Thailand,Thailand-Coastal-Lane,Consumer Electronics,6802500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01104,Gulf-024,Gulf of Thailand,Thailand-Coastal-Lane,Medical Supplies,3620000.00,High,Customs Hold,Busan,Shanghai
+V01105,Gulf-025,Gulf of Thailand,Thailand-Coastal-Lane,Automotive Components,4537500.00,High,Scheduled,Yokohama,Jebel Ali
+V01106,Gulf-026,Gulf of Thailand,Thailand-Coastal-Lane,Industrial Machinery,6255000.00,Medium,At Sea,Kaohsiung,Panama City
+V01107,Gulf-027,Gulf of Thailand,Thailand-Coastal-Lane,Battery Cells,7672500.00,High,In Transit,Dubai,Suez
+V01108,Gulf-028,Gulf of Thailand,Thailand-Coastal-Lane,Containerized Retail Goods,3090000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01109,Gulf-029,Gulf of Thailand,Thailand-Coastal-Lane,LNG Equipment,10107500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01110,Gulf-030,Gulf of Thailand,Thailand-Coastal-Lane,Telecom Hardware,5825000.00,High,Scheduled,Hamburg,Manila
+V01111,Gulf-031,Gulf of Thailand,Thailand-Coastal-Lane,Semiconductor Wafers,9042500.00,Critical,At Sea,Los Angeles,Singapore
+V01112,Gulf-032,Gulf of Thailand,Thailand-Coastal-Lane,Crude Oil,24560000.00,Critical,In Transit,Houston,London
+V01113,Gulf-033,Gulf of Thailand,Thailand-Coastal-Lane,Consumer Electronics,6977500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01114,Gulf-034,Gulf of Thailand,Thailand-Coastal-Lane,Medical Supplies,3795000.00,High,Customs Hold,Busan,Shanghai
+V01115,Gulf-035,Gulf of Thailand,Thailand-Coastal-Lane,Automotive Components,4712500.00,High,Scheduled,Yokohama,Jebel Ali
+V01116,Gulf-036,Gulf of Thailand,Thailand-Coastal-Lane,Industrial Machinery,6430000.00,Medium,At Sea,Kaohsiung,Panama City
+V01117,Gulf-037,Gulf of Thailand,Thailand-Coastal-Lane,Battery Cells,7847500.00,High,In Transit,Dubai,Suez
+V01118,Gulf-038,Gulf of Thailand,Thailand-Coastal-Lane,Containerized Retail Goods,3265000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01119,Gulf-039,Gulf of Thailand,Thailand-Coastal-Lane,LNG Equipment,10282500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01120,Gulf-040,Gulf of Thailand,Thailand-Coastal-Lane,Telecom Hardware,6000000.00,High,Scheduled,Hamburg,Manila
+V01121,Gulf-041,Gulf of Thailand,Thailand-Coastal-Lane,Semiconductor Wafers,9217500.00,Critical,At Sea,Los Angeles,Singapore
+V01122,Gulf-042,Gulf of Thailand,Thailand-Coastal-Lane,Crude Oil,24735000.00,Critical,In Transit,Houston,London
+V01123,Gulf-043,Gulf of Thailand,Thailand-Coastal-Lane,Consumer Electronics,7152500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01124,Gulf-044,Gulf of Thailand,Thailand-Coastal-Lane,Medical Supplies,3970000.00,High,Customs Hold,Busan,Shanghai
+V01125,Gulf-045,Gulf of Thailand,Thailand-Coastal-Lane,Automotive Components,4887500.00,High,Scheduled,Yokohama,Jebel Ali
+V01126,Gulf-046,Gulf of Thailand,Thailand-Coastal-Lane,Industrial Machinery,6605000.00,Medium,At Sea,Kaohsiung,Panama City
+V01127,Gulf-047,Gulf of Thailand,Thailand-Coastal-Lane,Battery Cells,8022500.00,High,In Transit,Dubai,Suez
+V01128,Gulf-048,Gulf of Thailand,Thailand-Coastal-Lane,Containerized Retail Goods,3440000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01129,Gulf-049,Gulf of Thailand,Thailand-Coastal-Lane,LNG Equipment,10457500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01130,Gulf-050,Gulf of Thailand,Thailand-Coastal-Lane,Telecom Hardware,6175000.00,High,Scheduled,Hamburg,Manila
+V01131,Gulf-051,Gulf of Thailand,Thailand-Coastal-Lane,Semiconductor Wafers,9392500.00,Critical,At Sea,Los Angeles,Singapore
+V01132,Gulf-052,Gulf of Thailand,Thailand-Coastal-Lane,Crude Oil,24910000.00,Critical,In Transit,Houston,London
+V01133,Gulf-053,Gulf of Thailand,Thailand-Coastal-Lane,Consumer Electronics,7327500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01134,Gulf-054,Gulf of Thailand,Thailand-Coastal-Lane,Medical Supplies,4145000.00,High,Customs Hold,Busan,Shanghai
+V01135,Gulf-055,Gulf of Thailand,Thailand-Coastal-Lane,Automotive Components,5062500.00,High,Scheduled,Yokohama,Jebel Ali
+V01136,Gulf-056,Gulf of Thailand,Thailand-Coastal-Lane,Industrial Machinery,6780000.00,Medium,At Sea,Kaohsiung,Panama City
+V01137,Gulf-057,Gulf of Thailand,Thailand-Coastal-Lane,Battery Cells,8197500.00,High,In Transit,Dubai,Suez
+V01138,Gulf-058,Gulf of Thailand,Thailand-Coastal-Lane,Containerized Retail Goods,3615000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01139,Gulf-059,Gulf of Thailand,Thailand-Coastal-Lane,LNG Equipment,10632500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01140,Gulf-060,Gulf of Thailand,Thailand-Coastal-Lane,Telecom Hardware,6350000.00,High,Scheduled,Hamburg,Manila
+V01141,Gulf-061,Gulf of Thailand,Thailand-Coastal-Lane,Semiconductor Wafers,9567500.00,Critical,At Sea,Los Angeles,Singapore
+V01142,Gulf-062,Gulf of Thailand,Thailand-Coastal-Lane,Crude Oil,25085000.00,Critical,In Transit,Houston,London
+V01143,Gulf-063,Gulf of Thailand,Thailand-Coastal-Lane,Consumer Electronics,7502500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01144,Gulf-064,Gulf of Thailand,Thailand-Coastal-Lane,Medical Supplies,4320000.00,High,Customs Hold,Busan,Shanghai
+V01145,Gulf-065,Gulf of Thailand,Thailand-Coastal-Lane,Automotive Components,5237500.00,High,Scheduled,Yokohama,Jebel Ali
+V01146,Gulf-066,Gulf of Thailand,Thailand-Coastal-Lane,Industrial Machinery,6955000.00,Medium,At Sea,Kaohsiung,Panama City
+V01147,Gulf-067,Gulf of Thailand,Thailand-Coastal-Lane,Battery Cells,8372500.00,High,In Transit,Dubai,Suez
+V01148,Gulf-068,Gulf of Thailand,Thailand-Coastal-Lane,Containerized Retail Goods,3790000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01149,Gulf-069,Gulf of Thailand,Thailand-Coastal-Lane,LNG Equipment,10807500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01150,Gulf-070,Gulf of Thailand,Thailand-Coastal-Lane,Telecom Hardware,6525000.00,High,Scheduled,Hamburg,Manila
+V01151,Gulf-071,Gulf of Thailand,Thailand-Coastal-Lane,Semiconductor Wafers,9742500.00,Critical,At Sea,Los Angeles,Singapore
+V01152,Gulf-072,Gulf of Thailand,Thailand-Coastal-Lane,Crude Oil,25260000.00,Critical,In Transit,Houston,London
+V01153,Gulf-073,Gulf of Thailand,Thailand-Coastal-Lane,Consumer Electronics,7677500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01154,Gulf-074,Gulf of Thailand,Thailand-Coastal-Lane,Medical Supplies,4495000.00,High,Customs Hold,Busan,Shanghai
+V01155,Gulf-075,Gulf of Thailand,Thailand-Coastal-Lane,Automotive Components,5412500.00,High,Scheduled,Yokohama,Jebel Ali
+V01156,Gulf-076,Gulf of Thailand,Thailand-Coastal-Lane,Industrial Machinery,7130000.00,Medium,At Sea,Kaohsiung,Panama City
+V01157,Gulf-077,Gulf of Thailand,Thailand-Coastal-Lane,Battery Cells,8547500.00,High,In Transit,Dubai,Suez
+V01158,Gulf-078,Gulf of Thailand,Thailand-Coastal-Lane,Containerized Retail Goods,3965000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01159,Gulf-079,Gulf of Thailand,Thailand-Coastal-Lane,LNG Equipment,10982500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01160,Gulf-080,Gulf of Thailand,Thailand-Coastal-Lane,Telecom Hardware,6700000.00,High,Scheduled,Hamburg,Manila
+V01161,Gulf-081,Gulf of Thailand,Thailand-Coastal-Lane,Semiconductor Wafers,9917500.00,Critical,At Sea,Los Angeles,Singapore
+V01162,Gulf-082,Gulf of Thailand,Thailand-Coastal-Lane,Crude Oil,25435000.00,Critical,In Transit,Houston,London
+V01163,Gulf-083,Gulf of Thailand,Thailand-Coastal-Lane,Consumer Electronics,7852500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01164,Gulf-084,Gulf of Thailand,Thailand-Coastal-Lane,Medical Supplies,4670000.00,High,Customs Hold,Busan,Shanghai
+V01165,Gulf-085,Gulf of Thailand,Thailand-Coastal-Lane,Automotive Components,5587500.00,High,Scheduled,Yokohama,Jebel Ali
+V01166,Gulf-086,Gulf of Thailand,Thailand-Coastal-Lane,Industrial Machinery,7305000.00,Medium,At Sea,Kaohsiung,Panama City
+V01167,Gulf-087,Gulf of Thailand,Thailand-Coastal-Lane,Battery Cells,8722500.00,High,In Transit,Dubai,Suez
+V01168,Gulf-088,Gulf of Thailand,Thailand-Coastal-Lane,Containerized Retail Goods,4140000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01169,Gulf-089,Gulf of Thailand,Thailand-Coastal-Lane,LNG Equipment,11157500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01170,Gulf-090,Gulf of Thailand,Thailand-Coastal-Lane,Telecom Hardware,6875000.00,High,Scheduled,Hamburg,Manila
+V01171,Gulf-091,Gulf of Thailand,Thailand-Coastal-Lane,Semiconductor Wafers,10092500.00,Critical,At Sea,Los Angeles,Singapore
+V01172,Gulf-092,Gulf of Thailand,Thailand-Coastal-Lane,Crude Oil,25610000.00,Critical,In Transit,Houston,London
+V01173,Gulf-093,Gulf of Thailand,Thailand-Coastal-Lane,Consumer Electronics,8027500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01174,Gulf-094,Gulf of Thailand,Thailand-Coastal-Lane,Medical Supplies,4845000.00,High,Customs Hold,Busan,Shanghai
+V01175,Gulf-095,Gulf of Thailand,Thailand-Coastal-Lane,Automotive Components,5762500.00,High,Scheduled,Yokohama,Jebel Ali
+V01176,Gulf-096,Gulf of Thailand,Thailand-Coastal-Lane,Industrial Machinery,7480000.00,Medium,At Sea,Kaohsiung,Panama City
+V01177,Gulf-097,Gulf of Thailand,Thailand-Coastal-Lane,Battery Cells,8897500.00,High,In Transit,Dubai,Suez
+V01178,Gulf-098,Gulf of Thailand,Thailand-Coastal-Lane,Containerized Retail Goods,4315000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01179,Gulf-099,Gulf of Thailand,Thailand-Coastal-Lane,LNG Equipment,11332500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01180,Gulf-100,Gulf of Thailand,Thailand-Coastal-Lane,Telecom Hardware,7050000.00,High,Scheduled,Hamburg,Manila
+V01181,Gulf-101,Gulf of Thailand,Thailand-Coastal-Lane,Semiconductor Wafers,10267500.00,Critical,At Sea,Los Angeles,Singapore
+V01182,Gulf-102,Gulf of Thailand,Thailand-Coastal-Lane,Crude Oil,25785000.00,Critical,In Transit,Houston,London
+V01183,Gulf-103,Gulf of Thailand,Thailand-Coastal-Lane,Consumer Electronics,8202500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01184,Gulf-104,Gulf of Thailand,Thailand-Coastal-Lane,Medical Supplies,5020000.00,High,Customs Hold,Busan,Shanghai
+V01185,Gulf-105,Gulf of Thailand,Thailand-Coastal-Lane,Automotive Components,5937500.00,High,Scheduled,Yokohama,Jebel Ali
+V01186,Gulf-106,Gulf of Thailand,Thailand-Coastal-Lane,Industrial Machinery,7655000.00,Medium,At Sea,Kaohsiung,Panama City
+V01187,Gulf-107,Gulf of Thailand,Thailand-Coastal-Lane,Battery Cells,9072500.00,High,In Transit,Dubai,Suez
+V01188,Gulf-108,Gulf of Thailand,Thailand-Coastal-Lane,Containerized Retail Goods,4490000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01189,Gulf-109,Gulf of Thailand,Thailand-Coastal-Lane,LNG Equipment,11507500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01190,Gulf-110,Gulf of Thailand,Thailand-Coastal-Lane,Telecom Hardware,7225000.00,High,Scheduled,Hamburg,Manila
+V01191,Gulf-111,Gulf of Thailand,Thailand-Coastal-Lane,Semiconductor Wafers,10442500.00,Critical,At Sea,Los Angeles,Singapore
+V01192,Gulf-112,Gulf of Thailand,Thailand-Coastal-Lane,Crude Oil,25960000.00,Critical,In Transit,Houston,London
+V01193,Gulf-113,Gulf of Thailand,Thailand-Coastal-Lane,Consumer Electronics,8377500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01194,Gulf-114,Gulf of Thailand,Thailand-Coastal-Lane,Medical Supplies,5195000.00,High,Customs Hold,Busan,Shanghai
+V01195,Gulf-115,Gulf of Thailand,Thailand-Coastal-Lane,Automotive Components,6112500.00,High,Scheduled,Yokohama,Jebel Ali
+V01196,Gulf-116,Gulf of Thailand,Thailand-Coastal-Lane,Industrial Machinery,7830000.00,Medium,At Sea,Kaohsiung,Panama City
+V01197,Gulf-117,Gulf of Thailand,Thailand-Coastal-Lane,Battery Cells,9247500.00,High,In Transit,Dubai,Suez
+V01198,Gulf-118,Gulf of Thailand,Thailand-Coastal-Lane,Containerized Retail Goods,4665000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01199,Gulf-119,Gulf of Thailand,Thailand-Coastal-Lane,LNG Equipment,11682500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01200,Gulf-120,Gulf of Thailand,Thailand-Coastal-Lane,Telecom Hardware,7400000.00,High,Scheduled,Hamburg,Manila
+V01201,English-001,English Channel,UK-Europe-Channel,Semiconductor Wafers,8517500.00,Critical,At Sea,Los Angeles,Singapore
+V01202,English-002,English Channel,UK-Europe-Channel,Crude Oil,24035000.00,Critical,In Transit,Houston,London
+V01203,English-003,English Channel,UK-Europe-Channel,Consumer Electronics,6452500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01204,English-004,English Channel,UK-Europe-Channel,Medical Supplies,3270000.00,High,Customs Hold,Busan,Shanghai
+V01205,English-005,English Channel,UK-Europe-Channel,Automotive Components,4187500.00,High,Scheduled,Yokohama,Jebel Ali
+V01206,English-006,English Channel,UK-Europe-Channel,Industrial Machinery,5905000.00,Medium,At Sea,Kaohsiung,Panama City
+V01207,English-007,English Channel,UK-Europe-Channel,Battery Cells,7322500.00,High,In Transit,Dubai,Suez
+V01208,English-008,English Channel,UK-Europe-Channel,Containerized Retail Goods,2740000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01209,English-009,English Channel,UK-Europe-Channel,LNG Equipment,9757500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01210,English-010,English Channel,UK-Europe-Channel,Telecom Hardware,5475000.00,High,Scheduled,Hamburg,Manila
+V01211,English-011,English Channel,UK-Europe-Channel,Semiconductor Wafers,8692500.00,Critical,At Sea,Los Angeles,Singapore
+V01212,English-012,English Channel,UK-Europe-Channel,Crude Oil,24210000.00,Critical,In Transit,Houston,London
+V01213,English-013,English Channel,UK-Europe-Channel,Consumer Electronics,6627500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01214,English-014,English Channel,UK-Europe-Channel,Medical Supplies,3445000.00,High,Customs Hold,Busan,Shanghai
+V01215,English-015,English Channel,UK-Europe-Channel,Automotive Components,4362500.00,High,Scheduled,Yokohama,Jebel Ali
+V01216,English-016,English Channel,UK-Europe-Channel,Industrial Machinery,6080000.00,Medium,At Sea,Kaohsiung,Panama City
+V01217,English-017,English Channel,UK-Europe-Channel,Battery Cells,7497500.00,High,In Transit,Dubai,Suez
+V01218,English-018,English Channel,UK-Europe-Channel,Containerized Retail Goods,2915000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01219,English-019,English Channel,UK-Europe-Channel,LNG Equipment,9932500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01220,English-020,English Channel,UK-Europe-Channel,Telecom Hardware,5650000.00,High,Scheduled,Hamburg,Manila
+V01221,English-021,English Channel,UK-Europe-Channel,Semiconductor Wafers,8867500.00,Critical,At Sea,Los Angeles,Singapore
+V01222,English-022,English Channel,UK-Europe-Channel,Crude Oil,24385000.00,Critical,In Transit,Houston,London
+V01223,English-023,English Channel,UK-Europe-Channel,Consumer Electronics,6802500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01224,English-024,English Channel,UK-Europe-Channel,Medical Supplies,3620000.00,High,Customs Hold,Busan,Shanghai
+V01225,English-025,English Channel,UK-Europe-Channel,Automotive Components,4537500.00,High,Scheduled,Yokohama,Jebel Ali
+V01226,English-026,English Channel,UK-Europe-Channel,Industrial Machinery,6255000.00,Medium,At Sea,Kaohsiung,Panama City
+V01227,English-027,English Channel,UK-Europe-Channel,Battery Cells,7672500.00,High,In Transit,Dubai,Suez
+V01228,English-028,English Channel,UK-Europe-Channel,Containerized Retail Goods,3090000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01229,English-029,English Channel,UK-Europe-Channel,LNG Equipment,10107500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01230,English-030,English Channel,UK-Europe-Channel,Telecom Hardware,5825000.00,High,Scheduled,Hamburg,Manila
+V01231,English-031,English Channel,UK-Europe-Channel,Semiconductor Wafers,9042500.00,Critical,At Sea,Los Angeles,Singapore
+V01232,English-032,English Channel,UK-Europe-Channel,Crude Oil,24560000.00,Critical,In Transit,Houston,London
+V01233,English-033,English Channel,UK-Europe-Channel,Consumer Electronics,6977500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01234,English-034,English Channel,UK-Europe-Channel,Medical Supplies,3795000.00,High,Customs Hold,Busan,Shanghai
+V01235,English-035,English Channel,UK-Europe-Channel,Automotive Components,4712500.00,High,Scheduled,Yokohama,Jebel Ali
+V01236,English-036,English Channel,UK-Europe-Channel,Industrial Machinery,6430000.00,Medium,At Sea,Kaohsiung,Panama City
+V01237,English-037,English Channel,UK-Europe-Channel,Battery Cells,7847500.00,High,In Transit,Dubai,Suez
+V01238,English-038,English Channel,UK-Europe-Channel,Containerized Retail Goods,3265000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01239,English-039,English Channel,UK-Europe-Channel,LNG Equipment,10282500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01240,English-040,English Channel,UK-Europe-Channel,Telecom Hardware,6000000.00,High,Scheduled,Hamburg,Manila
+V01241,English-041,English Channel,UK-Europe-Channel,Semiconductor Wafers,9217500.00,Critical,At Sea,Los Angeles,Singapore
+V01242,English-042,English Channel,UK-Europe-Channel,Crude Oil,24735000.00,Critical,In Transit,Houston,London
+V01243,English-043,English Channel,UK-Europe-Channel,Consumer Electronics,7152500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01244,English-044,English Channel,UK-Europe-Channel,Medical Supplies,3970000.00,High,Customs Hold,Busan,Shanghai
+V01245,English-045,English Channel,UK-Europe-Channel,Automotive Components,4887500.00,High,Scheduled,Yokohama,Jebel Ali
+V01246,English-046,English Channel,UK-Europe-Channel,Industrial Machinery,6605000.00,Medium,At Sea,Kaohsiung,Panama City
+V01247,English-047,English Channel,UK-Europe-Channel,Battery Cells,8022500.00,High,In Transit,Dubai,Suez
+V01248,English-048,English Channel,UK-Europe-Channel,Containerized Retail Goods,3440000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01249,English-049,English Channel,UK-Europe-Channel,LNG Equipment,10457500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01250,English-050,English Channel,UK-Europe-Channel,Telecom Hardware,6175000.00,High,Scheduled,Hamburg,Manila
+V01251,English-051,English Channel,UK-Europe-Channel,Semiconductor Wafers,9392500.00,Critical,At Sea,Los Angeles,Singapore
+V01252,English-052,English Channel,UK-Europe-Channel,Crude Oil,24910000.00,Critical,In Transit,Houston,London
+V01253,English-053,English Channel,UK-Europe-Channel,Consumer Electronics,7327500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01254,English-054,English Channel,UK-Europe-Channel,Medical Supplies,4145000.00,High,Customs Hold,Busan,Shanghai
+V01255,English-055,English Channel,UK-Europe-Channel,Automotive Components,5062500.00,High,Scheduled,Yokohama,Jebel Ali
+V01256,English-056,English Channel,UK-Europe-Channel,Industrial Machinery,6780000.00,Medium,At Sea,Kaohsiung,Panama City
+V01257,English-057,English Channel,UK-Europe-Channel,Battery Cells,8197500.00,High,In Transit,Dubai,Suez
+V01258,English-058,English Channel,UK-Europe-Channel,Containerized Retail Goods,3615000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01259,English-059,English Channel,UK-Europe-Channel,LNG Equipment,10632500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01260,English-060,English Channel,UK-Europe-Channel,Telecom Hardware,6350000.00,High,Scheduled,Hamburg,Manila
+V01261,English-061,English Channel,UK-Europe-Channel,Semiconductor Wafers,9567500.00,Critical,At Sea,Los Angeles,Singapore
+V01262,English-062,English Channel,UK-Europe-Channel,Crude Oil,25085000.00,Critical,In Transit,Houston,London
+V01263,English-063,English Channel,UK-Europe-Channel,Consumer Electronics,7502500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01264,English-064,English Channel,UK-Europe-Channel,Medical Supplies,4320000.00,High,Customs Hold,Busan,Shanghai
+V01265,English-065,English Channel,UK-Europe-Channel,Automotive Components,5237500.00,High,Scheduled,Yokohama,Jebel Ali
+V01266,English-066,English Channel,UK-Europe-Channel,Industrial Machinery,6955000.00,Medium,At Sea,Kaohsiung,Panama City
+V01267,English-067,English Channel,UK-Europe-Channel,Battery Cells,8372500.00,High,In Transit,Dubai,Suez
+V01268,English-068,English Channel,UK-Europe-Channel,Containerized Retail Goods,3790000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01269,English-069,English Channel,UK-Europe-Channel,LNG Equipment,10807500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01270,English-070,English Channel,UK-Europe-Channel,Telecom Hardware,6525000.00,High,Scheduled,Hamburg,Manila
+V01271,English-071,English Channel,UK-Europe-Channel,Semiconductor Wafers,9742500.00,Critical,At Sea,Los Angeles,Singapore
+V01272,English-072,English Channel,UK-Europe-Channel,Crude Oil,25260000.00,Critical,In Transit,Houston,London
+V01273,English-073,English Channel,UK-Europe-Channel,Consumer Electronics,7677500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01274,English-074,English Channel,UK-Europe-Channel,Medical Supplies,4495000.00,High,Customs Hold,Busan,Shanghai
+V01275,English-075,English Channel,UK-Europe-Channel,Automotive Components,5412500.00,High,Scheduled,Yokohama,Jebel Ali
+V01276,English-076,English Channel,UK-Europe-Channel,Industrial Machinery,7130000.00,Medium,At Sea,Kaohsiung,Panama City
+V01277,English-077,English Channel,UK-Europe-Channel,Battery Cells,8547500.00,High,In Transit,Dubai,Suez
+V01278,English-078,English Channel,UK-Europe-Channel,Containerized Retail Goods,3965000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01279,English-079,English Channel,UK-Europe-Channel,LNG Equipment,10982500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01280,English-080,English Channel,UK-Europe-Channel,Telecom Hardware,6700000.00,High,Scheduled,Hamburg,Manila
+V01281,English-081,English Channel,UK-Europe-Channel,Semiconductor Wafers,9917500.00,Critical,At Sea,Los Angeles,Singapore
+V01282,English-082,English Channel,UK-Europe-Channel,Crude Oil,25435000.00,Critical,In Transit,Houston,London
+V01283,English-083,English Channel,UK-Europe-Channel,Consumer Electronics,7852500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01284,English-084,English Channel,UK-Europe-Channel,Medical Supplies,4670000.00,High,Customs Hold,Busan,Shanghai
+V01285,English-085,English Channel,UK-Europe-Channel,Automotive Components,5587500.00,High,Scheduled,Yokohama,Jebel Ali
+V01286,English-086,English Channel,UK-Europe-Channel,Industrial Machinery,7305000.00,Medium,At Sea,Kaohsiung,Panama City
+V01287,English-087,English Channel,UK-Europe-Channel,Battery Cells,8722500.00,High,In Transit,Dubai,Suez
+V01288,English-088,English Channel,UK-Europe-Channel,Containerized Retail Goods,4140000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01289,English-089,English Channel,UK-Europe-Channel,LNG Equipment,11157500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01290,English-090,English Channel,UK-Europe-Channel,Telecom Hardware,6875000.00,High,Scheduled,Hamburg,Manila
+V01291,English-091,English Channel,UK-Europe-Channel,Semiconductor Wafers,10092500.00,Critical,At Sea,Los Angeles,Singapore
+V01292,English-092,English Channel,UK-Europe-Channel,Crude Oil,25610000.00,Critical,In Transit,Houston,London
+V01293,English-093,English Channel,UK-Europe-Channel,Consumer Electronics,8027500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01294,English-094,English Channel,UK-Europe-Channel,Medical Supplies,4845000.00,High,Customs Hold,Busan,Shanghai
+V01295,English-095,English Channel,UK-Europe-Channel,Automotive Components,5762500.00,High,Scheduled,Yokohama,Jebel Ali
+V01296,English-096,English Channel,UK-Europe-Channel,Industrial Machinery,7480000.00,Medium,At Sea,Kaohsiung,Panama City
+V01297,English-097,English Channel,UK-Europe-Channel,Battery Cells,8897500.00,High,In Transit,Dubai,Suez
+V01298,English-098,English Channel,UK-Europe-Channel,Containerized Retail Goods,4315000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01299,English-099,English Channel,UK-Europe-Channel,LNG Equipment,11332500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01300,English-100,English Channel,UK-Europe-Channel,Telecom Hardware,7050000.00,High,Scheduled,Hamburg,Manila
+V01301,English-101,English Channel,UK-Europe-Channel,Semiconductor Wafers,10267500.00,Critical,At Sea,Los Angeles,Singapore
+V01302,English-102,English Channel,UK-Europe-Channel,Crude Oil,25785000.00,Critical,In Transit,Houston,London
+V01303,English-103,English Channel,UK-Europe-Channel,Consumer Electronics,8202500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01304,English-104,English Channel,UK-Europe-Channel,Medical Supplies,5020000.00,High,Customs Hold,Busan,Shanghai
+V01305,English-105,English Channel,UK-Europe-Channel,Automotive Components,5937500.00,High,Scheduled,Yokohama,Jebel Ali
+V01306,English-106,English Channel,UK-Europe-Channel,Industrial Machinery,7655000.00,Medium,At Sea,Kaohsiung,Panama City
+V01307,English-107,English Channel,UK-Europe-Channel,Battery Cells,9072500.00,High,In Transit,Dubai,Suez
+V01308,English-108,English Channel,UK-Europe-Channel,Containerized Retail Goods,4490000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01309,English-109,English Channel,UK-Europe-Channel,LNG Equipment,11507500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01310,English-110,English Channel,UK-Europe-Channel,Telecom Hardware,7225000.00,High,Scheduled,Hamburg,Manila
+V01311,English-111,English Channel,UK-Europe-Channel,Semiconductor Wafers,10442500.00,Critical,At Sea,Los Angeles,Singapore
+V01312,English-112,English Channel,UK-Europe-Channel,Crude Oil,25960000.00,Critical,In Transit,Houston,London
+V01313,English-113,English Channel,UK-Europe-Channel,Consumer Electronics,8377500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01314,English-114,English Channel,UK-Europe-Channel,Medical Supplies,5195000.00,High,Customs Hold,Busan,Shanghai
+V01315,English-115,English Channel,UK-Europe-Channel,Automotive Components,6112500.00,High,Scheduled,Yokohama,Jebel Ali
+V01316,English-116,English Channel,UK-Europe-Channel,Industrial Machinery,7830000.00,Medium,At Sea,Kaohsiung,Panama City
+V01317,English-117,English Channel,UK-Europe-Channel,Battery Cells,9247500.00,High,In Transit,Dubai,Suez
+V01318,English-118,English Channel,UK-Europe-Channel,Containerized Retail Goods,4665000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01319,English-119,English Channel,UK-Europe-Channel,LNG Equipment,11682500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01320,English-120,English Channel,UK-Europe-Channel,Telecom Hardware,7400000.00,High,Scheduled,Hamburg,Manila
+V01321,North-001,North Atlantic,Atlantic-Europe-Lane,Semiconductor Wafers,8517500.00,Critical,At Sea,Los Angeles,Singapore
+V01322,North-002,North Atlantic,Atlantic-Europe-Lane,Crude Oil,24035000.00,Critical,In Transit,Houston,London
+V01323,North-003,North Atlantic,Atlantic-Europe-Lane,Consumer Electronics,6452500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01324,North-004,North Atlantic,Atlantic-Europe-Lane,Medical Supplies,3270000.00,High,Customs Hold,Busan,Shanghai
+V01325,North-005,North Atlantic,Atlantic-Europe-Lane,Automotive Components,4187500.00,High,Scheduled,Yokohama,Jebel Ali
+V01326,North-006,North Atlantic,Atlantic-Europe-Lane,Industrial Machinery,5905000.00,Medium,At Sea,Kaohsiung,Panama City
+V01327,North-007,North Atlantic,Atlantic-Europe-Lane,Battery Cells,7322500.00,High,In Transit,Dubai,Suez
+V01328,North-008,North Atlantic,Atlantic-Europe-Lane,Containerized Retail Goods,2740000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01329,North-009,North Atlantic,Atlantic-Europe-Lane,LNG Equipment,9757500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01330,North-010,North Atlantic,Atlantic-Europe-Lane,Telecom Hardware,5475000.00,High,Scheduled,Hamburg,Manila
+V01331,North-011,North Atlantic,Atlantic-Europe-Lane,Semiconductor Wafers,8692500.00,Critical,At Sea,Los Angeles,Singapore
+V01332,North-012,North Atlantic,Atlantic-Europe-Lane,Crude Oil,24210000.00,Critical,In Transit,Houston,London
+V01333,North-013,North Atlantic,Atlantic-Europe-Lane,Consumer Electronics,6627500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01334,North-014,North Atlantic,Atlantic-Europe-Lane,Medical Supplies,3445000.00,High,Customs Hold,Busan,Shanghai
+V01335,North-015,North Atlantic,Atlantic-Europe-Lane,Automotive Components,4362500.00,High,Scheduled,Yokohama,Jebel Ali
+V01336,North-016,North Atlantic,Atlantic-Europe-Lane,Industrial Machinery,6080000.00,Medium,At Sea,Kaohsiung,Panama City
+V01337,North-017,North Atlantic,Atlantic-Europe-Lane,Battery Cells,7497500.00,High,In Transit,Dubai,Suez
+V01338,North-018,North Atlantic,Atlantic-Europe-Lane,Containerized Retail Goods,2915000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01339,North-019,North Atlantic,Atlantic-Europe-Lane,LNG Equipment,9932500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01340,North-020,North Atlantic,Atlantic-Europe-Lane,Telecom Hardware,5650000.00,High,Scheduled,Hamburg,Manila
+V01341,North-021,North Atlantic,Atlantic-Europe-Lane,Semiconductor Wafers,8867500.00,Critical,At Sea,Los Angeles,Singapore
+V01342,North-022,North Atlantic,Atlantic-Europe-Lane,Crude Oil,24385000.00,Critical,In Transit,Houston,London
+V01343,North-023,North Atlantic,Atlantic-Europe-Lane,Consumer Electronics,6802500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01344,North-024,North Atlantic,Atlantic-Europe-Lane,Medical Supplies,3620000.00,High,Customs Hold,Busan,Shanghai
+V01345,North-025,North Atlantic,Atlantic-Europe-Lane,Automotive Components,4537500.00,High,Scheduled,Yokohama,Jebel Ali
+V01346,North-026,North Atlantic,Atlantic-Europe-Lane,Industrial Machinery,6255000.00,Medium,At Sea,Kaohsiung,Panama City
+V01347,North-027,North Atlantic,Atlantic-Europe-Lane,Battery Cells,7672500.00,High,In Transit,Dubai,Suez
+V01348,North-028,North Atlantic,Atlantic-Europe-Lane,Containerized Retail Goods,3090000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01349,North-029,North Atlantic,Atlantic-Europe-Lane,LNG Equipment,10107500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01350,North-030,North Atlantic,Atlantic-Europe-Lane,Telecom Hardware,5825000.00,High,Scheduled,Hamburg,Manila
+V01351,North-031,North Atlantic,Atlantic-Europe-Lane,Semiconductor Wafers,9042500.00,Critical,At Sea,Los Angeles,Singapore
+V01352,North-032,North Atlantic,Atlantic-Europe-Lane,Crude Oil,24560000.00,Critical,In Transit,Houston,London
+V01353,North-033,North Atlantic,Atlantic-Europe-Lane,Consumer Electronics,6977500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01354,North-034,North Atlantic,Atlantic-Europe-Lane,Medical Supplies,3795000.00,High,Customs Hold,Busan,Shanghai
+V01355,North-035,North Atlantic,Atlantic-Europe-Lane,Automotive Components,4712500.00,High,Scheduled,Yokohama,Jebel Ali
+V01356,North-036,North Atlantic,Atlantic-Europe-Lane,Industrial Machinery,6430000.00,Medium,At Sea,Kaohsiung,Panama City
+V01357,North-037,North Atlantic,Atlantic-Europe-Lane,Battery Cells,7847500.00,High,In Transit,Dubai,Suez
+V01358,North-038,North Atlantic,Atlantic-Europe-Lane,Containerized Retail Goods,3265000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01359,North-039,North Atlantic,Atlantic-Europe-Lane,LNG Equipment,10282500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01360,North-040,North Atlantic,Atlantic-Europe-Lane,Telecom Hardware,6000000.00,High,Scheduled,Hamburg,Manila
+V01361,North-041,North Atlantic,Atlantic-Europe-Lane,Semiconductor Wafers,9217500.00,Critical,At Sea,Los Angeles,Singapore
+V01362,North-042,North Atlantic,Atlantic-Europe-Lane,Crude Oil,24735000.00,Critical,In Transit,Houston,London
+V01363,North-043,North Atlantic,Atlantic-Europe-Lane,Consumer Electronics,7152500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01364,North-044,North Atlantic,Atlantic-Europe-Lane,Medical Supplies,3970000.00,High,Customs Hold,Busan,Shanghai
+V01365,North-045,North Atlantic,Atlantic-Europe-Lane,Automotive Components,4887500.00,High,Scheduled,Yokohama,Jebel Ali
+V01366,North-046,North Atlantic,Atlantic-Europe-Lane,Industrial Machinery,6605000.00,Medium,At Sea,Kaohsiung,Panama City
+V01367,North-047,North Atlantic,Atlantic-Europe-Lane,Battery Cells,8022500.00,High,In Transit,Dubai,Suez
+V01368,North-048,North Atlantic,Atlantic-Europe-Lane,Containerized Retail Goods,3440000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01369,North-049,North Atlantic,Atlantic-Europe-Lane,LNG Equipment,10457500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01370,North-050,North Atlantic,Atlantic-Europe-Lane,Telecom Hardware,6175000.00,High,Scheduled,Hamburg,Manila
+V01371,North-051,North Atlantic,Atlantic-Europe-Lane,Semiconductor Wafers,9392500.00,Critical,At Sea,Los Angeles,Singapore
+V01372,North-052,North Atlantic,Atlantic-Europe-Lane,Crude Oil,24910000.00,Critical,In Transit,Houston,London
+V01373,North-053,North Atlantic,Atlantic-Europe-Lane,Consumer Electronics,7327500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01374,North-054,North Atlantic,Atlantic-Europe-Lane,Medical Supplies,4145000.00,High,Customs Hold,Busan,Shanghai
+V01375,North-055,North Atlantic,Atlantic-Europe-Lane,Automotive Components,5062500.00,High,Scheduled,Yokohama,Jebel Ali
+V01376,North-056,North Atlantic,Atlantic-Europe-Lane,Industrial Machinery,6780000.00,Medium,At Sea,Kaohsiung,Panama City
+V01377,North-057,North Atlantic,Atlantic-Europe-Lane,Battery Cells,8197500.00,High,In Transit,Dubai,Suez
+V01378,North-058,North Atlantic,Atlantic-Europe-Lane,Containerized Retail Goods,3615000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01379,North-059,North Atlantic,Atlantic-Europe-Lane,LNG Equipment,10632500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01380,North-060,North Atlantic,Atlantic-Europe-Lane,Telecom Hardware,6350000.00,High,Scheduled,Hamburg,Manila
+V01381,North-061,North Atlantic,Atlantic-Europe-Lane,Semiconductor Wafers,9567500.00,Critical,At Sea,Los Angeles,Singapore
+V01382,North-062,North Atlantic,Atlantic-Europe-Lane,Crude Oil,25085000.00,Critical,In Transit,Houston,London
+V01383,North-063,North Atlantic,Atlantic-Europe-Lane,Consumer Electronics,7502500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01384,North-064,North Atlantic,Atlantic-Europe-Lane,Medical Supplies,4320000.00,High,Customs Hold,Busan,Shanghai
+V01385,North-065,North Atlantic,Atlantic-Europe-Lane,Automotive Components,5237500.00,High,Scheduled,Yokohama,Jebel Ali
+V01386,North-066,North Atlantic,Atlantic-Europe-Lane,Industrial Machinery,6955000.00,Medium,At Sea,Kaohsiung,Panama City
+V01387,North-067,North Atlantic,Atlantic-Europe-Lane,Battery Cells,8372500.00,High,In Transit,Dubai,Suez
+V01388,North-068,North Atlantic,Atlantic-Europe-Lane,Containerized Retail Goods,3790000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01389,North-069,North Atlantic,Atlantic-Europe-Lane,LNG Equipment,10807500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01390,North-070,North Atlantic,Atlantic-Europe-Lane,Telecom Hardware,6525000.00,High,Scheduled,Hamburg,Manila
+V01391,North-071,North Atlantic,Atlantic-Europe-Lane,Semiconductor Wafers,9742500.00,Critical,At Sea,Los Angeles,Singapore
+V01392,North-072,North Atlantic,Atlantic-Europe-Lane,Crude Oil,25260000.00,Critical,In Transit,Houston,London
+V01393,North-073,North Atlantic,Atlantic-Europe-Lane,Consumer Electronics,7677500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01394,North-074,North Atlantic,Atlantic-Europe-Lane,Medical Supplies,4495000.00,High,Customs Hold,Busan,Shanghai
+V01395,North-075,North Atlantic,Atlantic-Europe-Lane,Automotive Components,5412500.00,High,Scheduled,Yokohama,Jebel Ali
+V01396,North-076,North Atlantic,Atlantic-Europe-Lane,Industrial Machinery,7130000.00,Medium,At Sea,Kaohsiung,Panama City
+V01397,North-077,North Atlantic,Atlantic-Europe-Lane,Battery Cells,8547500.00,High,In Transit,Dubai,Suez
+V01398,North-078,North Atlantic,Atlantic-Europe-Lane,Containerized Retail Goods,3965000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01399,North-079,North Atlantic,Atlantic-Europe-Lane,LNG Equipment,10982500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01400,North-080,North Atlantic,Atlantic-Europe-Lane,Telecom Hardware,6700000.00,High,Scheduled,Hamburg,Manila
+V01401,North-081,North Atlantic,Atlantic-Europe-Lane,Semiconductor Wafers,9917500.00,Critical,At Sea,Los Angeles,Singapore
+V01402,North-082,North Atlantic,Atlantic-Europe-Lane,Crude Oil,25435000.00,Critical,In Transit,Houston,London
+V01403,North-083,North Atlantic,Atlantic-Europe-Lane,Consumer Electronics,7852500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01404,North-084,North Atlantic,Atlantic-Europe-Lane,Medical Supplies,4670000.00,High,Customs Hold,Busan,Shanghai
+V01405,North-085,North Atlantic,Atlantic-Europe-Lane,Automotive Components,5587500.00,High,Scheduled,Yokohama,Jebel Ali
+V01406,North-086,North Atlantic,Atlantic-Europe-Lane,Industrial Machinery,7305000.00,Medium,At Sea,Kaohsiung,Panama City
+V01407,North-087,North Atlantic,Atlantic-Europe-Lane,Battery Cells,8722500.00,High,In Transit,Dubai,Suez
+V01408,North-088,North Atlantic,Atlantic-Europe-Lane,Containerized Retail Goods,4140000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01409,North-089,North Atlantic,Atlantic-Europe-Lane,LNG Equipment,11157500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01410,North-090,North Atlantic,Atlantic-Europe-Lane,Telecom Hardware,6875000.00,High,Scheduled,Hamburg,Manila
+V01411,North-091,North Atlantic,Atlantic-Europe-Lane,Semiconductor Wafers,10092500.00,Critical,At Sea,Los Angeles,Singapore
+V01412,North-092,North Atlantic,Atlantic-Europe-Lane,Crude Oil,25610000.00,Critical,In Transit,Houston,London
+V01413,North-093,North Atlantic,Atlantic-Europe-Lane,Consumer Electronics,8027500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01414,North-094,North Atlantic,Atlantic-Europe-Lane,Medical Supplies,4845000.00,High,Customs Hold,Busan,Shanghai
+V01415,North-095,North Atlantic,Atlantic-Europe-Lane,Automotive Components,5762500.00,High,Scheduled,Yokohama,Jebel Ali
+V01416,North-096,North Atlantic,Atlantic-Europe-Lane,Industrial Machinery,7480000.00,Medium,At Sea,Kaohsiung,Panama City
+V01417,North-097,North Atlantic,Atlantic-Europe-Lane,Battery Cells,8897500.00,High,In Transit,Dubai,Suez
+V01418,North-098,North Atlantic,Atlantic-Europe-Lane,Containerized Retail Goods,4315000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01419,North-099,North Atlantic,Atlantic-Europe-Lane,LNG Equipment,11332500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01420,North-100,North Atlantic,Atlantic-Europe-Lane,Telecom Hardware,7050000.00,High,Scheduled,Hamburg,Manila
+V01421,North-101,North Atlantic,Atlantic-Europe-Lane,Semiconductor Wafers,10267500.00,Critical,At Sea,Los Angeles,Singapore
+V01422,North-102,North Atlantic,Atlantic-Europe-Lane,Crude Oil,25785000.00,Critical,In Transit,Houston,London
+V01423,North-103,North Atlantic,Atlantic-Europe-Lane,Consumer Electronics,8202500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01424,North-104,North Atlantic,Atlantic-Europe-Lane,Medical Supplies,5020000.00,High,Customs Hold,Busan,Shanghai
+V01425,North-105,North Atlantic,Atlantic-Europe-Lane,Automotive Components,5937500.00,High,Scheduled,Yokohama,Jebel Ali
+V01426,North-106,North Atlantic,Atlantic-Europe-Lane,Industrial Machinery,7655000.00,Medium,At Sea,Kaohsiung,Panama City
+V01427,North-107,North Atlantic,Atlantic-Europe-Lane,Battery Cells,9072500.00,High,In Transit,Dubai,Suez
+V01428,North-108,North Atlantic,Atlantic-Europe-Lane,Containerized Retail Goods,4490000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01429,North-109,North Atlantic,Atlantic-Europe-Lane,LNG Equipment,11507500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01430,North-110,North Atlantic,Atlantic-Europe-Lane,Telecom Hardware,7225000.00,High,Scheduled,Hamburg,Manila
+V01431,North-111,North Atlantic,Atlantic-Europe-Lane,Semiconductor Wafers,10442500.00,Critical,At Sea,Los Angeles,Singapore
+V01432,North-112,North Atlantic,Atlantic-Europe-Lane,Crude Oil,25960000.00,Critical,In Transit,Houston,London
+V01433,North-113,North Atlantic,Atlantic-Europe-Lane,Consumer Electronics,8377500.00,High,Awaiting Berth,Rotterdam,Kaohsiung
+V01434,North-114,North Atlantic,Atlantic-Europe-Lane,Medical Supplies,5195000.00,High,Customs Hold,Busan,Shanghai
+V01435,North-115,North Atlantic,Atlantic-Europe-Lane,Automotive Components,6112500.00,High,Scheduled,Yokohama,Jebel Ali
+V01436,North-116,North Atlantic,Atlantic-Europe-Lane,Industrial Machinery,7830000.00,Medium,At Sea,Kaohsiung,Panama City
+V01437,North-117,North Atlantic,Atlantic-Europe-Lane,Battery Cells,9247500.00,High,In Transit,Dubai,Suez
+V01438,North-118,North Atlantic,Atlantic-Europe-Lane,Containerized Retail Goods,4665000.00,Medium,Awaiting Berth,Mumbai,Bangkok
+V01439,North-119,North Atlantic,Atlantic-Europe-Lane,LNG Equipment,11682500.00,Critical,Customs Hold,Bangkok,Rotterdam
+V01440,North-120,North Atlantic,Atlantic-Europe-Lane,Telecom Hardware,7400000.00,High,Scheduled,Hamburg,Manila
