@@ -7,6 +7,18 @@ from functools import lru_cache
 from google import genai
 from google.genai import types
 
+PROJECT_ID = "agentverse-488704"
+LOCATION = "us-central1"
+
+
+def get_llm_client():
+    """Centralized LLM client creation for the RouteNexus system."""
+    return genai.Client(
+        vertexai=True,
+        project=PROJECT_ID,
+        location=LOCATION,
+    )
+
 
 def _parse_usd_amount(value: str) -> float:
     if not isinstance(value, str):
@@ -35,7 +47,7 @@ def get_region_risk_multiplier(region: str) -> float:
     Returns a multiplier (e.g., 1.0 = baseline, 1.3 = 30% higher risk).
     """
     try:
-        client = genai.Client(vertexai=True, project="agentverse-488704", location="us-central1")
+        client = get_llm_client()
         prompt = f"""You are a maritime risk analyst. Assess the current geopolitical and operational risk for shipping through: {region}
 
 Consider:
@@ -78,7 +90,7 @@ def extract_cargo_intent_from_query(message_text: str) -> str:
     Returns a comma-separated list of cargo keywords to filter by, or empty string if no specific cargo mentioned.
     """
     try:
-        client = genai.Client(vertexai=True, project="agentverse-488704", location="us-central1")
+        client = get_llm_client()
         prompt = f"""You are a logistics query parser. Extract the cargo type(s) mentioned in this user query:
 
 \"{message_text}\"
@@ -158,6 +170,148 @@ def normalize_inventory_result(region: str, parsed: dict) -> dict:
     parsed["critical_vessels"] = critical_vessels
     parsed["vessel_names"] = vessel_names
     return parsed
+
+
+def build_live_report(region: str, weather_raw: str, inventory_raw: str, policy_raw: str) -> dict:
+    try:
+        weather = json.loads(weather_raw) if isinstance(weather_raw, str) else weather_raw
+    except Exception:
+        weather = {"status": "ERROR", "message": str(weather_raw)}
+    try:
+        inventory = json.loads(inventory_raw) if isinstance(inventory_raw, str) else inventory_raw
+    except Exception:
+        inventory = {"status": "ERROR", "message": str(inventory_raw)}
+    try:
+        policy = json.loads(policy_raw) if isinstance(policy_raw, str) else policy_raw
+    except Exception:
+        policy = {"status": "ERROR", "message": str(policy_raw)}
+
+    wind_speed = "Unknown"
+    temp = "Unknown"
+    weather_warning = "Unknown conditions"
+    weekly_outlook = None
+    weekly_warning = None
+
+    if isinstance(weather, dict):
+        live_data = weather.get("live_data", {})
+        if isinstance(live_data, dict):
+            wind_speed = live_data.get("wind_speed_knots", "Unknown")
+            temp = live_data.get("temperature_celsius", "Unknown")
+            weather_warning = live_data.get("warning", "Unknown conditions")
+        
+        forecast = weather.get("forecast_summary", {})
+        if isinstance(forecast, dict):
+            weekly_outlook = forecast.get("outlook")
+            weekly_warning = forecast.get("weekly_warning")
+
+    total_risk = "$0.00"
+    critical_vessels = 0
+    vessel_names = []
+    
+    if isinstance(inventory, dict):
+        total_risk = inventory.get("financial_exposure_usd", "$0.00")
+        try:
+            critical_vessels = int(inventory.get("critical_vessels", 0))
+        except (ValueError, TypeError):
+            critical_vessels = 0
+        v_names = inventory.get("vessel_names", [])
+        if isinstance(v_names, list):
+            vessel_names = v_names
+
+    policy_status = policy.get("status", "ERROR")
+    if policy_status == "POLICY_FOUND":
+        policy_text = policy.get("relevant_policy", "Policy conflict detected.")
+        policy_summary = f"WARNING: {policy_text}"
+    elif policy_status == "CLEARED":
+        policy_summary = "CLEARED: No policy conflicts detected."
+    else:
+        policy_summary = f"ERROR: {policy.get('message', 'Policy check failed.')}"
+
+    mission_status = "READY"
+    if policy_status == "ERROR":
+        mission_status = "WARNING"
+    if policy_status == "POLICY_FOUND" or critical_vessels > 0:
+        mission_status = "CRITICAL"
+    if isinstance(wind_speed, (int, float)) and float(wind_speed) > 30:
+        mission_status = "CRITICAL"
+
+    weather_summary = f"Wind {wind_speed} knots, temp {temp}°C. {weather_warning}"
+    if weekly_outlook:
+        weather_summary += f" {weekly_outlook}"
+    if weekly_warning and weekly_warning not in weather_summary:
+        weather_summary += f" {weekly_warning}."
+
+    if policy_status == "POLICY_FOUND":
+        recommendation = "Reroute requires compliance review before execution."
+    elif mission_status == "CRITICAL":
+        recommendation = "Escalate to operations and execute a controlled reroute with compliance approval."
+    else:
+        recommendation = "Conditions acceptable. Continue with monitored routing."
+
+    if isinstance(vessel_names, list) and vessel_names:
+        recommendation += f" Priority vessels impacted: {', '.join(str(v) for v in vessel_names[:3])}."
+
+    return {
+        "region": region,
+        "mission_status": mission_status,
+        "weather_summary": weather_summary,
+        "total_risk_usd": total_risk,
+        "policy_status": policy_summary,
+        "final_recommendation": recommendation
+    }
+
+
+def format_chat_reply(user_input: str, data: dict) -> str:
+    """Converts a raw JSON report into a human-readable conversational response."""
+    question = user_input.lower()
+    region = data.get("region", "the region")
+    risk = data.get("mission_status", "UNKNOWN")
+    weather = data.get("weather_summary", "No weather summary available.")
+    financial = data.get("total_risk_usd", "N/A")
+    policy = data.get("policy_status", "N/A")
+    recommendation = data.get("final_recommendation", "No recommendation available.")
+
+    if any(term in question for term in ["reroute", "another route", "different route", "should i reroute"]):
+        if "warning" in policy.lower() or "not" in recommendation.lower() or "review" in recommendation.lower():
+            return (
+                f"Not yet. For **{region}**, rerouting should **not be executed immediately** without compliance review.\n\n"
+                f"- **Current policy:** {policy}\n"
+                f"- **Risk level:** {risk}\n"
+                f"- **Recommendation:** {recommendation}"
+            )
+        return (
+            f"Yes, rerouting is acceptable for **{region}** based on the latest report.\n\n"
+            f"- **Risk level:** {risk}\n"
+            f"- **Compliance:** {policy}\n"
+            f"- **Recommendation:** {recommendation}"
+        )
+
+    if any(term in question for term in ["risk", "any risk", "safe", "danger"]):
+        return (
+            f"For cargo moving through **{region}**, the current risk level is **{risk}**.\n\n"
+            f"- **Weather:** {weather}\n"
+            f"- **Financial exposure:** {financial}\n"
+            f"- **Compliance:** {policy}\n\n"
+            f"**Recommendation:** {recommendation}"
+        )
+
+    if any(term in question for term in ["weather", "storm", "wind"]):
+        return f"The current weather outlook for **{region}** is: {weather}"
+
+    if any(term in question for term in ["compliance", "policy", "allowed", "permit"]):
+        return f"The current compliance status for **{region}** is: {policy}"
+
+    if any(term in question for term in ["money", "financial", "cost", "exposure", "value"]):
+        return f"The current estimated financial exposure for **{region}** is **{financial}**."
+
+    return (
+        f"Here’s the latest assessment for **{region}**:\n\n"
+        f"- **Risk level:** {risk}\n"
+        f"- **Weather:** {weather}\n"
+        f"- **Financial exposure:** {financial}\n"
+        f"- **Compliance:** {policy}\n\n"
+        f"**Recommendation:** {recommendation}"
+    )
 
 
 def get_live_marine_weather(latitude: float, longitude: float) -> str:
@@ -356,15 +510,184 @@ def check_policy_compliance(message_text: str, region: str) -> str:
 
         return json.dumps({
             "status": "POLICY_FOUND",
-            "policy_id": best_row.get("policy_id", "POL-UNKNOWN"),
-            "region": best_row.get("region", region),
-            "category": best_row.get("category", "General"),
-            "severity": best_row.get("severity", "MEDIUM"),
-            "relevant_policy": best_row.get("policy_text", "Policy review required."),
-            "confidence_score": round(min(0.99, 0.45 + (best_score * 0.05)), 2),
+            "policy_id": best_row.get("policy_id", "POL-UNKNOWN") if best_row else "POL-UNKNOWN",
+            "region": best_row.get("region", region) if best_row else region,
+            "category": best_row.get("category", "General") if best_row else "General",
+            "severity": best_row.get("severity", "MEDIUM") if best_row else "MEDIUM",
+            "relevant_policy": best_row.get("policy_text", "Policy review required.") if best_row else "Policy review required.",
+            "confidence_score": float(round(float(min(0.99, 0.45 + (float(best_score) * 0.05))), 2)),
         })
     except Exception as e:
         return json.dumps({
             "status": "ERROR",
             "message": str(e),
         })
+
+
+def infer_region_and_coords(message_text: str) -> tuple[str, tuple[float, float]]:
+    try:
+        # Reusing the project configuration typical for this file
+        client = get_llm_client()
+        prompt = f"""You are a geocoding analyst for a logistics system.
+Extract the primary maritime region or choke point mentioned in the user's message, and provide its approximate latitude and longitude.
+
+User message:"{message_text}"
+
+Respond EXACTLY with a JSON object in this format:
+{{
+  "region": "Region Name",
+  "lat": 12.34,
+  "lon": 56.78
+}}
+
+If no specific region is recognized or specified, default to:
+{{
+  "region": "Strait of Malacca",
+  "lat": 4.0,
+  "lon": 100.5
+}}
+
+Do not include markdown blocks or any other text, just the JSON object.
+"""
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-lite",
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                temperature=0.0,
+                max_output_tokens=100,
+            ),
+        )
+        text = getattr(response, "text", None) or ""
+        match = re.search(r"\{[\s\S]*\}", text)
+        if match:
+            parsed = json.loads(match.group())
+            return parsed.get("region", "Strait of Malacca"), (float(parsed.get("lat", 4.0)), float(parsed.get("lon", 100.5)))
+    except Exception as e:
+        print(f"[LLM GEOCODE ERROR]: {e}")
+    return "Strait of Malacca", (4.0, 100.5)
+
+
+def synthesize_report_with_llm(message_text: str, region: str, weather_raw: str, inventory_raw: str, policy_raw: str) -> dict:
+    """Uses LLM to synthesize tool outputs into a structured mission report."""
+    fallback = build_live_report(region, weather_raw, inventory_raw, policy_raw)
+    prompt = f"""
+You are LogisticsDirector for RouteNexus.
+Use the live tool outputs below to produce exactly one JSON object and nothing else.
+
+User mission:
+{message_text}
+
+Region:
+{region}
+
+Weather tool output:
+{weather_raw}
+
+Inventory tool output:
+{inventory_raw}
+
+Policy tool output:
+{policy_raw}
+
+Return exactly this schema:
+{{
+  "region": "region name",
+  "mission_status": "CRITICAL or WARNING or READY",
+  "weather_summary": "brief weather explanation",
+  "total_risk_usd": "financial exposure amount",
+  "policy_status": "compliance summary (Must start with 'CLEARED:' if status is CLEARED, else 'WARNING:')",
+  "final_recommendation": "short actionable recommendation"
+}}
+"""
+    try:
+        client = get_llm_client()
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-lite",
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                temperature=0.1,
+                max_output_tokens=300,
+            ),
+        )
+        text = getattr(response, "text", None) or ""
+        match = re.search(r"\{[\s\S]*\}", text)
+        if not match:
+            return fallback
+        parsed = json.loads(match.group())
+        required_keys = {
+            "region",
+            "mission_status",
+            "weather_summary",
+            "total_risk_usd",
+            "policy_status",
+            "final_recommendation",
+        }
+        if not required_keys.issubset(parsed.keys()):
+            return fallback
+        return parsed
+    except Exception:
+        return fallback
+
+
+def should_reanalyze_command(user_input: str) -> bool:
+    """Classifies user intent: True if a new analysis is needed, False for follow-ups."""
+    try:
+        client = get_llm_client()
+        prompt = f"""You are an intent classification assistant for a logistics system.
+Determine if the user's message is asking to run a new logistics analysis (e.g., checking a completely new route, assessing risk for a new location, analyzing a new cargo scenario).
+
+User message:
+"{user_input}"
+
+Respond with EXACTLY "TRUE" if they are providing a new location or explicit scenario that requires a fresh data pull.
+Respond with EXACTLY "FALSE" if they are asking a follow-up question (like "should I reroute?", "is the risk high?", "what should I do?"), asking for advice based on the current report, or engaging in general chat.
+"""
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-lite",
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                temperature=0.0,
+                max_output_tokens=10,
+            ),
+        )
+        text = (getattr(response, "text", None) or "").strip().upper()
+        return "TRUE" in text
+    except Exception as e:
+        print(f"[LLM INTENT ERROR]: {e}")
+        # Fallback to stricter keyword check if LLM fails
+        lowered = user_input.lower()
+        return any(t in lowered for t in ["analyze ", "assess ", "check ", "new route", "alternative route", "via "])
+
+
+def generate_chat_reply_with_llm(user_input: str, data: dict) -> str:
+    """Generates a natural chat reply based on the mission report data."""
+    fallback = format_chat_reply(user_input, data)
+    prompt = f"""
+You are the LogisticsDirector chatting with an operations user.
+Answer naturally and concisely based on the latest mission report.
+Your answer should be professional, data-driven, and actionable.
+
+If the user asks about a reroute, check the 'policy_status' and 'final_recommendation' in the report carefully. 
+If there is a compliance warning or the recommendation says to review, advise against immediate execution.
+
+User question:
+{user_input}
+
+Mission report:
+{json.dumps(data, indent=2)}
+"""
+    try:
+        client = get_llm_client()
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-lite",
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                temperature=0.2,
+                max_output_tokens=220,
+            ),
+        )
+        text = getattr(response, "text", None) or ""
+        cleaned = text.strip()
+        return cleaned or fallback
+    except Exception:
+        return fallback

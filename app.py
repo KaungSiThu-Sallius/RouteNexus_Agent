@@ -8,15 +8,22 @@ from cloud_sql_session import CloudSQLSessionService
 import threading
 import queue
 import datetime
-from tools import get_live_marine_weather, check_inventory_exposure, check_policy_compliance
-from agent import infer_region_and_coords, synthesize_report_with_llm, generate_chat_reply_with_llm
+from tools import (
+    get_live_marine_weather, 
+    check_inventory_exposure, 
+    check_policy_compliance, 
+    infer_region_and_coords,
+    synthesize_report_with_llm, 
+    generate_chat_reply_with_llm, 
+    should_reanalyze_command
+)
 
 # 1. Environment Configuration
 PROJECT_ID = os.getenv("GOOGLE_CLOUD_PROJECT", "agentverse-488704")
 LOCATION = os.getenv("DB_REGION", "asia-southeast1")
 INSTANCE_NAME = os.getenv("INSTANCE_NAME", f"{PROJECT_ID}:{LOCATION}:routenexus-db")
-DB_USER = os.getenv("DB_USER", "postgres")
-DB_PASS = os.getenv("DB_PASS", "")
+DB_USER = "postgres"
+DB_PASS = "jtylZk`K?CKIe7(a"
 
 credentials_json = os.getenv("GOOGLE_APPLICATION_CREDENTIALS_JSON", "").strip()
 credentials_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS", "").strip()
@@ -277,8 +284,57 @@ async def _delete_all_history_async():
         for sess in history.sessions:
             await GLOBAL_SVC.delete_session(app_name=APP_NAME, user_id=USER_ID, session_id=sess.id)
 
+async def _save_chat_message_async(session_id: str, role: str, content: str):
+    if not GLOBAL_SVC:
+        return
+    try:
+        sess = await GLOBAL_SVC.get_session(app_name=APP_NAME, user_id=USER_ID, session_id=session_id)
+        if sess:
+            from google.adk.events.event import Event
+            import time
+            
+            c_role = "user" if role == "user" else "model"
+            # Use a plain dict that conforms to google.genai.types.Content
+            evt_content = {"role": c_role, "parts": [{"text": content}]}
+            
+            evt = Event(
+                author=role,
+                content=evt_content,
+                timestamp=time.time(),
+            )
+            await GLOBAL_SVC.append_event(sess, evt)
+    except Exception as e:
+        print(f"[DB WARN] Failed to save chat msg: {e}")
+
+def save_chat_message(session_id: str, role: str, content: str):
+    run_in_bg(_save_chat_message_async(session_id, role, content))
+
 def delete_all_history():
     run_in_bg(_delete_all_history_async())
+
+
+async def _save_approval_async(session_id: str, approval_status: str):
+    if not GLOBAL_SVC:
+        return
+    try:
+        sess = await GLOBAL_SVC.get_session(app_name=APP_NAME, user_id=USER_ID, session_id=session_id)
+        if sess:
+            from google.adk.events.event import Event
+            from google.adk.events.event_actions import EventActions
+            import time
+            evt = Event(
+                author="system",
+                actions=EventActions(state_delta={
+                    "human_approval": approval_status
+                }),
+                timestamp=time.time(),
+            )
+            await GLOBAL_SVC.append_event(sess, evt)
+    except Exception:
+        pass
+
+def save_approval(session_id: str, approval_status: str):
+    run_in_bg(_save_approval_async(session_id, approval_status))
 
 
 def save_local_session_snapshot():
@@ -288,6 +344,7 @@ def save_local_session_snapshot():
         "trace_logs": st.session_state.trace_logs,
         "mission_input": st.session_state.mission_input,
         "session_ready": st.session_state.session_ready,
+        "human_approval": st.session_state.human_approval,
     }
 
 
@@ -301,7 +358,7 @@ def load_local_session_snapshot(session_id: str):
     st.session_state.trace_logs = snapshot.get("trace_logs", ">>> [SYSTEM] Ready for chat deployment...\n")
     st.session_state.mission_input = snapshot.get("mission_input", st.session_state.mission_input)
     st.session_state.session_ready = snapshot.get("session_ready", False)
-    st.session_state.human_approval = None
+    st.session_state.human_approval = snapshot.get("human_approval", None)
 
 with st.sidebar:
     st.header("Chat History")
@@ -386,24 +443,58 @@ with st.sidebar:
                                 new_history = []
                                 restored_report = None
                                 restored_command = None
+                                restored_approval = None
                                 if getattr(full_sess, "events", None):
-                                    for evt in full_sess.events:
+                                    # Sort events by timestamp to ensure chronological order
+                                    sorted_evts = sorted(full_sess.events, key=lambda x: getattr(x, "timestamp", 0))
+                                    
+                                    for evt in sorted_evts:
+                                        # 1. Check for state_delta (initial commands, reports, etc)
                                         actions = getattr(evt, "actions", None)
                                         state_delta = getattr(actions, "state_delta", None) if actions else None
-                                        if isinstance(state_delta, dict) and isinstance(state_delta.get("mission_report"), dict):
-                                            restored_report = state_delta.get("mission_report")
-                                        if isinstance(state_delta, dict) and isinstance(state_delta.get("chat_command"), str) and state_delta.get("chat_command").strip():
-                                            restored_command = state_delta.get("chat_command").strip()
-                                        if getattr(evt, "content", None) and getattr(evt.content, "parts", None):
-                                            role = "user" if evt.content.role == "user" else "assistant"
-                                            txt = "".join([p.text for p in evt.content.parts if hasattr(p, "text") and getattr(p, "text", None)])
+                                        
+                                        if state_delta and isinstance(state_delta, dict):
+                                            if state_delta.get("mission_report"):
+                                                restored_report = state_delta.get("mission_report")
+                                            if state_delta.get("chat_command"):
+                                                restored_command = str(state_delta.get("chat_command")).strip()
+                                            if state_delta.get("human_approval"):
+                                                restored_approval = state_delta.get("human_approval")
+                                            
+                                        # 2. Check for chat content (follow-up messages)
+                                        c = getattr(evt, "content", None)
+                                        if c:
+                                            # Handle both library objects and plain dicts
+                                            parts = getattr(c, "parts", []) or []
+                                            if isinstance(c, dict):
+                                                parts = c.get("parts", [])
+                                                c_role = c.get("role", "user")
+                                            else:
+                                                c_role = getattr(c, "role", "user")
+
+                                            role = "user" if c_role == "user" else "assistant"
+                                            txt_parts = []
+                                            for p in parts:
+                                                if isinstance(p, dict):
+                                                    if p.get("text"): txt_parts.append(p.get("text"))
+                                                elif hasattr(p, "text") and p.text:
+                                                    txt_parts.append(p.text)
+                                            
+                                            txt = "".join(txt_parts)
                                             if txt.strip():
-                                                if role == "user" and restored_command is None:
-                                                    restored_command = txt
                                                 new_history.append({"role": role, "content": txt})
-                                st.session_state.chat_history = new_history
+
                                 if restored_command:
+                                    # Always ensure history starts with the mission input for [2:] logic
+                                    has_initial = len(new_history) > 0 and new_history[0]["content"] == restored_command
+                                    if not has_initial:
+                                        new_history.insert(0, {"role": "assistant", "content": "Analysis complete. Strategic intelligence updated."})
+                                        new_history.insert(0, {"role": "user",      "content": restored_command})
                                     st.session_state.mission_input = restored_command
+                                    
+                                st.session_state.chat_history = new_history
+                                if restored_approval:
+                                    st.session_state.human_approval = restored_approval
                                 if restored_report:
                                     st.session_state.swarm_output = restored_report
                                 else:
@@ -472,22 +563,39 @@ with col2:
                 st.success("### ✅ Chat Report Generated")
 
                 m1, m2, m3 = st.columns(3)
-                m1.metric("Risk Level",  data.get("mission_status", "N/A"))
-                full_financial_value = data.get("total_risk_usd", "$0.00")
-                compact_financial_value = format_compact_currency(full_financial_value)
-                m2.metric("Financials", compact_financial_value)
+                
+                # Metric 1: Risk Level
+                risk_level = data.get("mission_status", "N/A")
+                risk_color = "#f1c40f" if "WARNING" in risk_level.upper() else "white"
+                with m1.container(border=True):
+                    st.markdown(f"<div style='color: #888; font-size: 0.8rem;'>Risk Level</div><div style='color: {risk_color}; font-size: 1.5rem; font-weight: bold; padding-bottom: 0.5rem;'>{risk_level.replace('⚠️', '').strip()}</div>", unsafe_allow_html=True)
 
-                # Show a short badge in the metric card; full detail below
+                # Metric 2: Financials
+                full_financial_value = data.get("total_risk_usd", "N/A")
+                compact_financial_value = format_compact_currency(full_financial_value) if full_financial_value != "N/A" else "N/A"
+                with m2.container(border=True):
+                    st.markdown(f"<div style='color: #888; font-size: 0.8rem;'>Financials</div><div style='color: white; font-size: 1.5rem; font-weight: bold; padding-bottom: 0.5rem;'>{compact_financial_value}</div>", unsafe_allow_html=True)
+
+                # Metric 3: Compliance
                 policy_raw = data.get("policy_status", "N/A")
                 if "CLEARED" in str(policy_raw).upper():
-                    compliance_badge = "✅ SUCCESS"
+                    compliance_status = "SUCCESS"
+                    compliance_color = "white"
                 elif "POLICY" in str(policy_raw).upper() or "WARNING" in str(policy_raw).upper():
-                    compliance_badge = "⚠️ WARNING"
+                    compliance_status = "WARNING"
+                    compliance_color = "#f1c40f"
                 elif "ERROR" in str(policy_raw).upper():
-                    compliance_badge = "❌ DANGER"
+                    compliance_status = "DANGER"
+                    compliance_color = "#e74c3c"
+                elif "N/A" in str(policy_raw).upper():
+                    compliance_status = "N/A"
+                    compliance_color = "white"
                 else:
-                    compliance_badge = "⚠️ WARNING"
-                m3.metric("Compliance", compliance_badge)
+                    compliance_status = "WARNING"
+                    compliance_color = "#f1c40f"
+                
+                with m3.container(border=True):
+                    st.markdown(f"<div style='color: #888; font-size: 0.8rem;'>Compliance</div><div style='color: {compliance_color}; font-size: 1.5rem; font-weight: bold; padding-bottom: 0.5rem;'>{compliance_status}</div>", unsafe_allow_html=True)
 
                 st.markdown("---")
 
@@ -501,7 +609,7 @@ with col2:
 
                 # Weather & Recommendation
                 st.markdown(f"🌊 **Weather:** {data.get('weather_summary', 'No summary available')}")
-                st.markdown(f"💰 **Financial Exposure:** {full_financial_value}")
+                st.markdown(f"💰 **Financial Exposure:** {compact_financial_value}")
                 
                 # Try multiple keys for recommendation just in case
                 rec = data.get('final_recommendation') or data.get('recommendation') or data.get('recommendations') or "No specific reroute recommendation provided by Swarm."
@@ -519,10 +627,14 @@ with col2:
 
                     if btn_col1.button("✅ Approve Reroute", use_container_width=True):
                         st.session_state.human_approval = "approved"
+                        save_approval(st.session_state.current_session_id, "approved")
+                        save_local_session_snapshot()
                         st.rerun()
 
                     if btn_col2.button("❌ Reject & Revise", use_container_width=True):
                         st.session_state.human_approval = "rejected"
+                        save_approval(st.session_state.current_session_id, "rejected")
+                        save_local_session_snapshot()
                         st.rerun()
 
 # ── Chat Interface ─────────────────────────────────────────────────────────────
@@ -549,23 +661,7 @@ else:
             response_placeholder = st.empty()
             response_placeholder.markdown("_Swarm agents thinking..._")
 
-            lowered_input = user_input.lower()
-            should_reanalyze = any(
-                term in lowered_input
-                for term in [
-                    "reanalyze",
-                    "re-analyze",
-                    "analyze",
-                    "new route",
-                    "alternative route",
-                    "alternative port",
-                    "reroute",
-                    "find another",
-                    "different port",
-                    "different route",
-                    "via ",
-                ]
-            )
+            should_reanalyze = should_reanalyze_command(user_input)
 
             if should_reanalyze:
                 with st.spinner("Director re-analysing..."):
@@ -585,6 +681,10 @@ else:
 
             st.session_state.chat_history.append({"role": "user",      "content": user_input})
             st.session_state.chat_history.append({"role": "assistant",  "content": reply})
+            
+            save_chat_message(st.session_state.current_session_id, "user", user_input)
+            save_chat_message(st.session_state.current_session_id, "assistant", reply)
+            
             save_local_session_snapshot()
 
         st.rerun()
