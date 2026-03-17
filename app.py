@@ -23,8 +23,9 @@ from tools import (
 PROJECT_ID = os.getenv("GOOGLE_CLOUD_PROJECT", "agentverse-488704")
 LOCATION = os.getenv("DB_REGION", "asia-southeast1")
 INSTANCE_NAME = os.getenv("INSTANCE_NAME", f"{PROJECT_ID}:{LOCATION}:routenexus-db")
-DB_USER = "postgres"
-DB_PASS = "6X76,d?\\Ohasbn&s"
+DB_USER = os.getenv("DB_USER", "postgres")
+DB_PASS = os.getenv("DB_PASS", "password")
+DB_NAME = os.getenv("DB_NAME", "postgres")
 
 credentials_json = os.getenv("GOOGLE_APPLICATION_CREDENTIALS_JSON", "").strip()
 credentials_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS", "").strip()

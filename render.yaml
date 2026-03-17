@@ -13,3 +13,11 @@ services:
         value: us-central1
       - key: GOOGLE_GENAI_USE_VERTEXAI
         value: "1"
+      - key: INSTANCE_NAME
+        sync: false
+      - key: DB_USER
+        value: postgres
+      - key: DB_PASS
+        sync: false
+      - key: DB_NAME
+        value: postgres
