@@ -6,3 +6,4 @@ asyncpg
 google-adk
 google-genai
 vertexai
+geopy
