@@ -1,187 +1,97 @@
-# RouteNexus
+# RouteNexus: Intelligent Maritime Logistics Analysis
 
-RouteNexus is a Streamlit-based logistics risk analysis app built for hackathon demos.
+RouteNexus is a high-performance logistics command center that leverages a multi-agent AI system to provide real-time strategic analysis of maritime shipping routes. Powered by **Google Vertex AI** and **Streamlit**, it transforms complex logistics data into actionable insights.
 
-It combines:
-- real marine weather data
-- local compliance policies from CSV
-- local shipping exposure data from CSV
-- a visible multi-agent structure in `agent.py`
-- persistent chat/session history in Cloud SQL
+---
 
-## What the app does
+## 🚀 Key Features
 
-A user enters a logistics command such as:
-- route risk analysis
-- reroute evaluation
-- cargo exposure review
-- compliance review
+- **Intelligent Command Processing**: Natural language interface for complex logistics queries (e.g., "Analyze semiconductor risk in the Taiwan Strait").
+- **Dynamic Risk Assessment**: Real-time evaluation of meteorlogical, geopolitical, and operational risks.
+- **Context-Aware Financial Exposure**: Adaptive cargo value calculations filtered by specific query context (e.g., "oil", "electronics").
+- **Automated Compliance Guardian**: Continuous monitoring against regional policy frameworks and cargo restrictions.
+- **Strategic Multi-Agent System**: A collaborative swarm of agents including *DisruptionScout*, *InventoryAnalyst*, and *ComplianceGuardian*, orchestrated by a *LogisticsDirector*.
 
-The app then produces a structured report with:
-- risk level
-- compact financial exposure
-- compliance outcome
-- weather summary
-- reroute recommendation
+## 🛠 Technology Stack
 
-## Current architecture
+- **Frontend**: Streamlit
+- **AI/LLM**: Google Vertex AI (Gemini 2.5 Flash)
+- **Data APIs**: Open-Meteo (Marine Weather)
+- **Persistence**: Google Cloud SQL (PostgreSQL)
+- **Geocoding**: GeoPy/Nominatim
 
-### UI layer
-- `app.py`
+---
 
-Handles:
-- Streamlit interface
-- chat flow
-- session state
-- sidebar chat history
-- live trace log display
-- dashboard rendering
+## 🚦 Getting Started
 
-### Agent layer
-- `agent.py`
+### Prerequisites
 
-Contains visible agents for judge/demo purposes:
-- `DisruptionScout`
-- `InventoryAnalyst`
-- `ComplianceGuardian`
-- `LogisticsDirector`
+- Python 3.9+
+- Google Cloud Project with Vertex AI enabled
+- Google Application Credentials configured
 
-Also contains:
-- region inference
-- final report synthesis
-- director chat reply generation
+### Installation
 
-### Tool layer
-- `tools.py`
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/KaungSiThu-Sallius/RouteNexus_Agent.git
+   cd RouteNexus_Agent
+   ```
 
-Contains the operational tools:
-- `get_live_marine_weather()`
-- `check_inventory_exposure()`
-- `check_policy_compliance()`
+2. **Setup Virtual Environment**:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
-## Data files
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### Shipping dataset
-- `data/shipping_data.csv`
+4. **Environment Variables**:
+   Set your Google Cloud configurations:
+   ```bash
+   export GOOGLE_CLOUD_PROJECT="your-project-id"
+   export GOOGLE_CLOUD_LOCATION="us-central1"
+   ```
 
-This is an artificial demo dataset designed to simulate large-scale logistics activity.
-
-It includes fields such as:
-- vessel ID
-- vessel name
-- current region
-- route corridor
-- cargo type
-- cargo value
-- priority
-- status
-- origin port
-- destination port
-
-### Compliance dataset
-- `data/compliance_policies.csv`
-
-This file contains editable compliance rules.
-
-You can add new rows here to extend policy coverage without changing Python code.
-
-Fields:
-- `policy_id`
-- `region`
-- `cargo_keyword`
-- `category`
-- `severity`
-- `policy_text`
-
-## Live vs local components
-
-### Real API
-- weather uses the Open-Meteo API
-
-### Local CSV-backed logic
-- inventory exposure uses `shipping_data.csv`
-- compliance checks use `compliance_policies.csv`
-
-### Cloud persistence
-- chat/session history is stored through Cloud SQL using:
-  - `cloud_sql_session.py`
-
-## How a request flows
-
-1. The user enters a command in the Streamlit UI.
-2. `app.py` sends the command into the RouteNexus flow.
-3. `agent.py` infers the region and coordinates.
-4. `tools.py` fetches live weather from Open-Meteo.
-5. `tools.py` scans `shipping_data.csv` for cargo exposure.
-6. `tools.py` scans `compliance_policies.csv` for matching policy rules.
-7. `agent.py` synthesizes the final report.
-8. The app shows the result in the dashboard and stores history in Cloud SQL.
-
-## Running the app
-
-From the project folder:
+### Running the Application
 
 ```bash
 streamlit run app.py
 ```
 
-## Project files
+---
 
-- `app.py` — Streamlit app and UI flow
-- `agent.py` — visible agent structure and orchestration helpers
-- `tools.py` — real weather + local CSV tools
-- `cloud_sql_session.py` — Cloud SQL-backed session storage
-- `data/shipping_data.csv` — local shipping dataset
-- `data/compliance_policies.csv` — local compliance dataset
-- `sample_prompts.txt` — example prompts for demos
+## 🚢 Data Structure
 
-## Example prompts
+RouteNexus uses a flexible, CSV-backed data engine for demo-ready logistics simulation:
 
-See:
-- `sample_prompts.txt`
+- **Shipping Data** (`data/shipping_data.csv`): Simulates vessel positions, cargo types, and financial values.
+- **Compliance Policies** (`data/compliance_policies.csv`): Editable regional rules and cargo-specific restrictions.
 
-## Notes for judges
+---
 
-This project intentionally exposes the agent and tool layers clearly:
-- agents are defined in `agent.py`
-- tools are defined in `tools.py`
-- datasets are visible in `data/`
+## 🧩 Architecture
 
-The current build is designed to demonstrate:
-- agent-style orchestration
-- real API integration
-- editable local policy datasets
-- scalable shipping dataset integration pattern
-- chat/session persistence
+The application follows a modular "Tool-Agent-UI" architecture:
 
-## Editing compliance rules
+1. **UI Layer** (`app.py`): Manages the Streamlit dashboard, session state, and real-time trace logging.
+2. **Agent Layer** (`agent.py`): Orchestrates specialized agents using Vertex AI for synthesis and reasoning.
+3. **Tool Layer** (`tools.py`): Operationalizes data fetching from APIs (Weather) and local datasets (Inventory/Compliance).
 
-To add a new compliance rule:
-1. Open `data/compliance_policies.csv`
-2. Add a new row with region, cargo keyword, severity, and policy text
-3. Re-run the app or submit a matching prompt
+---
 
-## Editing shipping data
+## 📝 Sample Commands
 
-To add more cargo records:
-1. Open `data/shipping_data.csv`
-2. Add new shipping rows
-3. Use prompts that reference the target region or cargo type
+Try these in the **Director Channel**:
+- *"Analyze the Strait of Malacca"* (General Assessment)
+- *"Check oil shipments in Suez"* (Filtered Financial Exposure)
+- *"Status of electronics in Panama Canal"* (Specific Risk Analysis)
 
-## Demo tips
+---
 
-Best prompts for demo:
-- Taiwan Strait semiconductor cargo
-- Red Sea crude oil risk
-- Strait of Malacca reroute scenario
-- Myanmar/Thailand cargo screening scenario
+## ⚖️ License
 
-## Status
-
-Current project state:
-- weather = live API
-- inventory = local CSV
-- compliance = local CSV
-- history = Cloud SQL
-- UI = Streamlit
-
+Distributed under the MIT License. See `LICENSE` for more information.
