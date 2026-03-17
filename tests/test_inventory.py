@@ -5,8 +5,9 @@ def run_test():
     print("--- STARTING INVENTORY TOOL TEST ---")
     
     test_region = "Strait of Malacca"
+    test_message = "Analyze the Strait of Malacca"
     print(f"\nTesting Region: {test_region}...")
-    result_json = check_inventory_exposure(test_region)
+    result_json = check_inventory_exposure(test_message, test_region)
 
     result = json.loads(result_json)
     
@@ -19,7 +20,7 @@ def run_test():
         print(f"❌ Error: {result.get('message')}")
 
     print(f"\nTesting Empty Region: Arctic Ocean...")
-    empty_result = check_inventory_exposure("Arctic Ocean")
+    empty_result = check_inventory_exposure("Is there any cargo in the Arctic Ocean?", "Arctic Ocean")
     # This path returns a plain string, not JSON
     try:
         parsed = json.loads(empty_result)

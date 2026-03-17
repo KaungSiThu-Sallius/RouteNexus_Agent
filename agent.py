@@ -10,7 +10,7 @@ from tools import (
     PROJECT_ID
 )
 
-MODEL_NAME = "gemini-2.5-flash-lite"
+MODEL_NAME = "gemini-2.5-flash"
 
 os.environ["GOOGLE_GENAI_USE_VERTEXAI"] = "1"
 os.environ["GOOGLE_CLOUD_PROJECT"] = PROJECT_ID
@@ -31,7 +31,7 @@ scout = LlmAgent(
     tools=[weather_tool],
     generate_content_config=types.GenerateContentConfig(
         temperature=0.0,
-        max_output_tokens=180,
+        max_output_tokens=2048,
     ),
 )
 
@@ -44,7 +44,7 @@ analyst = LlmAgent(
     tools=[inventory_tool],
     generate_content_config=types.GenerateContentConfig(
         temperature=0.1,
-        max_output_tokens=200,
+        max_output_tokens=2048,
     ),
 )
 
@@ -57,7 +57,7 @@ guardian = LlmAgent(
     tools=[policy_tool],
     generate_content_config=types.GenerateContentConfig(
         temperature=0.1,
-        max_output_tokens=180,
+        max_output_tokens=2048,
     ),
 )
 
@@ -70,6 +70,6 @@ director = LlmAgent(
     tools=[weather_tool, inventory_tool, policy_tool],
     generate_content_config=types.GenerateContentConfig(
         temperature=0.1,
-        max_output_tokens=500,
+        max_output_tokens=2048,
     ),
 )

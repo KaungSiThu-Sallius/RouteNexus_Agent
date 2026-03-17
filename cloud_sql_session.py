@@ -34,7 +34,7 @@ class CloudSQLSessionService(DatabaseSessionService):
         # We use a dummy URL that specifies the driver, but the creator will handle the actual connection.
         db_url = "postgresql+asyncpg://postgres:pass@localhost/postgres"
 
-        # Initialize connector once to avoid 2-3s IAM handshake per connection
+        # Initialize connector once bound to the running loop to avoid 2-3s IAM handshake per connection
         try:
             loop = asyncio.get_running_loop()
         except RuntimeError:
@@ -42,8 +42,6 @@ class CloudSQLSessionService(DatabaseSessionService):
         self._connector = Connector(loop=loop)
 
         async def get_conn():
-            # We explicitly pass the loop to Connector natively if needed, but since we'll run 
-            # this on a global background loop, it's safe.
             conn = await self._connector.connect_async(
                 self.instance_connection_name,
                 "asyncpg",
