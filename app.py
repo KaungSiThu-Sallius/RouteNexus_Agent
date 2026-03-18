@@ -240,7 +240,7 @@ h1, h2, h3, label, .stMarkdown, .stCaption, p {
     margin-bottom: 0.7rem;
 }
 .insight-row {
-    padding: 1.05rem 0;
+    padding: 1.75rem 0;
     border-bottom: 1px solid var(--line);
 }
 .insight-row:last-child {
