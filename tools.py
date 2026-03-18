@@ -200,7 +200,7 @@ def infer_region_and_coords(message_text: str) -> tuple[str, tuple[float, float]
 def should_reanalyze_command(user_input: str) -> bool:
     try:
         model = get_llm_model()
-        prompt = f"Is this a request for a NEW logistics analysis? \"{user_input}\". Return ONLY 'TRUE' or 'FALSE'."
+        prompt = f"Is this a request for a COMPLTELEY NEW logistics mission analysis in a different region? \"{user_input}\". If it is just a question, clarification, or follow-up about the existing data or region, return FALSE. Return ONLY 'TRUE' or 'FALSE'."
         response = model.generate_content(
             prompt,
             generation_config=GenerationConfig(temperature=0.0, max_output_tokens=1024)
@@ -209,7 +209,8 @@ def should_reanalyze_command(user_input: str) -> bool:
     except Exception as e:
         print(f"[LLM REANALYZE ERROR] {e}")
         lowered = user_input.lower()
-        return any(t in lowered for t in ["analyze", "check", "assess", "new route"])
+        # Make the fallback more restrictive
+        return any(t in lowered for t in ["new route", "new analysis", "different region"])
 
 def generate_chat_reply_with_llm(user_input: str, data: dict) -> str:
     try:

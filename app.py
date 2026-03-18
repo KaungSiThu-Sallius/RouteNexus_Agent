@@ -993,7 +993,7 @@ if user_input := st.chat_input(chat_prompt):
 
         if should_reanalyze:
             with st.spinner("Synthesizing swarm intelligence..."):
-                structured, raw_text = send_message(user_input, st.empty(), st.session_state.current_session_id)
+                structured, raw_text = send_message(user_input, log_box, st.session_state.current_session_id)
                 if structured and "error" not in structured:
                     reply = generate_chat_reply_with_llm(user_input, structured)
                 else:
