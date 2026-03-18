@@ -214,15 +214,32 @@ def should_reanalyze_command(user_input: str) -> bool:
 def generate_chat_reply_with_llm(user_input: str, data: dict) -> str:
     try:
         model = get_llm_model(temperature=0.2)
-        prompt = f"Chat as LogisticsDirector. Answer question: \"{user_input}\" based on report: {json.dumps(data)}. Be concise."
+        # Add more context to prompt to help LLM stay focused
+        context = json.dumps(data, indent=2)
+        prompt = (
+            f"You are the LogisticsDirector for RouteNexus. Use the following mission report "
+            f"to answer the user's question concisely and professionally.\n\n"
+            f"Mission Report:\n{context}\n\n"
+            f"User Question: \"{user_input}\"\n\n"
+            f"Instructions:\n"
+            f"1. Be concise but informative.\n"
+            f"2. Reference specific data from the report (weather, risk, etc.).\n"
+            f"3. Do not use generic phrases like 'Analysis complete'.\n"
+            f"4. If the report has an error, acknowledge it.\n\n"
+            f"Response:"
+        )
         response = model.generate_content(
             prompt,
             generation_config=GenerationConfig(temperature=0.2, max_output_tokens=4096)
         )
-        return response.text.strip()
+        reply = response.text.strip()
+        if not reply:
+            raise ValueError("Empty response from LLM")
+        return reply
     except Exception as e:
         print(f"[LLM CHAT ERROR] {e}")
-        return "Analysis complete. How else can I assist with your logistics mission?"
+        # Return a more helpful error related response rather than just a generic completion message
+        return f"I encountered an issue coordinating with the intelligence swarm ({str(e)}). Please review the dashboard metrics above for the latest operational status."
 
 def get_live_marine_weather(latitude: float, longitude: float) -> str:
     url = (
