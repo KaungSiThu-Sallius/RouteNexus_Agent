@@ -31,7 +31,7 @@ scout = LlmAgent(
     tools=[weather_tool],
     generate_content_config=types.GenerateContentConfig(
         temperature=0.0,
-        max_output_tokens=2048,
+        max_output_tokens=4096,
     ),
 )
 
@@ -44,7 +44,7 @@ analyst = LlmAgent(
     tools=[inventory_tool],
     generate_content_config=types.GenerateContentConfig(
         temperature=0.1,
-        max_output_tokens=2048,
+        max_output_tokens=4096,
     ),
 )
 
@@ -57,7 +57,7 @@ guardian = LlmAgent(
     tools=[policy_tool],
     generate_content_config=types.GenerateContentConfig(
         temperature=0.1,
-        max_output_tokens=2048,
+        max_output_tokens=4096,
     ),
 )
 
@@ -70,6 +70,6 @@ director = LlmAgent(
     tools=[weather_tool, inventory_tool, policy_tool],
     generate_content_config=types.GenerateContentConfig(
         temperature=0.1,
-        max_output_tokens=2048,
+        max_output_tokens=4096,
     ),
 )

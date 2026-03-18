@@ -7,7 +7,7 @@ from functools import lru_cache
 import vertexai
 from vertexai.generative_models import GenerativeModel, GenerationConfig
 
-def get_llm_model(temperature=0.0, max_output_tokens=2048):
+def get_llm_model(temperature=0.0, max_output_tokens=4096):
     """Centralized LLM model creation using environment-based config."""
     p = os.getenv("GOOGLE_CLOUD_PROJECT", "agentverse-488704")
     l = os.getenv("GOOGLE_CLOUD_LOCATION", "us-central1")
@@ -42,7 +42,7 @@ def get_region_risk_multiplier(region: str) -> float:
         prompt = f"Assess maritime risk multiplier (0.8-1.5) for region: {region}. Return ONLY the number."
         response = model.generate_content(
             prompt,
-            generation_config=GenerationConfig(temperature=0.0, max_output_tokens=500)
+            generation_config=GenerationConfig(temperature=0.0, max_output_tokens=1024)
         )
         multiplier_text = response.text.strip()
         multiplier = float(re.sub(r"[^0-9.]", "", multiplier_text))
@@ -64,7 +64,7 @@ def extract_cargo_intent_from_query(message_text: str) -> str:
         prompt = f"Extract cargo type keywords from: \"{message_text}\". Return comma-separated lowercase keywords or 'NONE'."
         response = model.generate_content(
             prompt,
-            generation_config=GenerationConfig(temperature=0.0, max_output_tokens=500)
+            generation_config=GenerationConfig(temperature=0.0, max_output_tokens=1024)
         )
         result = response.text.strip()
         if result.upper() == "NONE":
@@ -132,7 +132,7 @@ def synthesize_report_with_llm(message_text: str, region: str, weather_raw: str,
         model = get_llm_model(temperature=0.1)
         response = model.generate_content(
             prompt,
-            generation_config=GenerationConfig(temperature=0.1, max_output_tokens=2048)
+            generation_config=GenerationConfig(temperature=0.1, max_output_tokens=4096)
         )
         match = re.search(r"\{[\s\S]*\}", response.text)
         if not match: return fallback
@@ -177,7 +177,7 @@ def infer_region_and_coords(message_text: str) -> tuple[str, tuple[float, float]
             prompt = f"Given this query: \"{message_text}\" and this list of candidate maritime regions: {known_regions}, which ONE region is most relevant? Return ONLY the region name or 'None'."
             response = model.generate_content(
                 prompt,
-                generation_config=GenerationConfig(temperature=0.0, max_output_tokens=500)
+                generation_config=GenerationConfig(temperature=0.0, max_output_tokens=1024)
             )
             res = response.text.strip()
             if res in known_regions:
@@ -203,7 +203,7 @@ def should_reanalyze_command(user_input: str) -> bool:
         prompt = f"Is this a request for a NEW logistics analysis? \"{user_input}\". Return ONLY 'TRUE' or 'FALSE'."
         response = model.generate_content(
             prompt,
-            generation_config=GenerationConfig(temperature=0.0, max_output_tokens=500)
+            generation_config=GenerationConfig(temperature=0.0, max_output_tokens=1024)
         )
         return "TRUE" in response.text.upper()
     except Exception as e:
@@ -217,7 +217,7 @@ def generate_chat_reply_with_llm(user_input: str, data: dict) -> str:
         prompt = f"Chat as LogisticsDirector. Answer question: \"{user_input}\" based on report: {json.dumps(data)}. Be concise."
         response = model.generate_content(
             prompt,
-            generation_config=GenerationConfig(temperature=0.2, max_output_tokens=2048)
+            generation_config=GenerationConfig(temperature=0.2, max_output_tokens=4096)
         )
         return response.text.strip()
     except Exception as e:
@@ -225,14 +225,37 @@ def generate_chat_reply_with_llm(user_input: str, data: dict) -> str:
         return "Analysis complete. How else can I assist with your logistics mission?"
 
 def get_live_marine_weather(latitude: float, longitude: float) -> str:
-    url = f"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&current=temperature_2m,wind_speed_10m&wind_speed_unit=kn"
+    url = (
+        "https://api.open-meteo.com/v1/forecast"
+        f"?latitude={latitude}"
+        f"&longitude={longitude}"
+        "&current=temperature_2m,wind_speed_10m,weather_code"
+        "&daily=temperature_2m_max,temperature_2m_min,wind_speed_10m_max"
+        "&forecast_days=7"
+        "&timezone=auto"
+        "&wind_speed_unit=kn"
+    )
     try:
         resp = requests.get(url, timeout=10)
         data = resp.json()
         curr = data.get("current", {})
+        daily = data.get("daily", {})
         wind = curr.get("wind_speed_10m", 0)
+        
+        # Forecast data for enrichment
+        daily_max_wind = daily.get("wind_speed_10m_max", [])
+        peak_wind = max(daily_max_wind) if daily_max_wind else wind
+        
         return json.dumps({
-            "live_data": {"wind_speed_knots": wind, "temperature_celsius": curr.get("temperature_2m", 0), "warning": "Normal" if wind < 25 else "CAUTION: Elevated winds"},
+            "live_data": {
+                "wind_speed_knots": wind, 
+                "temperature_celsius": curr.get("temperature_2m", 0), 
+                "warning": "Normal" if wind < 25 else "CAUTION: Elevated winds"
+            },
+            "forecast_summary": {
+                "weekly_peak_wind_knots": peak_wind,
+                "outlook": f"7-day outlook: winds up to {peak_wind} knots."
+            },
             "status": "SUCCESS"
         })
     except:
